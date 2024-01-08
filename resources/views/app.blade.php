@@ -8,18 +8,18 @@
     <!-- color of address bar in mobile browser -->
     <meta name="theme-color" content="#2B2B35">
     <!-- favicon  -->
-    <link rel="shortcut icon" href="img/thumbnail.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="{{ asset('img/thumbnail.ico') }}" type="image/x-icon">
     <!-- bootstrap css -->
-    <link rel="stylesheet" href="css/plugins/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ asset('css/plugins/bootstrap.min.css') }}">
     <!-- font awesome css -->
-    <link rel="stylesheet" href="css/plugins/font-awesome.min.css">
+    <link rel="stylesheet" href="{{ asset('css/plugins/font-awesome.min.css') }}">
     <!-- swiper css -->
-    <link rel="stylesheet" href="css/plugins/swiper.min.css">
+    <link rel="stylesheet" href="{{ asset('css/plugins/swiper.min.css') }}">
     <!-- fancybox css -->
-    <link rel="stylesheet" href="css/plugins/fancybox.min.css">
+    <link rel="stylesheet" href="{{ asset('css/plugins/fancybox.min.css') }}">
     <!-- main css -->
-    <link rel="stylesheet" href="css/style.css">
-    <title>Arter onepage</title>
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    <title>{{ $name }}</title>
 </head>
 
 <body>
@@ -35,9 +35,9 @@
             <!-- app container end -->
             <div class="art-app-container">
 
-                <!-- info bar -->
+                <!-- info-->
                 @include('layouts.info')
-                <!-- info bar end -->
+                <!-- info-->
 
                 <!-- content -->
                 <div class="art-content">
@@ -111,7 +111,7 @@
             <!-- preloader content -->
             <div class="art-preloader-content">
                 <!-- title -->
-                <h4>Artur Carter</h4>
+                <h4>{{ $name }}</h4>
                 <!-- progressbar -->
                 <div id="preloader" class="art-preloader-load"></div>
             </div>
@@ -123,28 +123,28 @@
     <div id="swupMenu"></div>
 
     <!-- jquery js -->
-    <script src="js/plugins/jquery.min.js"></script>
+    <script src="{{ asset('js/plugins/jquery.min.js') }}"></script>
     <!-- anime js -->
-    <script src="js/plugins/anime.min.js"></script>
+    <script src="{{ asset('js/plugins/anime.min.js') }}"></script>
     <!-- swiper js -->
-    <script src="js/plugins/swiper.min.js"></script>
+    <script src="{{ asset('js/plugins/swiper.min.js') }}"></script>
     <!-- progressbar js -->
-    <script src="js/plugins/progressbar.min.js"></script>
+    <script src="{{ asset('js/plugins/progressbar.min.js') }}"></script>
     <!-- smooth scrollbar js -->
-    <script src="js/plugins/smooth-scrollbar.min.js"></script>
+    <script src="{{ asset('js/plugins/smooth-scrollbar.min.js') }}"></script>
     <!-- overscroll js -->
-    <script src="js/plugins/overscroll.min.js"></script>
+    <script src="{{ asset('js/plugins/overscroll.min.js') }}"></script>
     <!-- typing js -->
-    <script src="js/plugins/typing.min.js"></script>
+    <script src="{{ asset('js/plugins/typing.min.js') }}"></script>
     <!-- isotope js -->
-    <script src="js/plugins/isotope.min.js"></script>
+    <script src="{{ asset('js/plugins/isotope.min.js') }}"></script>
     <!-- fancybox js -->
-    <script src="js/plugins/fancybox.min.js"></script>
+    <script src="{{ asset('js/plugins/fancybox.min.js') }}"></script>
     <!-- swup js -->
-    <script src="js/plugins/swup.min.js"></script>
+    <script src="{{ asset('js/plugins/swup.min.js') }}"></script>
 
     <!-- main js -->
-    <script src="js/main.js"></script>
+    <script src="{{ asset('js/main.js') }}"></script>
 
 </body>
 
