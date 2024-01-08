@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-$name = "Christian Djeukeu";
+$name = 'Christian Djeukeu';
 
 Route::get('/', function () use ($name) {
     return view('app', ['name' => $name]);
