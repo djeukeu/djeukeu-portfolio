@@ -8,7 +8,7 @@
     <!-- color of address bar in mobile browser -->
     <meta name="theme-color" content="#2B2B35">
     <!-- favicon  -->
-    <link rel="shortcut icon" href="{{ asset('img/thumbnail.ico') }}" type="image/x-icon">
+    <link rel="shortcut icon" href="{{ asset('img/thumbnail.png') }}" type="image/x-icon">
     <!-- bootstrap css -->
     <link rel="stylesheet" href="{{ asset('css/plugins/bootstrap.min.css') }}">
     <!-- font awesome css -->
@@ -46,7 +46,7 @@
                     <div class="art-curtain"></div>
 
                     <!-- top background -->
-                    <div class="art-top-bg" style="background-image: url(img/bg.jpg)">
+                    <div class="art-top-bg" style="background-image: url(img/bg.png)">
                         <!-- overlay -->
                         <div class="art-top-bg-overlay"></div>
                         <!-- overlay end -->

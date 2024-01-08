@@ -6,7 +6,7 @@
         <div class="col-lg-12">
 
             <!-- banner -->
-            <div class="art-a art-banner" style="background-image: url(img/bg.jpg)">
+            <div class="art-a art-banner" style="background-image: url(img/bg-1.png)">
                 <!-- banner back -->
                 <div class="art-banner-back"></div>
                 <!-- banner dec -->
