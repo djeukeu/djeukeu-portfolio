@@ -1,151 +1,88 @@
 <div class="container-fluid">
 
-    <!-- row -->
     <div class="row">
 
-        <!-- col -->
         <div class="col-lg-12">
-
-            <!-- section title -->
             <div class="art-section-title">
-                <!-- title frame -->
                 <div class="art-title-frame">
-                    <!-- title -->
-                    <h4>My Services</h4>
+                    <h4>My Skills</h4>
                 </div>
-                <!-- title frame end -->
             </div>
-            <!-- section title end -->
-
         </div>
-        <!-- col end -->
 
-        <!-- col -->
+        <!-- Single Skills -->
         <div class="col-lg-4 col-md-6">
-
-            <!-- service -->
             <div class="art-a art-service-icon-box">
-                <!-- service content -->
                 <div class="art-service-ib-content">
-                    <!-- title -->
+                    <h5 class="mb-15">Mobile Development</h5>
+                    <div class="mb-15">As a frontend developer, my interest is mainly focused on mobile development
+                        using hybrid frameworks such as React-Native, Ionic and Flutter.</div>
+                </div>
+            </div>
+        </div>
+        <!-- Single Skills -->
+
+        <!-- Single Skills -->
+        <div class="col-lg-4 col-md-6">
+            <div class="art-a art-service-icon-box">
+                <div class="art-service-ib-content">
                     <h5 class="mb-15">Web Development</h5>
-                    <!-- text -->
-                    <div class="mb-15">Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit. Delectus esse commodi deserunt vitae, vero quasi! Veniam
-                        quaerat tenetur pariatur doloribus.</div>
-                    <!-- button -->
-                    <div class="art-buttons-frame"><a href="#." class="art-link art-color-link art-w-chevron">Order
-                            now</a>
-                    </div>
+                    <div class="mb-15">I use React and Angular to build single-page application for better performance
+                        and rich features that they offer. And UI libraries such as Material UI.</div>
                 </div>
-                <!-- service content end -->
             </div>
-            <!-- service end -->
-
         </div>
-        <!-- col end -->
+        <!-- Single Skills -->
 
-        <!-- col -->
+
+        <!-- Single Skills -->
         <div class="col-lg-4 col-md-6">
-
-            <!-- service -->
             <div class="art-a art-service-icon-box">
-                <!-- service content -->
                 <div class="art-service-ib-content">
-                    <!-- title -->
-                    <h5 class="mb-15">UI/UX Design</h5>
-                    <!-- text -->
-                    <div class="mb-15">Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit. Delectus esse commodi deserunt vitae, vero quasi! Veniam
-                        quaerat tenetur pariatur doloribus.</div>
-                    <!-- button -->
-                    <div class="art-buttons-frame"><a href="#." class="art-link art-color-link art-w-chevron">Order
-                            now</a>
-                    </div>
+                    <h5 class="mb-15">Backend Development</h5>
+                    <div class="mb-15">I develop API with nodeJS using different architectural approach and
+                        communication mechanism.And also have basics in Python and JAVA.</div>
                 </div>
-                <!-- service content end -->
             </div>
-            <!-- service end -->
-
         </div>
-        <!-- col end -->
+        <!-- Single Skills -->
 
-        <!-- col -->
+        <!-- Single Skills -->
         <div class="col-lg-4 col-md-6">
-
-            <!-- service -->
             <div class="art-a art-service-icon-box">
-                <!-- service content -->
                 <div class="art-service-ib-content">
-                    <!-- title -->
-                    <h5 class="mb-15">Sound Design</h5>
-                    <!-- text -->
-                    <div class="mb-15">Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit. Delectus esse commodi deserunt vitae, vero quasi! Veniam
-                        quaerat tenetur pariatur doloribus.</div>
-                    <!-- button -->
-                    <div class="art-buttons-frame"><a href="#." class="art-link art-color-link art-w-chevron">Order
-                            now</a>
-                    </div>
+                    <h5 class="mb-15">Cloud Computing</h5>
+                    <div class="mb-15">Whenever I am developing a new application, I like to leverage AWS as my IaaS
+                        and the rich set of services that they offer.</div>
                 </div>
-                <!-- service content end -->
             </div>
-            <!-- service end -->
-
         </div>
-        <!-- col end -->
+        <!-- Single Skills -->
 
-        <!-- col -->
+        <!-- Single Skills -->
         <div class="col-lg-4 col-md-6">
-
-            <!-- service -->
             <div class="art-a art-service-icon-box">
-                <!-- service content -->
                 <div class="art-service-ib-content">
-                    <!-- title -->
-                    <h5 class="mb-15">Game Design</h5>
-                    <!-- text -->
-                    <div class="mb-15">Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit. Delectus esse commodi deserunt vitae, vero quasi! Veniam
-                        quaerat tenetur pariatur doloribus.</div>
-                    <!-- button -->
-                    <div class="art-buttons-frame"><a href="#." class="art-link art-color-link art-w-chevron">Order
-                            now</a>
-                    </div>
+                    <h5 class="mb-15">Database Management</h5>
+                    <div class="mb-15">Whenever I have to implement a new application I choose between PostgreSQL,
+                        MySQL and MongoDB depending on the application needs.</div>
                 </div>
-                <!-- service content end -->
             </div>
-            <!-- service end -->
-
         </div>
-        <!-- col end -->
+        <!-- Single Skills -->
 
-        <!-- col -->
+        <!-- Single Skills -->
         <div class="col-lg-4 col-md-6">
-
-            <!-- service -->
             <div class="art-a art-service-icon-box">
-                <!-- service content -->
                 <div class="art-service-ib-content">
-                    <!-- title -->
-                    <h5 class="mb-15">Advertising</h5>
-                    <!-- text -->
-                    <div class="mb-15">Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit. Delectus esse commodi deserunt vitae, vero quasi! Veniam
-                        quaerat tenetur pariatur doloribus.</div>
-                    <!-- button -->
-                    <div class="art-buttons-frame"><a href="#." class="art-link art-color-link art-w-chevron">Order
-                            now</a>
-                    </div>
+                    <h5 class="mb-15">UI / UX Design</h5>
+                    <div class="mb-15">At first I started prototyping the application using Adobe XD, but with Figma
+                        things got more interesting and innovative.</div>
                 </div>
-                <!-- service content end -->
             </div>
-            <!-- service end -->
-
         </div>
-        <!-- col end -->
+        <!-- Single Skills -->
 
     </div>
-    <!-- row end -->
 
 </div>
