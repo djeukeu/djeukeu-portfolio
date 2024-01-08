@@ -347,12 +347,12 @@ link
 }
 /* line 227, ../scss/_common.scss */
 .art-link.art-color-link {
-    color: #ffc107;
+    color: #3a529b;
 }
 /* line 230, ../scss/_common.scss */
 .art-link.art-color-link:hover {
-    color: #ffc107;
-    text-shadow: 0 0 3px rgba(250, 250, 252, 0.4);
+    color: #3a529b;
+    text-shadow: 0 0 3px rgba(112, 138, 213, 0.2);
     -webkit-transform: translateX(5px);
     transform: translateX(5px);
 }
