@@ -1,89 +1,59 @@
 <div class="container-fluid">
 
-    <!-- row -->
     <div class="row p-30-0">
 
-        <!-- col -->
         <div class="col-lg-12">
 
-            <!-- section title -->
             <div class="art-section-title">
-                <!-- title frame -->
                 <div class="art-title-frame">
-                    <!-- title -->
                     <h4>Contact information</h4>
                 </div>
-                <!-- title frame end -->
             </div>
-            <!-- section title end -->
 
         </div>
-        <!-- col end -->
-        <!-- col -->
-        <div class="col-lg-4">
-            <!-- contact card -->
+
+        <!-- contact card -->
+        <div class="col-lg-6">
             <div class="art-a art-card">
                 <div class="art-table p-15-15">
                     <ul>
                         <li>
-                            <h6>Country:</h6><span>Canada</span>
+                            <h6>Country:</h6><span>United Kingdom</span>
                         </li>
                         <li>
-                            <h6>City:</h6><span>Toronto</span>
+                            <h6>City:</h6><span>Leeds</span>
                         </li>
 
                         <li>
-                            <h6>Streat:</h6><span>20 Dellbank Rd</span>
+                            <h6>Streat:</h6><span>Neville walk</span>
                         </li>
                     </ul>
                 </div>
             </div>
-            <!-- contact card end -->
         </div>
-        <!-- col end -->
-        <!-- col -->
-        <div class="col-lg-4">
-            <!-- contact card -->
+        <!-- contact card -->
+
+        <!-- contact card -->
+        <div class="col-lg-6">
             <div class="art-a art-card">
                 <div class="art-table p-15-15">
                     <ul>
                         <li>
-                            <h6>Email:</h6><span>carter.inbox@mail.com</span>
+                            <h6>Email:</h6><span><a href="mailto:christian@djeukeu.com"
+                                    data-no-swup>christian@djeukeu.com</a></span>
                         </li>
                         <li>
-                            <h6>Telegram:</h6><span>@arter</span>
+                            <h6>Tel:</h6><span><a href="tel:+4407455363235" data-no-swup>+44 (074) 55 363 235</a></span>
                         </li>
                         <li>
-                            <h6>Skype:</h6><span>Arter</span>
+                            <h6>Whatsapp:</h6><span><a href="https://wa.me/+4407455363235" target="_blank"
+                                    data-no-swup>+44 (074) 55 363 235</a></span>
                         </li>
                     </ul>
                 </div>
             </div>
-            <!-- contact card end -->
         </div>
-        <!-- col end -->
-        <!-- col -->
-        <div class="col-lg-4">
-            <!-- contact card -->
-            <div class="art-a art-card">
-                <div class="art-table p-15-15">
-                    <ul>
-                        <li>
-                            <h6>Support service:</h6><span>+78 (098) 333 11 22</span>
-                        </li>
-                        <li>
-                            <h6>Office:</h6><span>+78 (098) 326 11 22</span>
-                        </li>
-                        <li>
-                            <h6>Personal:</h6><span>+78 (077) 114 26 53</span>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <!-- contact card end -->
-
-        </div>
-        <!-- col end -->
+        <!-- contact card -->
 
         <!-- col -->
         <div class="col-lg-12">
@@ -147,6 +117,5 @@
         <!-- col end -->
 
     </div>
-    <!-- row end -->
 
 </div>
