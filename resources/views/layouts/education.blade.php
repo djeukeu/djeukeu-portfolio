@@ -151,257 +151,140 @@
         </div>
         <!-- Education -->
 
+        <!-- Experience -->
         <div class="col-lg-6">
 
-            <!-- section title -->
             <div class="art-section-title">
-                <!-- title frame -->
                 <div class="art-title-frame">
-                    <!-- title -->
-                    <h4>Work History</h4>
+                    <h4>My Experience</h4>
                 </div>
-                <!-- title frame end -->
             </div>
-            <!-- section title end -->
-
-            <!-- timeline -->
             <div class="art-timeline">
 
+                <!-- Single Experience -->
                 <div class="art-timeline-item">
                     <div class="art-timeline-mark-light"></div>
                     <div class="art-timeline-mark"></div>
-
-
                     <div class="art-a art-timeline-content">
                         <div class="art-card-header">
                             <div class="art-left-side">
-                                <h5>Title of section 1</h5>
-                                <div class="art-el-suptitle mb-15">Template author</div>
+                                <h5>Orbite Holding</h5>
+                                <div class="art-el-suptitle mb-15">Software Developer</div>
                             </div>
                             <div class="art-right-side">
-                                <span class="art-date">jan 2018 - may 2020</span>
+                                <span class="art-date">Aug 2022 - Nov 2023</span>
                             </div>
                         </div>
-                        <p>Placeat iure tempora laudantium ipsa ad debitis unde? Iste
-                            voluptatibus minus veritatis qui ut.</p>
+                        <p>
+                            <li>Prototype new application using Adobe XD</li>
+                            <li>Turned UI designs into working applications</li>
+                            <li>Continuous integration/deployment pipeline integration</li>
+                            <li>Provided proper documentation and reporting</li>
+                            <li>Recommended solutions</li>
+                        </p>
                     </div>
                 </div>
+                <!-- Single Experience -->
 
+                <!-- Single Experience -->
                 <div class="art-timeline-item">
                     <div class="art-timeline-mark-light"></div>
                     <div class="art-timeline-mark"></div>
-
-
                     <div class="art-a art-timeline-content">
                         <div class="art-card-header">
                             <div class="art-left-side">
-                                <h5>Title of section 1</h5>
-                                <div class="art-el-suptitle mb-15">Template author</div>
+                                <h5>Getsmarter</h5>
+                                <div class="art-el-suptitle mb-15">Software Developer & Course Instructor</div>
                             </div>
                             <div class="art-right-side">
-                                <span class="art-date">jan 2018 - may 2020</span>
+                                <span class="art-date">Dec 2021 - Sep 2023</span>
                             </div>
                         </div>
-                        <p>Adipisicing elit. Iusto, optio, dolorum provident rerum aut hic
-                            quasi placeat iure tempora laudantium ipsa ad debitis unde?</p>
-                        <a data-fancybox="recommendation" data-no-swup href="#art-recomendation-popup-1"
-                            class="art-link art-color-link art-w-chevron">Recommendation</a>
+                        <p>
+                            <li>Worked with back-end developers and UX designers to design, build, test and improve web
+                                applications</li>
+                            <li>Converted UI designs into web or mobile applications</li>
+                            <li>Trained new software developers</li>
+                        </p>
                     </div>
-
-                    <!-- popup -->
-                    <div class="art-recomendation-popup" style="display: none;" id="art-recomendation-popup-1">
-
-                        <!-- testimonial -->
-                        <div class="art-a art-testimonial">
-                            <!-- testimonial body -->
-                            <div class="testimonial-body">
-                                <!-- photo -->
-                                <img class="art-testimonial-face" src="img/testimonials/face-3.jpg" alt="face">
-                                <!-- name -->
-                                <h5>Paul Trueman</h5>
-                                <div class="art-el-suptitle mb-15">Template author</div>
-                                <!-- text -->
-                                <div class="mb-15">Working with Artur has been a pleasure.
-                                    Better yet - I alerted them of a minor issue before
-                                    going to sleep. The issue was fixed the next morning. I
-                                    couldn't ask for better support. Thank you Artur!
-                                    This is easily a 5 star freelancer.</div>
-                            </div>
-                            <!-- testimonial body end -->
-                            <!-- testimonial footer -->
-                            <div class="art-testimonial-footer">
-                                <div class="art-left-side">
-                                    <!-- star rate -->
-                                    <ul class="art-star-rate">
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                    </ul>
-                                    <!-- star rate end -->
-                                </div>
-                                <div class="art-right-side">
-
-                                </div>
-                            </div>
-                            <!-- testimonial footer end -->
-                        </div>
-                        <!-- testimonial end -->
-
-                    </div>
-                    <!-- popup end -->
-
                 </div>
+                <!-- Single Experience -->
 
+                <!-- Single Experience -->
                 <div class="art-timeline-item">
                     <div class="art-timeline-mark-light"></div>
                     <div class="art-timeline-mark"></div>
-
                     <div class="art-a art-timeline-content">
                         <div class="art-card-header">
                             <div class="art-left-side">
-                                <h5>Title of section 1</h5>
-                                <div class="art-el-suptitle mb-15">Template author</div>
+                                <h5>Arrah Solution</h5>
+                                <div class="art-el-suptitle mb-15">Junior Software Developer</div>
                             </div>
                             <div class="art-right-side">
-                                <span class="art-date">jan 2018 - may 2020</span>
+                                <span class="art-date">Sep 2021 - Nov 2022</span>
                             </div>
                         </div>
-                        <p>Consectetur adipisicing elit. Excepturi, obcaecati, quisquam id
-                            molestias eaque asperiores voluptatibus cupiditate error
-                            assumenda delectus odit similique earum voluptatem doloremque
-                            dolorem
-                            ipsam quae rerum quis. Odit, itaque, deserunt corporis vero
-                            ipsum nisi eius odio natus ullam provident pariatur temporibus
-                            quia eos repellat consequuntur perferendis enim amet quae quasi
-                            repudiandae sed quod veniam
-                            dolore
-                            possimus rem voluptatum eveniet eligendi quis fugiat aliquam
-                            sunt similique aut adipisci.</p>
-                        <a data-fancybox="recommendation" data-no-swup href="#art-recomendation-popup-2"
-                            class="art-link art-color-link art-w-chevron">Recommendation</a>
+                        <p>
+                            <li>Debug existing code to improve application performance and user experience.</li>
+                            <li>Continuous integration/deployment pipeline integration, pull requests and code reviews.
+                            </li>
+                        </p>
                     </div>
-
-                    <!-- popup -->
-                    <div class="art-recomendation-popup" style="display: none;" id="art-recomendation-popup-2">
-
-                        <!-- testimonial -->
-                        <div class="art-a art-testimonial">
-                            <!-- testimonial body -->
-                            <div class="testimonial-body">
-                                <!-- photo -->
-                                <img class="art-testimonial-face" src="img/testimonials/face-4.jpg" alt="face">
-                                <!-- name -->
-                                <h5>Paul Trueman</h5>
-                                <div class="art-el-suptitle mb-15">Template author</div>
-                                <!-- text -->
-                                <div class="mb-15">Working with Artur has been a pleasure.
-                                    Better yet - I alerted them of a minor issue before
-                                    going to sleep. The issue was fixed the next morning. I
-                                    couldn't ask for better support. Thank you Artur!
-                                    This is easily a 5 star freelancer.</div>
-                            </div>
-                            <!-- testimonial body end -->
-                            <!-- testimonial footer -->
-                            <div class="art-testimonial-footer">
-                                <div class="art-left-side">
-                                    <!-- star rate -->
-                                    <ul class="art-star-rate">
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                    </ul>
-                                    <!-- star rate end -->
-                                </div>
-                                <div class="art-right-side">
-
-                                </div>
-                            </div>
-                            <!-- testimonial footer end -->
-                        </div>
-                        <!-- testimonial end -->
-
-                    </div>
-                    <!-- popup end -->
-
                 </div>
+                <!-- Single Experience -->
 
+                <!-- Single Experience -->
                 <div class="art-timeline-item">
                     <div class="art-timeline-mark-light"></div>
                     <div class="art-timeline-mark"></div>
-
                     <div class="art-a art-timeline-content">
                         <div class="art-card-header">
                             <div class="art-left-side">
-                                <h5>Title of section 1</h5>
-                                <div class="art-el-suptitle mb-15">Template author</div>
+                                <h5>Arrah Solution</h5>
+                                <div class="art-el-suptitle mb-15">Software Developer Intern</div>
                             </div>
                             <div class="art-right-side">
-                                <span class="art-date">jan 2018 - tonight</span>
+                                <span class="art-date">Jun 2021 - Aug 2021</span>
                             </div>
                         </div>
-                        <p>Dolor sit amet, consectetur adipisicing elit. Iusto, optio,
-                            dolorum provident rerum.</p>
-                        <a data-fancybox="recommendation" data-no-swup href="#art-recomendation-popup-3"
-                            class="art-link art-color-link art-w-chevron">Recommendation</a>
+                        <p>
+                            <li>Learn to code with React and React Native</li>
+                            <li>Modify the existing application and implement new features using modern techniques and
+                                tools</li>
+                            <li>Provide daily stand-up notes task done</li>
+                        </p>
                     </div>
-
-                    <!-- popup -->
-                    <div class="art-recomendation-popup" style="display: none;" id="art-recomendation-popup-3">
-
-                        <!-- testimonial -->
-                        <div class="art-a art-testimonial">
-                            <!-- testimonial body -->
-                            <div class="testimonial-body">
-                                <!-- photo -->
-                                <img class="art-testimonial-face" src="img/testimonials/face-2.jpg" alt="face">
-                                <!-- name -->
-                                <h5>Paul Trueman</h5>
-                                <div class="art-el-suptitle mb-15">Template author</div>
-                                <!-- text -->
-                                <div class="mb-15">Working with Artur has been a pleasure.
-                                    Better yet - I alerted them of a minor issue before
-                                    going to sleep. The issue was fixed the next morning. I
-                                    couldn't ask for better support. Thank you Artur!
-                                    This is easily a 5 star freelancer.</div>
-                            </div>
-                            <!-- testimonial body end -->
-                            <!-- testimonial footer -->
-                            <div class="art-testimonial-footer">
-                                <div class="art-left-side">
-                                    <!-- star rate -->
-                                    <ul class="art-star-rate">
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li class="art-empty-item"><i class="fas fa-star"></i></li>
-                                    </ul>
-                                    <!-- star rate end -->
-                                </div>
-                                <div class="art-right-side">
-
-                                </div>
-                            </div>
-                            <!-- testimonial footer end -->
-                        </div>
-                        <!-- testimonial end -->
-
-                    </div>
-                    <!-- popup end -->
-
                 </div>
+                <!-- Single Experience -->
+
+                <!-- Single Experience -->
+                <div class="art-timeline-item">
+                    <div class="art-timeline-mark-light"></div>
+                    <div class="art-timeline-mark"></div>
+                    <div class="art-a art-timeline-content">
+                        <div class="art-card-header">
+                            <div class="art-left-side">
+                                <h5>Institut Africain D'Injection Diesel</h5>
+                                <div class="art-el-suptitle mb-15">IT Support Technician</div>
+                            </div>
+                            <div class="art-right-side">
+                                <span class="art-date">Oct 2020 - Apr 2021</span>
+                            </div>
+                        </div>
+                        <p>
+                            <li>Troubleshooting and diagnosing computer software issues</li>
+                            <li>Providing remote support during the COVID crisis</li>
+                        </p>
+                    </div>
+                </div>
+                <!-- Single Experience -->
+
 
             </div>
-            <!-- timeline end -->
 
         </div>
-        <!-- col end -->
+        <!-- Experience -->
 
     </div>
-    <!-- row end -->
 
 </div>
