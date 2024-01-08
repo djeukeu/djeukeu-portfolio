@@ -557,7 +557,7 @@ app marcup
   stroke: #191923; }
 /* line 61, ../scss/_markup.scss */
 .art-preloader-load path:last-child {
-  stroke: #FFC107; }
+  stroke: #3a529b; }
 
 /* ----- scroll frame ----- */
 /* line 67, ../scss/_markup.scss */
@@ -1105,7 +1105,7 @@ info bar
         flex-wrap: wrap;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
-            justify-content: space-between; }
+            justify-content: space-evenly; }
     /* line 210, ../scss/_info-bar.scss */
     .art-info-bar .art-lang-skills .art-lang-skills-item {
       width: 33.33333%;
@@ -1166,7 +1166,7 @@ info bar
         content: "\f00c";
         margin-right: 5px;
         font-size: 9px;
-        color: #FFC107;
+        color: #3a529b;
         margin-right: 10px; }
   /* line 283, ../scss/_info-bar.scss */
   .art-info-bar .art-links-frame {
@@ -1224,7 +1224,7 @@ info bar
   stroke: #191923; }
 /* line 333, ../scss/_info-bar.scss */
 .art-cirkle-progress path:last-child {
-  stroke: #FFC107; }
+  stroke: #3a529b; }
 
 /* ------------------------------
 
