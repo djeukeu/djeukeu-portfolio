@@ -80,7 +80,7 @@
                             <!-- education-->
 
                             <!-- blog -->
-                            @include('layouts.blog')
+                            {{-- @include('layouts.blog') --}}
                             <!-- blog -->
 
                             <!-- contact -->

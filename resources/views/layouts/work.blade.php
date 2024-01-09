@@ -11,7 +11,7 @@
                 <!-- title frame -->
                 <div class="art-title-frame">
                     <!-- title -->
-                    <h4>Works</h4>
+                    <h4>Projects</h4>
                 </div>
                 <!-- title frame end -->
                 <!-- right frame -->
