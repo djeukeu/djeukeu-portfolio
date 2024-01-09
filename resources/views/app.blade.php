@@ -64,7 +64,7 @@
                             <!-- banner -->
 
                             <!-- counter -->
-                            @include('layouts.counter')
+                            {{-- @include('layouts.counter') --}}
                             <!-- counter -->
 
                             <!-- skills -->
