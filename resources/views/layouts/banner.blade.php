@@ -7,12 +7,12 @@
                 <div class="art-banner-overlay">
                     <div class="art-banner-title">
                         <h1 class="mb-15">Discover my Amazing <br>Portfolio</h1>
-                        <div class="art-lg-text art-code mb-25">&lt;<i>code</i>&gt; I build
+                        <div class="art-lg-text art-code mb-25">&lt;<i>code</i>&gt; I
                             <span class="txt-rotate" data-period="2000"
-                                data-rotate='[ "web application.", "ios and android applications.", "design mockups.", "automation tools." ]'></span>&lt;/<i>code</i>&gt;
+                                data-rotate='[ "build web application.", "build ios and android applications.", " design mockups.", "use automation tools." ]'></span>&lt;/<i>code</i>&gt;
                         </div>
                     </div>
-                    <img src="img/face-2.png" class="art-banner-photo" alt="Your Name">
+                    {{-- <img src="img/face-2.png" class="art-banner-photo" alt="Your Name"> --}}
                 </div>
             </div>
         </div>
