@@ -80,7 +80,7 @@ p.s. I am available for Freelance hire (UI design, web development). mail: mille
 
 --------------------------------------------*/
 /*
-$main-color: #FFC107
+$main-color: #3a529b
 $main-color: #f44336;
 $main-color: #4CAF50;
 $main-color: #64B5F6;
@@ -245,7 +245,7 @@ a:focus {
 blockquote {
     margin-top: 30px;
     margin-bottom: 30px;
-    background: #ffc107;
+    background: #3a529b;
     color: #191923;
     padding: 30px;
     padding-left: 35px;
@@ -304,7 +304,7 @@ blockquote:after {
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    border: solid 2px #ffc107;
+    border: solid 2px #3a529b;
     background: transparent;
     -webkit-box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.2);
     box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.2);
@@ -427,7 +427,7 @@ button
     -webkit-box-shadow: 0 1px 4px 0 rgba(15, 15, 20, 0.1);
     box-shadow: 0 1px 4px 0 rgba(15, 15, 20, 0.1);
     color: #20202a;
-    background: #ffc107;
+    background: #3a529b;
     letter-spacing: 1.5px;
     font-weight: 600;
     display: -webkit-inline-box;
@@ -1257,7 +1257,7 @@ info bar
     right: 5px;
     height: 15px;
     width: 15px;
-    background: #ffc107;
+    background: #3a529b;
     border-radius: 50%;
     z-index: 0;
     -webkit-transition: 0.4s ease-in-out;
@@ -1376,7 +1376,7 @@ info bar
 }
 /* line 199, ../scss/_info-bar.scss */
 .art-info-bar .art-name:hover a {
-    color: #ffc107;
+    color: #3a529b;
 }
 /* line 205, ../scss/_info-bar.scss */
 .art-info-bar .art-lang-skills {
@@ -1533,7 +1533,7 @@ info bar
 }
 /* line 322, ../scss/_info-bar.scss */
 .art-line-progress path:last-child {
-    stroke: #ffc107;
+    stroke: #3a529b;
 }
 
 /* line 330, ../scss/_info-bar.scss */
@@ -1818,7 +1818,7 @@ menu bar
 }
 /* line 226, ../scss/_menu-bar.scss */
 .art-menu-bar .art-language-change li.art-active-lang {
-    background-color: #ffc107;
+    background-color: #3a529b;
     -webkit-box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.2);
     box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.2);
 }
@@ -2008,7 +2008,7 @@ content
 /* line 88, ../scss/_content.scss */
 .art-code i {
     font-style: normal;
-    color: #ffc107;
+    color: #3a529b;
 }
 
 /* ----- counters ----- */
@@ -2030,7 +2030,7 @@ content
 }
 /* line 104, ../scss/_content.scss */
 .art-counter-frame .art-counter-box .art-counter {
-    color: #ffc107;
+    color: #3a529b;
     font-weight: 600;
     font-family: "Poppins", sans-serif;
     font-size: 22px;
@@ -2038,7 +2038,7 @@ content
 /* line 111, ../scss/_content.scss */
 .art-counter-frame .art-counter-box .art-counter-plus {
     margin-left: 3px;
-    color: #ffc107;
+    color: #3a529b;
     font-weight: 600;
     font-family: "Poppins", sans-serif;
     font-size: 22px;
@@ -2109,7 +2109,7 @@ content
     padding: 2px;
     width: 200px;
     text-align: center;
-    background: #ffc107;
+    background: #3a529b;
 }
 /* line 175, ../scss/_content.scss */
 .art-price .art-price-body {
@@ -2141,7 +2141,7 @@ content
 /* line 196, ../scss/_content.scss */
 .art-price .art-price-body .art-price-cost .art-number {
     font-size: 32px;
-    color: #ffc107;
+    color: #3a529b;
     font-weight: 600;
     margin-bottom: 0;
 }
@@ -2178,7 +2178,7 @@ content
     content: "\f00c";
     margin-right: 5px;
     font-size: 9px;
-    color: #ffc107;
+    color: #3a529b;
 }
 /* line 237, ../scss/_content.scss */
 .art-price .art-price-body .art-price-list li.art-empty-item {
@@ -2191,7 +2191,7 @@ content
     content: "\f00d";
     margin-right: 5px;
     font-size: 9px;
-    color: #ffc107;
+    color: #3a529b;
 }
 /* line 252, ../scss/_content.scss */
 .art-price .art-price-body .art-link {
@@ -2259,7 +2259,7 @@ content
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    color: #ffc107;
+    color: #3a529b;
 }
 /* line 305, ../scss/_content.scss */
 .art-testimonial .art-testimonial-footer .art-star-rate li {
@@ -2312,7 +2312,7 @@ content
 .art-slider-navigation
     .swiper-pagination-bullet.swiper-pagination-bullet-active {
     width: 20px;
-    background-color: #ffc107;
+    background-color: #3a529b;
     opacity: 1;
 }
 /* line 351, ../scss/_content.scss */
@@ -2482,11 +2482,11 @@ content
 }
 /* line 485, ../scss/_content.scss */
 .art-form-field textarea.art-active {
-    border-color: #ffc107;
+    border-color: #3a529b;
 }
 /* line 489, ../scss/_content.scss */
 .art-form-field textarea:focus {
-    border-color: #ffc107;
+    border-color: #3a529b;
 }
 
 /* line 494, ../scss/_content.scss */
@@ -2497,7 +2497,7 @@ content
 /* line 498, ../scss/_content.scss */
 .art-contact-form .art-input.art-active + label,
 .art-contact-form .art-input:focus + label {
-    background: #ffc107;
+    background: #3a529b;
     color: #20202a;
 }
 
@@ -2647,7 +2647,7 @@ content
 }
 /* line 629, ../scss/_content.scss */
 .art-pagination .art-pagination-center a.art-active-pag {
-    color: #ffc107;
+    color: #3a529b;
 }
 /* line 635, ../scss/_content.scss */
 .art-pagination .art-link {
@@ -3025,7 +3025,7 @@ portfolio
 
 /* line 945, ../scss/_content.scss */
 .fancybox-progress {
-    background: #ffc107;
+    background: #3a529b;
     z-index: 999999999999999999;
 }
 
@@ -3044,7 +3044,7 @@ portfolio
 
 /* line 961, ../scss/_content.scss */
 .fancybox-thumbs__list a:before {
-    border-color: #ffc107;
+    border-color: #3a529b;
     -webkit-transition: 0.4s ease-in-out;
     transition: 0.4s ease-in-out;
 }

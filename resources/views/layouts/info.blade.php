@@ -2,38 +2,25 @@
 
     <div class="art-info-bar-frame">
 
-        <!-- info bar header -->
         <div class="art-info-bar-header">
-            <!-- info bar button -->
             <div class="art-info-bar-btn">
-                <!-- icon -->
                 <i class="fas fa-ellipsis-v"></i>
             </div>
-            <!-- info bar button end -->
         </div>
-        <!-- info bar header end -->
 
-        <!-- info bar header -->
         <div class="art-header">
-            <!-- avatar -->
             <div class="art-avatar">
-                <a data-fancybox="avatar" data-no-swup href="img/face-1.jpg" class="art-avatar-curtain">
-                    <img src="img/face-1.jpg" alt="avatar">
+                <a data-fancybox="avatar" data-no-swup href="{{ asset('img/face-1.png') }}" class="art-avatar-curtain">
+                    <img src="{{ asset('img/face-1.png') }}" alt="avatar">
                     <i class="fas fa-expand"></i>
                 </a>
-                <!-- available -->
                 <div class="art-lamp-light">
-                    <!-- add class 'art-not-available' if not available-->
                     <div class="art-available-lamp"></div>
                 </div>
             </div>
-            <!-- avatar end -->
-            <!-- name -->
             <h5 class="art-name mb-10">{{ $name }}</h5>
-            <!-- post -->
             <div class="art-sm-text">Software Developer, <br>Cloud Developer</div>
         </div>
-        <!-- info bar header end -->
 
         <!-- scroll frame -->
         <div id="scrollbar2" class="art-scroll-frame">
