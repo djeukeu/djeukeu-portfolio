@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,8 +14,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-$name = 'Christian Djeukeu';
+Route::get('/', [HomeController::class, 'index'])->name('home.index');
 
-Route::get('/', function () use ($name) {
-    return view('app', ['name' => $name]);
-});
+Route::post('/', [HomeController::class, 'send_message'])->name('home.contact');
