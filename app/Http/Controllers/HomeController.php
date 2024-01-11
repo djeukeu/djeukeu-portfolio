@@ -9,9 +9,7 @@ class HomeController extends Controller
 {
     public function index()
     {
-        $name = 'Christian Djeukeu';
-
-        return view('app', ['name' => $name]);
+        return view('home');
     }
 
     public function send_message()

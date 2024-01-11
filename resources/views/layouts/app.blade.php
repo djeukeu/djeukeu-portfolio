@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="{{ asset('css/plugins/fancybox.min.css') }}">
     <!-- main css -->
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
-    <title>{{ $name }}</title>
+    <title>{{ env('OWNER') }}</title>
 </head>
 
 <body>
@@ -59,33 +59,7 @@
                         <!-- scroll frame -->
                         <div id="scrollbar" class="art-scroll-frame">
 
-                            <!-- banner -->
-                            @include('layouts.banner')
-                            <!-- banner -->
-
-                            <!-- counter -->
-                            {{-- @include('layouts.counter') --}}
-                            <!-- counter -->
-
-                            <!-- skills -->
-                            @include('layouts.skills')
-                            <!-- skills -->
-
-                            <!-- work -->
-                            @include('layouts.work')
-                            <!-- work-->
-
-                            <!-- education -->
-                            @include('layouts.education')
-                            <!-- education-->
-
-                            <!-- blog -->
-                            {{-- @include('layouts.blog') --}}
-                            <!-- blog -->
-
-                            <!-- contact -->
-                            @include('layouts.contact')
-                            <!-- contact -->
+                            @yield('content')
 
                             <!-- footer -->
                             @include('layouts.footer')
@@ -111,7 +85,7 @@
             <!-- preloader content -->
             <div class="art-preloader-content">
                 <!-- title -->
-                <h4>{{ $name }}</h4>
+                <h4>{{ env('OWNER') }}</h4>
                 <!-- progressbar -->
                 <div id="preloader" class="art-preloader-load"></div>
             </div>
