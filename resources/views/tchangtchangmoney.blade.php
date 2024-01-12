@@ -36,6 +36,7 @@
                             </a>
                         </div>
                         <!-- single slide -->
+
                         <!-- single slide -->
                         <div class="swiper-slide">
                             <a data-fancybox="gallery" data-no-swup href="{{ asset('img/projects/ttm/ttm-3.png') }}"
@@ -45,6 +46,7 @@
                             </a>
                         </div>
                         <!-- single slide -->
+
                         <!-- single slide -->
                         <div class="swiper-slide">
                             <a data-fancybox="gallery" data-no-swup href="{{ asset('img/projects/ttm/ttm-4.png') }}"
@@ -54,6 +56,7 @@
                             </a>
                         </div>
                         <!-- single slide -->
+
                         <!-- single slide -->
                         <div class="swiper-slide">
                             <a data-fancybox="gallery" data-no-swup href="{{ asset('img/projects/ttm/ttm-1.png') }}"
@@ -63,6 +66,7 @@
                             </a>
                         </div>
                         <!-- single slide -->
+
                         <!-- single slide -->
                         <div class="swiper-slide">
                             <a data-fancybox="gallery" data-no-swup href="{{ asset('img/projects/ttm/ttm-5.png') }}"

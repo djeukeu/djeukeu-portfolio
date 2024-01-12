@@ -21,4 +21,5 @@ Route::prefix('project')->group(function () {
     Route::view('/ekoh-mobile', 'ekoh-mobile');
     Route::view('/flexipay', 'flexipay');
     Route::view('/tchangtchangmoney', 'tchangtchangmoney');
+    Route::view('/cook-and-share', 'cook-and-share');
 });
