@@ -1,6 +1,5 @@
 <div class="container-fluid">
 
-    <!-- row -->
     <div class="row p-30-0">
 
         <!-- header -->
@@ -17,12 +16,8 @@
                         <a href="#" data-filter=".uiTemplates" class="art-link">UI Designs</a>
                         <a href="#" data-filter=".architectureTemplates" class="art-link">Architectures</a>
                     </div>
-                    <!-- filter end -->
                 </div>
-                <!-- right frame end -->
             </div>
-            <!-- section title end -->
-
         </div>
         <!-- header -->
 
@@ -31,26 +26,18 @@
             <!-- mobile items-->
             <!-- single mobile item-->
             <div class="art-grid-item mobileTemplates">
-                <!-- grid item frame -->
-                <a data-fancybox="gallery" data-no-swup href="img/works/original-size/1.jpg"
+                <a data-fancybox="gallery" data-no-swup href="{{ asset('img/projects/ekoh/arrah-1.png') }}"
                     class="art-a art-portfolio-item-frame art-square">
-                    <!-- img -->
-                    <img src="img/works/thumbnail/1.jpg" alt="item">
+                    <img src="{{ asset('img/projects/ekoh/arrah-1.png') }}" alt="item">
                     <!-- zoom icon -->
                     <span class="art-item-hover"><i class="fas fa-expand"></i></span>
                 </a>
-                <!-- grid item frame end -->
-                <!-- description -->
                 <div class="art-item-description">
-                    <!-- title -->
                     <h5 class="mb-15">Ekoh Mobile</h5>
-                    <div class="mb-15">Sit amet, consectetur adipisicing elit. Quas, architecto.</div>
-                    <!-- button -->
+                    <div class="mb-15">Ekoh, meaning music in an African dialect, is an African owned online music
+                        store.</div>
                     <a href="/project/ekoh-mobile" class="art-link art-color-link art-w-chevron">Read more</a>
                 </div>
-                <!-- description end -->
-                <!-- single mobile item-->
-
             </div>
             <!-- single mobile item-->
 
@@ -334,6 +321,5 @@
         </div>
 
     </div>
-    <!-- row end -->
 
 </div>

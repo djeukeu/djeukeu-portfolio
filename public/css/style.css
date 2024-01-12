@@ -3448,3 +3448,8 @@ html.is-animating .fade-left {
     color: green;
     margin-top: 8px;
 }
+
+.art-link-disabled {
+    color: grey !important ;
+    pointer-events: none;
+}
