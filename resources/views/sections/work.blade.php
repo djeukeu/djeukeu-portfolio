@@ -46,7 +46,7 @@
                     <h5 class="mb-15">Ekoh Mobile</h5>
                     <div class="mb-15">Sit amet, consectetur adipisicing elit. Quas, architecto.</div>
                     <!-- button -->
-                    <a href="/ekoh-mobile" data-no-swup class="art-link art-color-link art-w-chevron">Read more</a>
+                    <a href="/ekoh-mobile" class="art-link art-color-link art-w-chevron">Read more</a>
                 </div>
                 <!-- description end -->
                 <!-- single mobile item-->
