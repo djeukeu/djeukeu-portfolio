@@ -26,9 +26,9 @@
             <!-- mobile items-->
             <!-- single mobile item-->
             <div class="art-grid-item mobileTemplates">
-                <a data-fancybox="gallery" data-no-swup href="{{ asset('img/projects/ekoh/arrah-1.png') }}"
+                <a data-fancybox="gallery" data-no-swup href="{{ asset('img/projects/ekoh/arrah-2.png') }}"
                     class="art-a art-portfolio-item-frame art-square">
-                    <img src="{{ asset('img/projects/ekoh/arrah-1.png') }}" alt="item">
+                    <img src="{{ asset('img/projects/ekoh/arrah-2.png') }}" alt="item">
                     <!-- zoom icon -->
                     <span class="art-item-hover"><i class="fas fa-expand"></i></span>
                 </a>
@@ -43,9 +43,9 @@
 
             <!-- single mobile item-->
             <div class="art-grid-item mobileTemplates">
-                <a data-fancybox="gallery" data-no-swup href="{{ asset('img/projects/flexipay/flexipay-1.png') }}"
+                <a data-fancybox="gallery" data-no-swup href="{{ asset('img/projects/flexipay/flexipay-4.png') }}"
                     class="art-a art-portfolio-item-frame art-square">
-                    <img src="{{ asset('img/projects/flexipay/flexipay-1.png') }}" alt="item">
+                    <img src="{{ asset('img/projects/flexipay/flexipay-4.png') }}" alt="item">
                     <span class="art-item-hover"><i class="fas fa-expand"></i></span>
                 </a>
                 <div class="art-item-description">
@@ -59,10 +59,10 @@
             <!-- single mobile item-->
             <div class="art-grid-item mobileTemplates">
                 <!-- grid item frame -->
-                <a data-fancybox="gallery" data-no-swup href="img/works/original-size/1.jpg"
+                <a data-fancybox="gallery" data-no-swup href="{{ asset('img/projects/ttm/ttm-6.png') }}"
                     class="art-a art-portfolio-item-frame art-square">
                     <!-- img -->
-                    <img src="img/works/thumbnail/1.jpg" alt="item">
+                    <img src="{{ asset('img/projects/ttm/ttm-6.png') }}" alt="item">
                     <!-- zoom icon -->
                     <span class="art-item-hover"><i class="fas fa-expand"></i></span>
                 </a>
@@ -70,10 +70,11 @@
                 <!-- description -->
                 <div class="art-item-description">
                     <!-- title -->
-                    <h5 class="mb-15">TchangTchangMoney</h5>
-                    <div class="mb-15">Sit amet, consectetur adipisicing elit. Quas, architecto.</div>
+                    <h5 class="mb-15">Tchang Tchang Money</h5>
+                    <div class="mb-15">Tchang Tchang money is an innovative, efficient, secure and
+                        very easy-to-use electronic payment solution.</div>
                     <!-- button -->
-                    <a href="#" class="art-link art-color-link art-w-chevron">Read more</a>
+                    <a href="/project/tchangtchangmoney" class="art-link art-color-link art-w-chevron">Read more</a>
                 </div>
                 <!-- description end -->
                 <!-- single mobile item-->

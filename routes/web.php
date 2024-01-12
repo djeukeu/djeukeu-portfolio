@@ -20,4 +20,5 @@ Route::post('/', [HomeController::class, 'send_message'])->name('home.contact');
 Route::prefix('project')->group(function () {
     Route::view('/ekoh-mobile', 'ekoh-mobile');
     Route::view('/flexipay', 'flexipay');
+    Route::view('/tchangtchangmoney', 'tchangtchangmoney');
 });
