@@ -18,7 +18,7 @@
                     <div class="art-available-lamp"></div>
                 </div>
             </div>
-            <h5 class="art-name mb-10">{{ $name }}</h5>
+            <h5 class="art-name mb-10">{{ env('OWNER') }}</h5>
             <div class="art-sm-text">Software Developer, <br>Cloud Developer</div>
         </div>
 

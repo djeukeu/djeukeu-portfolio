@@ -3438,3 +3438,18 @@ html.is-animating .fade-left {
     background-repeat: no-repeat;
     height: 100vh;
 }
+
+.art-form-error {
+    color: red;
+    margin-top: 8px;
+}
+
+.art-form-success {
+    color: green;
+    margin-top: 8px;
+}
+
+.art-link-disabled {
+    color: grey !important ;
+    pointer-events: none;
+}

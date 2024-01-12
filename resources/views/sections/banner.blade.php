@@ -6,7 +6,7 @@
                 <div class="art-banner-dec"></div>
                 <div class="art-banner-overlay">
                     <div class="art-banner-title">
-                        <h1 class="mb-15">Discover my Amazing <br>Portfolio</h1>
+                        <h3 class="mb-15">Contact me and <br>Go further Online</h3>
                         <div class="art-lg-text art-code mb-25">&lt;<i>code</i>&gt; I
                             <span class="txt-rotate" data-period="2000"
                                 data-rotate='[ "build web application.", "build ios and android applications.", " design mockups.", "use automation tools." ]'></span>&lt;/<i>code</i>&gt;
