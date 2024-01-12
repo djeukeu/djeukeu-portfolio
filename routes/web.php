@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\HomeController;
+use Illuminate\Support\Facades\Redirect;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -22,4 +23,5 @@ Route::prefix('project')->group(function () {
     Route::view('/flexipay', 'flexipay');
     Route::view('/tchangtchangmoney', 'tchangtchangmoney');
     Route::view('/cook-and-share', 'cook-and-share');
+    Route::view('/genius-home', 'genius-home');
 });
