@@ -46,7 +46,7 @@
                     <h5 class="mb-15">Ekoh Mobile</h5>
                     <div class="mb-15">Sit amet, consectetur adipisicing elit. Quas, architecto.</div>
                     <!-- button -->
-                    <a href="/ekoh-mobile" class="art-link art-color-link art-w-chevron">Read more</a>
+                    <a href="/project/ekoh-mobile" class="art-link art-color-link art-w-chevron">Read more</a>
                 </div>
                 <!-- description end -->
                 <!-- single mobile item-->
@@ -172,7 +172,7 @@
                 <!-- description -->
                 <div class="art-item-description">
                     <!-- title -->
-                    <h5 class="mb-15">Project title</h5>
+                    <h5 class="mb-15">Ekoh Web</h5>
                     <div class="mb-15">Sit amet, consectetur adipisicing elit. Quas, architecto.</div>
                     <!-- button -->
                     <a href="#" class="art-link art-color-link art-w-chevron">Read more</a>
@@ -198,7 +198,103 @@
                 <!-- description -->
                 <div class="art-item-description">
                     <!-- title -->
-                    <h5 class="mb-15">Project title</h5>
+                    <h5 class="mb-15">Afritude</h5>
+                    <div class="mb-15">Sit amet, consectetur adipisicing elit. Quas, architecto.</div>
+                    <!-- button -->
+                    <a href="#" class="art-link art-color-link art-w-chevron">Read more</a>
+                </div>
+                <!-- description end -->
+
+            </div>
+            <!-- single ui item -->
+
+            <!-- single ui item -->
+            <div class="art-grid-item uiTemplates">
+                <!-- grid item frame -->
+                <a data-fancybox="gallery" data-no-swup href="img/works/original-size/3.jpg"
+                    class="art-a art-portfolio-item-frame art-square">
+                    <!-- img -->
+                    <img src="img/works/thumbnail/3.jpg" alt="item">
+                    <!-- zoom icon -->
+                    <span class="art-item-hover"><i class="fas fa-expand"></i></span>
+                </a>
+                <!-- grid item frame end -->
+                <!-- description -->
+                <div class="art-item-description">
+                    <!-- title -->
+                    <h5 class="mb-15">CAMXI</h5>
+                    <div class="mb-15">Sit amet, consectetur adipisicing elit. Quas, architecto.</div>
+                    <!-- button -->
+                    <a href="#" class="art-link art-color-link art-w-chevron">Read more</a>
+                </div>
+                <!-- description end -->
+
+            </div>
+            <!-- single ui item -->
+
+            <!-- single ui item -->
+            <div class="art-grid-item uiTemplates">
+                <!-- grid item frame -->
+                <a data-fancybox="gallery" data-no-swup href="img/works/original-size/3.jpg"
+                    class="art-a art-portfolio-item-frame art-square">
+                    <!-- img -->
+                    <img src="img/works/thumbnail/3.jpg" alt="item">
+                    <!-- zoom icon -->
+                    <span class="art-item-hover"><i class="fas fa-expand"></i></span>
+                </a>
+                <!-- grid item frame end -->
+                <!-- description -->
+                <div class="art-item-description">
+                    <!-- title -->
+                    <h5 class="mb-15">Weed</h5>
+                    <div class="mb-15">Sit amet, consectetur adipisicing elit. Quas, architecto.</div>
+                    <!-- button -->
+                    <a href="#" class="art-link art-color-link art-w-chevron">Read more</a>
+                </div>
+                <!-- description end -->
+
+            </div>
+            <!-- single ui item -->
+
+            <!-- single ui item -->
+            <div class="art-grid-item uiTemplates">
+                <!-- grid item frame -->
+                <a data-fancybox="gallery" data-no-swup href="img/works/original-size/3.jpg"
+                    class="art-a art-portfolio-item-frame art-square">
+                    <!-- img -->
+                    <img src="img/works/thumbnail/3.jpg" alt="item">
+                    <!-- zoom icon -->
+                    <span class="art-item-hover"><i class="fas fa-expand"></i></span>
+                </a>
+                <!-- grid item frame end -->
+                <!-- description -->
+                <div class="art-item-description">
+                    <!-- title -->
+                    <h5 class="mb-15">Djangui</h5>
+                    <div class="mb-15">Sit amet, consectetur adipisicing elit. Quas, architecto.</div>
+                    <!-- button -->
+                    <a href="#" class="art-link art-color-link art-w-chevron">Read more</a>
+                </div>
+                <!-- description end -->
+
+            </div>
+            <!-- single ui item -->
+
+            <!-- single ui item -->
+            <div class="art-grid-item uiTemplates">
+                <!-- grid item frame -->
+                <a data-fancybox="gallery" data-no-swup href="img/works/original-size/3.jpg"
+                    class="art-a art-portfolio-item-frame art-square">
+                    <!-- img -->
+                    <img src="img/works/thumbnail/3.jpg" alt="item">
+                    <!-- zoom icon -->
+                    <span class="art-item-hover"><i class="fas fa-expand"></i></span>
+                </a>
+                <!-- grid item frame end -->
+                <!-- description -->
+                <div class="art-item-description">
+                    <!-- title -->
+                    <h5 class="mb-15">Genius Home v2</h5>
                     <div class="mb-15">Sit amet, consectetur adipisicing elit. Quas, architecto.</div>
                     <!-- button -->
                     <a href="#" class="art-link art-color-link art-w-chevron">Read more</a>
@@ -224,7 +320,7 @@
                 <!-- description -->
                 <div class="art-item-description">
                     <!-- title -->
-                    <h5 class="mb-15">Project title</h5>
+                    <h5 class="mb-15">Growing Startup</h5>
                     <div class="mb-15">Sit amet, consectetur adipisicing elit. Quas, architecto.</div>
                     <!-- button -->
                     <a href="#" class="art-link art-color-link art-w-chevron">Read more</a>
