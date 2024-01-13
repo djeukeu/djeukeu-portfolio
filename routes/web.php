@@ -23,4 +23,5 @@ Route::prefix('project')->group(function () {
     Route::view('/tchangtchangmoney', 'tchangtchangmoney');
     Route::view('/cook-and-share', 'cook-and-share');
     Route::view('/genius-home', 'genius-home');
+    Route::view('/ekoh-web', 'ekoh-web');
 });

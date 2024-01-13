@@ -89,26 +89,16 @@
 
             <!-- single mobile item-->
             <div class="art-grid-item mobileTemplates">
-                <!-- grid item frame -->
                 <a data-fancybox="gallery" data-no-swup href="{{ asset('img/projects/genius-home/genius-home-1.png') }}"
                     class="art-a art-portfolio-item-frame art-square">
-                    <!-- img -->
                     <img src="{{ asset('img/projects/genius-home/genius-home-1.png') }}" alt="item">
-                    <!-- zoom icon -->
                     <span class="art-item-hover"><i class="fas fa-expand"></i></span>
                 </a>
-                <!-- grid item frame end -->
-                <!-- description -->
                 <div class="art-item-description">
-                    <!-- title -->
                     <h5 class="mb-15">Genius Home</h5>
                     <div class="mb-15">Become a genius through repetitive learning using the Genius Home App.</div>
-                    <!-- button -->
                     <a href="/project/genius-home" class="art-link art-color-link art-w-chevron">Read more</a>
                 </div>
-                <!-- description end -->
-                <!-- single mobile item-->
-
             </div>
             <!-- single mobile item-->
 
@@ -118,24 +108,17 @@
             <!-- web items -->
             <!-- single web item -->
             <div class="art-grid-item webTemplates">
-                <!-- grid item frame -->
-                <a data-fancybox="gallery" data-no-swup href="img/works/original-size/2.jpg"
+                <a data-fancybox="gallery" data-no-swup href="{{ asset('img/projects/ekoh/arrah-2.png') }}"
                     class="art-a art-portfolio-item-frame art-square">
-                    <!-- img -->
-                    <img src="img/works/thumbnail/2.jpg" alt="item">
-                    <!-- zoom icon -->
+                    <img src="{{ asset('img/projects/ekoh/arrah-2.png') }}" alt="item">
                     <span class="art-item-hover"><i class="fas fa-expand"></i></span>
                 </a>
-                <!-- grid item frame end -->
-                <!-- description -->
                 <div class="art-item-description">
-                    <!-- title -->
                     <h5 class="mb-15">Ekoh Web</h5>
-                    <div class="mb-15">Sit amet, consectetur adipisicing elit. Quas, architecto.</div>
-                    <!-- button -->
-                    <a href="#" class="art-link art-color-link art-w-chevron">Read more</a>
+                    <div class="mb-15">Ekoh, meaning music in an African dialect, is an African owned online music
+                        store.</div>
+                    <a href="/project/ekoh-web" class="art-link art-color-link art-w-chevron">Read more</a>
                 </div>
-                <!-- description end -->
 
             </div>
             <!-- single web item -->
