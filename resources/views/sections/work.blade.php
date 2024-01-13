@@ -81,7 +81,8 @@
                 </a>
                 <div class="art-item-description">
                     <h5 class="mb-15">Cook & Share</h5>
-                    <div class="mb-15">Cook & Share lets you share the different menus of the day with others.</div>
+                    <div class="mb-15">Cook & Share app lets you share the different menus of the day with others.
+                    </div>
                     <a href="/project/cook-and-share" class="art-link art-color-link art-w-chevron">Read more</a>
                 </div>
             </div>
@@ -102,7 +103,7 @@
                 <div class="art-item-description">
                     <!-- title -->
                     <h5 class="mb-15">Genius Home</h5>
-                    <div class="mb-15">Become a genius through repetitive learning.</div>
+                    <div class="mb-15">Become a genius through repetitive learning using the Genius Home App.</div>
                     <!-- button -->
                     <a href="/project/genius-home" class="art-link art-color-link art-w-chevron">Read more</a>
                 </div>

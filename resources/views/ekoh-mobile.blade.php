@@ -84,7 +84,7 @@
                         music more accessible to the African population.</div>
                     <div class="mb-15">Ekoh Mobile is the mobile version of the Ekoh Online project. I joined the Ekoh team
                         as a software developer intern in June 2021, where I learned React and React-Native, which came in
-                        handy in my daily task. And three months later, I continue as a junior software developer, debugging
+                        handy in my daily task.Three months later, I continue as a junior software developer, debugging
                         the existing code to improve the application's performance and user experience.</div>
                 </div>
 
@@ -109,8 +109,7 @@
         <div class="row mb-15 ">
             <div class="col-lg-12">
                 <div class="art-a art-pagination">
-                    <a href="#"
-                        class="art-link"><span></span></a>
+                    <a href="#" class="art-link"><span></span></a>
                     <div class="art-pagination-center art-m-hidden">
                         <a class="art-link" href="#" style="pointer-events: none;">Ekoh Mobile</a>
                     </div>
