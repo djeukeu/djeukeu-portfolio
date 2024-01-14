@@ -28,3 +28,9 @@ Route::prefix('projects')->group(function () {
 });
 
 Route::view('/contact', 'contact');
+
+Route::view('/blog', 'blog');
+Route::get('/blog/{id}', function ($id) {
+    // abort_if(!isset($post[$id]), 404);
+    return view('post');
+})->name('blog.post');

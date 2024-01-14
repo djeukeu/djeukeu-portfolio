@@ -22,7 +22,7 @@
     <!-- education-->
 
     <!-- blog -->
-    {{-- @include('layouts.blog') --}}
+    @include('sections.blog')
     <!-- blog -->
 
     <!-- contact -->

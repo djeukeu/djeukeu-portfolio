@@ -46,7 +46,7 @@
                     <div class="art-curtain"></div>
 
                     <!-- top background -->
-                    <div class="art-top-bg" style="background-image: url(img/bg-2.png)">
+                    <div class="art-top-bg" style="background-image: url({{ asset('img/bg-2.png') }})">
                         <!-- overlay -->
                         <div class="art-top-bg-overlay"></div>
                         <!-- overlay end -->
