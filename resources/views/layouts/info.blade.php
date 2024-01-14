@@ -10,8 +10,8 @@
 
         <div class="art-header">
             <div class="art-avatar">
-                <a data-fancybox="avatar" data-no-swup href="{{ asset('img/face-1.png') }}" class="art-avatar-curtain">
-                    <img src="{{ asset('img/face-1.png') }}" alt="avatar">
+                <a data-fancybox="avatar" data-no-swup href="{{ asset('client/img/face-1.png') }}" class="art-avatar-curtain">
+                    <img src="{{ asset('client/img/face-1.png') }}" alt="avatar">
                     <i class="fas fa-expand"></i>
                 </a>
                 <div class="art-lamp-light">

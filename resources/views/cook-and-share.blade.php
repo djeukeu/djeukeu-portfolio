@@ -20,9 +20,9 @@
                         <!-- single slide -->
                         <div class="swiper-slide">
                             <a data-fancybox="gallery" data-no-swup
-                                href="{{ asset('img/projects/cook-and-share/cook-and-share-3.png') }}"
+                                href="{{ asset('client/img/projects/cook-and-share/cook-and-share-3.png') }}"
                                 class="art-a art-portfolio-item-frame art-horizontal">
-                                <img src="{{ asset('img/projects/cook-and-share/cook-and-share-3.png') }}" alt="item">
+                                <img src="{{ asset('client/img/projects/cook-and-share/cook-and-share-3.png') }}" alt="item">
                                 <span class="art-item-hover"><i class="fas fa-expand"></i></span>
                             </a>
                         </div>
@@ -30,9 +30,9 @@
                         <!-- single slide -->
                         <div class="swiper-slide">
                             <a data-fancybox="gallery" data-no-swup
-                                href="{{ asset('img/projects/cook-and-share/cook-and-share-1.png') }}"
+                                href="{{ asset('client/img/projects/cook-and-share/cook-and-share-1.png') }}"
                                 class="art-a art-portfolio-item-frame art-horizontal">
-                                <img src="{{ asset('img/projects/cook-and-share/cook-and-share-1.png') }}" alt="item">
+                                <img src="{{ asset('client/img/projects/cook-and-share/cook-and-share-1.png') }}" alt="item">
                                 <span class="art-item-hover"><i class="fas fa-expand"></i></span>
                             </a>
                         </div>
@@ -40,9 +40,9 @@
                         <!-- single slide -->
                         <div class="swiper-slide">
                             <a data-fancybox="gallery" data-no-swup
-                                href="{{ asset('img/projects/cook-and-share/cook-and-share-2.png') }}"
+                                href="{{ asset('client/img/projects/cook-and-share/cook-and-share-2.png') }}"
                                 class="art-a art-portfolio-item-frame art-horizontal">
-                                <img src="{{ asset('img/projects/cook-and-share/cook-and-share-2.png') }}" alt="item">
+                                <img src="{{ asset('client/img/projects/cook-and-share/cook-and-share-2.png') }}" alt="item">
                                 <span class="art-item-hover"><i class="fas fa-expand"></i></span>
                             </a>
                         </div>

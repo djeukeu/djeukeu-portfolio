@@ -20,9 +20,9 @@
                         <!-- single slide -->
                         <div class="swiper-slide">
                             <a data-fancybox="gallery" data-no-swup
-                                href="{{ asset('img/projects/genius-home/genius-home-1.png') }}"
+                                href="{{ asset('client/img/projects/genius-home/genius-home-1.png') }}"
                                 class="art-a art-portfolio-item-frame art-horizontal">
-                                <img src="{{ asset('img/projects/genius-home/genius-home-1.png') }}" alt="item">
+                                <img src="{{ asset('client/img/projects/genius-home/genius-home-1.png') }}" alt="item">
                                 <span class="art-item-hover"><i class="fas fa-expand"></i></span>
                             </a>
                         </div>
@@ -31,9 +31,9 @@
                         <!-- single slide -->
                         <div class="swiper-slide">
                             <a data-fancybox="gallery" data-no-swup
-                                href="{{ asset('img/projects/genius-home/genius-home-2.png') }}"
+                                href="{{ asset('client/img/projects/genius-home/genius-home-2.png') }}"
                                 class="art-a art-portfolio-item-frame art-horizontal">
-                                <img src="{{ asset('img/projects/genius-home/genius-home-2.png') }}" alt="item">
+                                <img src="{{ asset('client/img/projects/genius-home/genius-home-2.png') }}" alt="item">
                                 <span class="art-item-hover"><i class="fas fa-expand"></i></span>
                             </a>
                         </div>

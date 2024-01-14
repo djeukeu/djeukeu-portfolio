@@ -19,9 +19,9 @@
                     <div class="swiper-wrapper">
                         <!-- single slide -->
                         <div class="swiper-slide">
-                            <a data-fancybox="gallery" data-no-swup href="{{ asset('img/projects/ttm/ttm-6.png') }}"
+                            <a data-fancybox="gallery" data-no-swup href="{{ asset('client/img/projects/ttm/ttm-6.png') }}"
                                 class="art-a art-portfolio-item-frame art-horizontal">
-                                <img src="{{ asset('img/projects/ttm/ttm-6.png') }}" alt="item">
+                                <img src="{{ asset('client/img/projects/ttm/ttm-6.png') }}" alt="item">
                                 <span class="art-item-hover"><i class="fas fa-expand"></i></span>
                             </a>
                         </div>
@@ -29,9 +29,9 @@
 
                         <!-- single slide -->
                         <div class="swiper-slide">
-                            <a data-fancybox="gallery" data-no-swup href="{{ asset('img/projects/ttm/ttm-2.png') }}"
+                            <a data-fancybox="gallery" data-no-swup href="{{ asset('client/img/projects/ttm/ttm-2.png') }}"
                                 class="art-a art-portfolio-item-frame art-horizontal">
-                                <img src="{{ asset('img/projects/ttm/ttm-2.png') }}" alt="item">
+                                <img src="{{ asset('client/img/projects/ttm/ttm-2.png') }}" alt="item">
                                 <span class="art-item-hover"><i class="fas fa-expand"></i></span>
                             </a>
                         </div>
@@ -39,9 +39,9 @@
 
                         <!-- single slide -->
                         <div class="swiper-slide">
-                            <a data-fancybox="gallery" data-no-swup href="{{ asset('img/projects/ttm/ttm-3.png') }}"
+                            <a data-fancybox="gallery" data-no-swup href="{{ asset('client/img/projects/ttm/ttm-3.png') }}"
                                 class="art-a art-portfolio-item-frame art-horizontal">
-                                <img src="{{ asset('img/projects/ttm/ttm-3.png') }}" alt="item">
+                                <img src="{{ asset('client/img/projects/ttm/ttm-3.png') }}" alt="item">
                                 <span class="art-item-hover"><i class="fas fa-expand"></i></span>
                             </a>
                         </div>
@@ -49,9 +49,9 @@
 
                         <!-- single slide -->
                         <div class="swiper-slide">
-                            <a data-fancybox="gallery" data-no-swup href="{{ asset('img/projects/ttm/ttm-4.png') }}"
+                            <a data-fancybox="gallery" data-no-swup href="{{ asset('client/img/projects/ttm/ttm-4.png') }}"
                                 class="art-a art-portfolio-item-frame art-horizontal">
-                                <img src="{{ asset('img/projects/ttm/ttm-4.png') }}" alt="item">
+                                <img src="{{ asset('client/img/projects/ttm/ttm-4.png') }}" alt="item">
                                 <span class="art-item-hover"><i class="fas fa-expand"></i></span>
                             </a>
                         </div>
@@ -59,9 +59,9 @@
 
                         <!-- single slide -->
                         <div class="swiper-slide">
-                            <a data-fancybox="gallery" data-no-swup href="{{ asset('img/projects/ttm/ttm-1.png') }}"
+                            <a data-fancybox="gallery" data-no-swup href="{{ asset('client/img/projects/ttm/ttm-1.png') }}"
                                 class="art-a art-portfolio-item-frame art-horizontal">
-                                <img src="{{ asset('img/projects/ttm/ttm-1.png') }}" alt="item">
+                                <img src="{{ asset('client/img/projects/ttm/ttm-1.png') }}" alt="item">
                                 <span class="art-item-hover"><i class="fas fa-expand"></i></span>
                             </a>
                         </div>
@@ -69,9 +69,9 @@
 
                         <!-- single slide -->
                         <div class="swiper-slide">
-                            <a data-fancybox="gallery" data-no-swup href="{{ asset('img/projects/ttm/ttm-5.png') }}"
+                            <a data-fancybox="gallery" data-no-swup href="{{ asset('client/img/projects/ttm/ttm-5.png') }}"
                                 class="art-a art-portfolio-item-frame art-horizontal">
-                                <img src="{{ asset('img/projects/ttm/ttm-5.png') }}" alt="item">
+                                <img src="{{ asset('client/img/projects/ttm/ttm-5.png') }}" alt="item">
                                 <span class="art-item-hover"><i class="fas fa-expand"></i></span>
                             </a>
                         </div>
