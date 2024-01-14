@@ -1,7 +1,7 @@
 <div class="container-fluid">
     <div class="row p-60-0 p-lg-30-0 p-md-15-0">
         <div class="col-lg-12">
-            <div class="art-a art-banner" style="background-image: url(img/bg-1.png)">
+            <div class="art-a art-banner" style="background-image: url({{ asset('client/img/bg-1.png') }})">
                 <div class="art-banner-back"></div>
                 <div class="art-banner-dec"></div>
                 <div class="art-banner-overlay">
