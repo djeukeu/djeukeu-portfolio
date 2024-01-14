@@ -147,12 +147,12 @@
         <div class="row mb-15 ">
             <div class="col-lg-12">
                 <div class="art-a art-pagination">
-                    <a href="/project/flexipay" class="art-link art-color-link art-w-chevron art-left-link"><span>Previous
+                    <a href="/projects/flexipay" class="art-link art-color-link art-w-chevron art-left-link"><span>Previous
                             project</span></a>
                     <div class="art-pagination-center art-m-hidden">
                         <a class="art-link" href="#" style="pointer-events: none;">Tchang Tchang Money</a>
                     </div>
-                    <a href="/project/cook-and-share" class="art-link art-color-link art-w-chevron"><span>Next
+                    <a href="/projects/cook-and-share" class="art-link art-color-link art-w-chevron"><span>Next
                             project</span></a>
                 </div>
             </div>

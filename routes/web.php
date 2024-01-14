@@ -17,7 +17,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', [HomeController::class, 'index'])->name('home.index');
 Route::post('/', [HomeController::class, 'send_message'])->name('home.contact');
 
-Route::prefix('project')->group(function () {
+Route::prefix('projects')->group(function () {
+    Route::view('/', 'projects');
     Route::view('/ekoh-mobile', 'ekoh-mobile');
     Route::view('/flexipay', 'flexipay');
     Route::view('/tchangtchangmoney', 'tchangtchangmoney');
@@ -25,3 +26,5 @@ Route::prefix('project')->group(function () {
     Route::view('/genius-home', 'genius-home');
     Route::view('/ekoh-web', 'ekoh-web');
 });
+
+Route::view('/contact', 'contact');

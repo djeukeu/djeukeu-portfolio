@@ -34,7 +34,7 @@
                     <h5 class="mb-15">Ekoh Mobile</h5>
                     <div class="mb-15">Ekoh, meaning music in an African dialect, is an African owned online music
                         store.</div>
-                    <a href="/project/ekoh-mobile" class="art-link art-color-link art-w-chevron">Read more</a>
+                    <a href="/projects/ekoh-mobile" class="art-link art-color-link art-w-chevron">Read more</a>
                 </div>
             </div>
             <!-- single mobile item-->
@@ -49,7 +49,7 @@
                 <div class="art-item-description">
                     <h5 class="mb-15">FlexiPay</h5>
                     <div class="mb-15">FlexiPay is a payment management app owned by Flexicol</div>
-                    <a href="/project/flexipay" class="art-link art-color-link art-w-chevron">Read more</a>
+                    <a href="/projects/flexipay" class="art-link art-color-link art-w-chevron">Read more</a>
                 </div>
             </div>
             <!-- single mobile item-->
@@ -65,7 +65,7 @@
                     <h5 class="mb-15">Tchang Tchang Money</h5>
                     <div class="mb-15">Tchang Tchang money is an innovative, efficient, secure and
                         very easy-to-use electronic payment solution.</div>
-                    <a href="/project/tchangtchangmoney" class="art-link art-color-link art-w-chevron">Read more</a>
+                    <a href="/projects/tchangtchangmoney" class="art-link art-color-link art-w-chevron">Read more</a>
                 </div>
             </div>
             <!-- single mobile item-->
@@ -82,7 +82,7 @@
                     <h5 class="mb-15">Cook & Share</h5>
                     <div class="mb-15">Cook & Share app lets you share the different menus of the day with others.
                     </div>
-                    <a href="/project/cook-and-share" class="art-link art-color-link art-w-chevron">Read more</a>
+                    <a href="/projects/cook-and-share" class="art-link art-color-link art-w-chevron">Read more</a>
                 </div>
             </div>
             <!-- single mobile item-->
@@ -97,7 +97,7 @@
                 <div class="art-item-description">
                     <h5 class="mb-15">Genius Home</h5>
                     <div class="mb-15">Become a genius through repetitive learning using the Genius Home App.</div>
-                    <a href="/project/genius-home" class="art-link art-color-link art-w-chevron">Read more</a>
+                    <a href="/projects/genius-home" class="art-link art-color-link art-w-chevron">Read more</a>
                 </div>
             </div>
             <!-- single mobile item-->
@@ -117,7 +117,7 @@
                     <h5 class="mb-15">Ekoh Web</h5>
                     <div class="mb-15">Ekoh, meaning music in an African dialect, is an African owned online music
                         store.</div>
-                    <a href="/project/ekoh-web" class="art-link art-color-link art-w-chevron">Read more</a>
+                    <a href="/projects/ekoh-web" class="art-link art-color-link art-w-chevron">Read more</a>
                 </div>
 
             </div>

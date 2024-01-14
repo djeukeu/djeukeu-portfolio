@@ -114,13 +114,13 @@
         <div class="row mb-15 ">
             <div class="col-lg-12">
                 <div class="art-a art-pagination">
-                    <a href="/project/genius-home"
+                    <a href="/projects/genius-home"
                         class="art-link art-color-link art-w-chevron art-left-link"><span>Previous
                             project</span></a>
                     <div class="art-pagination-center art-m-hidden">
                         <a class="art-link" href="#" style="pointer-events: none;">Ekoh Web</a>
                     </div>
-                    <a href="/project/marketti-shops" class="art-link art-color-link art-w-chevron"><span>Next
+                    <a href="/projects/marketti-shops" class="art-link art-color-link art-w-chevron"><span>Next
                             project</span></a>
                 </div>
             </div>

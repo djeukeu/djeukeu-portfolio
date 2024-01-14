@@ -114,7 +114,7 @@
                     <div class="art-pagination-center art-m-hidden">
                         <a class="art-link" href="#" style="pointer-events: none;">Ekoh Mobile</a>
                     </div>
-                    <a href="/project/flexipay" class="art-link art-color-link art-w-chevron"><span>Next
+                    <a href="/projects/flexipay" class="art-link art-color-link art-w-chevron"><span>Next
                             project</span></a>
                 </div>
             </div>
