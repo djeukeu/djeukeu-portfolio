@@ -20,9 +20,9 @@
                         <!-- single slide -->
                         <div class="swiper-slide">
                             <a data-fancybox="gallery" data-no-swup
-                                href="{{ asset('img/projects/flexipay/flexipay-4.png') }}"
+                                href="{{ asset('client/img/projects/flexipay/flexipay-4.png') }}"
                                 class="art-a art-portfolio-item-frame art-horizontal">
-                                <img src="{{ asset('img/projects/flexipay/flexipay-4.png') }}" alt="item">
+                                <img src="{{ asset('client/img/projects/flexipay/flexipay-4.png') }}" alt="item">
                                 <span class="art-item-hover"><i class="fas fa-expand"></i></span>
                             </a>
                         </div>
@@ -31,9 +31,9 @@
                         <!-- single slide -->
                         <div class="swiper-slide">
                             <a data-fancybox="gallery" data-no-swup
-                                href="{{ asset('img/projects/flexipay/flexipay-1.png') }}"
+                                href="{{ asset('client/img/projects/flexipay/flexipay-1.png') }}"
                                 class="art-a art-portfolio-item-frame art-horizontal">
-                                <img src="{{ asset('img/projects/flexipay/flexipay-1.png') }}" alt="item">
+                                <img src="{{ asset('client/img/projects/flexipay/flexipay-1.png') }}" alt="item">
                                 <span class="art-item-hover"><i class="fas fa-expand"></i></span>
                             </a>
                         </div>
@@ -42,9 +42,9 @@
                         <!-- single slide -->
                         <div class="swiper-slide">
                             <a data-fancybox="gallery" data-no-swup
-                                href="{{ asset('img/projects/flexipay/flexipay-2.png') }}"
+                                href="{{ asset('client/img/projects/flexipay/flexipay-2.png') }}"
                                 class="art-a art-portfolio-item-frame art-horizontal">
-                                <img src="{{ asset('img/projects/flexipay/flexipay-2.png') }}" alt="item">
+                                <img src="{{ asset('client/img/projects/flexipay/flexipay-2.png') }}" alt="item">
                                 <span class="art-item-hover"><i class="fas fa-expand"></i></span>
                             </a>
                         </div>
@@ -53,9 +53,9 @@
                         <!-- single slide -->
                         <div class="swiper-slide">
                             <a data-fancybox="gallery" data-no-swup
-                                href="{{ asset('img/projects/flexipay/flexipay-3.png') }}"
+                                href="{{ asset('client/img/projects/flexipay/flexipay-3.png') }}"
                                 class="art-a art-portfolio-item-frame art-horizontal">
-                                <img src="{{ asset('img/projects/flexipay/flexipay-3.png') }}" alt="item">
+                                <img src="{{ asset('client/img/projects/flexipay/flexipay-3.png') }}" alt="item">
                                 <span class="art-item-hover"><i class="fas fa-expand"></i></span>
                             </a>
                         </div>
@@ -126,13 +126,13 @@
         <div class="row mb-15 ">
             <div class="col-lg-12">
                 <div class="art-a art-pagination">
-                    <a href="/project/ekoh-mobile"
+                    <a href="/projects/ekoh-mobile"
                         class="art-link art-color-link art-w-chevron art-left-link"><span>Previous
                             project</span></a>
                     <div class="art-pagination-center art-m-hidden">
                         <a class="art-link" href="#" style="pointer-events: none;">FlexiPay</a>
                     </div>
-                    <a href="/project/tchangtchangmoney" class="art-link art-color-link art-w-chevron"><span>Next
+                    <a href="/projects/tchangtchangmoney" class="art-link art-color-link art-w-chevron"><span>Next
                             project</span></a>
                 </div>
             </div>

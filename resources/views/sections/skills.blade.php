@@ -42,7 +42,7 @@
                 <div class="art-service-ib-content">
                     <h5 class="mb-15">Backend Development</h5>
                     <div class="mb-15">I develop API with nodeJS using different architectural approach and
-                        communication mechanism.And also have basics in Python and JAVA.</div>
+                        communication mechanism.With a basic knowledge of Java and Python.</div>
                 </div>
             </div>
         </div>
@@ -54,7 +54,7 @@
                 <div class="art-service-ib-content">
                     <h5 class="mb-15">Cloud Computing</h5>
                     <div class="mb-15">Whenever I am developing a new application, I like to leverage AWS as my IaaS
-                        and the rich set of services that they offer.</div>
+                        and the rich set of services they offer.</div>
                 </div>
             </div>
         </div>
@@ -65,8 +65,9 @@
             <div class="art-a art-service-icon-box">
                 <div class="art-service-ib-content">
                     <h5 class="mb-15">Database Management</h5>
-                    <div class="mb-15">Whenever I have to implement a new application I choose between PostgreSQL,
-                        MySQL and MongoDB depending on the application needs.</div>
+                    <div class="mb-15">Choosing between PostgreSQL, MySQL and MongoDB
+                        depending on the needs of the application.
+                    </div>
                 </div>
             </div>
         </div>
@@ -77,7 +78,7 @@
             <div class="art-a art-service-icon-box">
                 <div class="art-service-ib-content">
                     <h5 class="mb-15">UI / UX Design</h5>
-                    <div class="mb-15">At first I started prototyping the application using Adobe XD, but with Figma
+                    <div class="mb-15">At first I started prototyping application using Adobe XD, but with Figma
                         things got more interesting and innovative.</div>
                 </div>
             </div>

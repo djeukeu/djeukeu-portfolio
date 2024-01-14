@@ -10,15 +10,15 @@
 
         <div class="art-header">
             <div class="art-avatar">
-                <a data-fancybox="avatar" data-no-swup href="{{ asset('img/face-1.png') }}" class="art-avatar-curtain">
-                    <img src="{{ asset('img/face-1.png') }}" alt="avatar">
+                <a data-fancybox="avatar" data-no-swup href="{{ asset('client/img/face-1.png') }}" class="art-avatar-curtain">
+                    <img src="{{ asset('client/img/face-1.png') }}" alt="avatar">
                     <i class="fas fa-expand"></i>
                 </a>
                 <div class="art-lamp-light">
                     <div class="art-available-lamp"></div>
                 </div>
             </div>
-            <h5 class="art-name mb-10">{{ env('OWNER') }}</h5>
+            <h5 class="art-name mb-10"><a href="/">{{ env('OWNER') }}</a></h5>
             <div class="art-sm-text">Software Developer, <br>Cloud Developer</div>
         </div>
 
