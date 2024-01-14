@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @php
-    $posts = [1 => ['title' => 'Post title 1', 'short_description' => '2 sentence short description', 'thumbnail' => 'img/blog/1.jpg'], 2 => ['title' => 'Post title 2', 'short_description' => '2 sentence short description', 'thumbnail' => 'img/blog/1.jpg'], 3 => ['title' => 'Post title 3', 'short_description' => '2 sentence short description', 'thumbnail' => 'img/blog/1.jpg'], 4 => ['title' => 'Post title 4', 'short_description' => '2 sentence short description', 'thumbnail' => 'img/blog/1.jpg'], 5 => ['title' => 'Post title 5', 'short_description' => '2 sentence short description', 'thumbnail' => 'img/blog/1.jpg']];
+    $posts = [1 => ['title' => 'Post title 1', 'short_description' => '2 sentence short description', 'thumbnail' => 'client/img/blog/1.jpg'], 2 => ['title' => 'Post title 2', 'short_description' => '2 sentence short description', 'thumbnail' => 'client/img/blog/1.jpg'], 3 => ['title' => 'Post title 3', 'short_description' => '2 sentence short description', 'thumbnail' => 'client/img/blog/1.jpg'], 4 => ['title' => 'Post title 4', 'short_description' => '2 sentence short description', 'thumbnail' => 'client/img/blog/1.jpg'], 5 => ['title' => 'Post title 5', 'short_description' => '2 sentence short description', 'thumbnail' => 'client/img/blog/1.jpg']];
 @endphp
 
 @section('content')
@@ -19,9 +19,9 @@
             </div>
             <div class="col-lg-12">
                 <div class="art-a art-project-cover">
-                    <a data-fancybox="gallery" href="{{ asset('img/blog/2.jpg') }}"
+                    <a data-fancybox="gallery" href="{{ asset('client/img/blog/2.jpg') }}"
                         class="art-portfolio-item-frame art-horizontal">
-                        <img src="{{ asset('img/blog/2.jpg') }}" alt="item">
+                        <img src="{{ asset('client/img/blog/2.jpg') }}" alt="item">
                         <span class="art-item-hover"><i class="fas fa-expand"></i></span>
                     </a>
                 </div>
