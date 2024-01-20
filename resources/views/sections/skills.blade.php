@@ -16,7 +16,7 @@
             <div class="art-a art-service-icon-box">
                 <div class="art-service-ib-content">
                     <h5 class="mb-15">Mobile Development</h5>
-                    <div class="mb-15">As a frontend developer, my interest is mainly focused on mobile development
+                    <div class="mb-15">As a Front End developer, my interest is mainly focused on mobile development
                         using hybrid frameworks such as React-Native, Ionic and Flutter.</div>
                 </div>
             </div>
