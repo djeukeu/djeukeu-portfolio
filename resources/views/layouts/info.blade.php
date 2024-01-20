@@ -10,7 +10,8 @@
 
         <div class="art-header">
             <div class="art-avatar">
-                <a data-fancybox="avatar" data-no-swup href="{{ asset('client/img/face-1.png') }}" class="art-avatar-curtain">
+                <a data-fancybox="avatar" data-no-swup href="{{ asset('client/img/face-1.png') }}"
+                    class="art-avatar-curtain">
                     <img src="{{ asset('client/img/face-1.png') }}" alt="avatar">
                     <i class="fas fa-expand"></i>
                 </a>
@@ -19,7 +20,7 @@
                 </div>
             </div>
             <h5 class="art-name mb-10"><a href="/">{{ env('OWNER') }}</a></h5>
-            <div class="art-sm-text">Software Developer, <br>Cloud Developer</div>
+            <div class="art-sm-text">Software Developer, <br>UI/UX Designer</div>
         </div>
 
         <!-- scroll frame -->
@@ -82,8 +83,8 @@
 
             <!-- download cv -->
             <div class="art-links-frame p-15-15">
-                <a href="files/djeukeu_cv.pdf" class="art-link" download data-no-swup>Download cv <i
-                        class="fas fa-download"></i></a>
+                <a href="{{ asset('client/files/djeukeu_cv.pdf') }}" class="art-link" download data-no-swup>Download cv
+                    <i class="fas fa-download"></i></a>
             </div>
             <!-- download cv -->
 

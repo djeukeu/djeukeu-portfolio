@@ -6,13 +6,17 @@
                 <div class="art-banner-dec"></div>
                 <div class="art-banner-overlay">
                     <div class="art-banner-title">
-                        <h3 class="mb-15">Contact me and <br>Go further Online</h3>
+                        <h1 class="mb-15">Discover my amazing <br>Project Space</h1>
                         <div class="art-lg-text art-code mb-25">&lt;<i>code</i>&gt; I
                             <span class="txt-rotate" data-period="2000"
                                 data-rotate='[ "build web application.", "build ios and android applications.", " design mockups.", "use automation tools." ]'></span>&lt;/<i>code</i>&gt;
                         </div>
+                        <div class="art-buttons-frame">
+                            <a href="/projects" class="art-btn art-btn-md"><span>Explore Projects</span></a>
+                            <a href="/contact" class="art-link art-white-link art-w-chevron">Contact me</a>
+                        </div>
                     </div>
-                    {{-- <img src="img/face-2.png" class="art-banner-photo" alt="Your Name"> --}}
+                    <img src="{{ asset('client/img/face-2.png') }}" class="art-banner-photo" alt="Your Name">
                 </div>
             </div>
         </div>
