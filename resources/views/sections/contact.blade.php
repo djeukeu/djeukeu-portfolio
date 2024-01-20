@@ -43,7 +43,7 @@
                             <h6>Tel:</h6><span><a href="tel:+4407455363235" data-no-swup>+44 (074) 55 363 235</a></span>
                         </li>
                         <li>
-                            <h6>Whatsapp:</h6><span><a href="https://wa.me/+4407455363235" target="_blank"
+                            <h6>WhatsApp:</h6><span><a href="https://wa.me/+4407455363235" target="_blank"
                                     data-no-swup>+44 (074) 55 363 235</a></span>
                         </li>
                     </ul>
