@@ -34,3 +34,7 @@ Route::get('/blog/{id}', function ($id) {
     // abort_if(!isset($post[$id]), 404);
     return view('post');
 })->name('blog.post');
+
+Route::prefix('admin')->group(function () {
+    Route::view('/home', 'admin-home');
+});
