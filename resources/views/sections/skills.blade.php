@@ -42,7 +42,7 @@
                 <div class="art-service-ib-content">
                     <h5 class="mb-15">Backend Development</h5>
                     <div class="mb-15">I develop API with nodeJS using different architectural approach and
-                        communication mechanism.With a basic knowledge of Java and Python.</div>
+                        communication mechanism.With knowledge of Java and Python.</div>
                 </div>
             </div>
         </div>
