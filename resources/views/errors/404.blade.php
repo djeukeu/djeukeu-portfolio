@@ -11,7 +11,7 @@
             <div class="art-app-container">
                 <div class="art-content">
                     <div class="art-curtain"></div>
-                    <div class="art-top-bg  bg_image--error" style="background-image: url(img/not-found.png)">
+                    <div class="art-top-bg  bg_image--error" style="background-image: url(client/img/not-found.png)">
                     </div>
                 </div>
             </div>
