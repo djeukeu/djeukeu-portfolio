@@ -22,17 +22,17 @@
             <ul class="navbar-nav" id="navbar-nav">
                 <li class="nav-item">
                     <a class="nav-link menu-link" href="/admin/post">
-                        <i class="ri-dashboard-2-line"></i> <span data-key="t-dashboards">Publications</span>
+                        <i class="ri-stack-line"></i> <span>Publications</span>
                     </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link menu-link" href="/admin/category">
-                        <i class="ri-dashboard-2-line"></i> <span data-key="t-dashboards">Categories</span>
+                        <i class="ri-file-list-3-line"></i> <span>Categories</span>
                     </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link menu-link" href="/admin/tag">
-                        <i class="ri-dashboard-2-line"></i> <span data-key="t-dashboards">Tags</span>
+                        <i class="ri-price-tag-3-fill"></i> <span>Tags</span>
                     </a>
                 </li>
             </ul>
