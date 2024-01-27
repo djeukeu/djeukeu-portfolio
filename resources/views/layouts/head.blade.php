@@ -4,15 +4,15 @@
     <!-- color of address bar in mobile browser -->
     <meta name="theme-color" content="#2B2B35">
     <!-- favicon  -->
-    <link rel="shortcut icon" href="{{ asset('client/img/thumbnail.png') }}" type="image/x-icon">
+    <link rel="shortcut icon" href="{{ asset('img/thumbnail.png') }}" type="image/x-icon">
     <!-- bootstrap css -->
-    <link rel="stylesheet" href="{{ asset('client/css/plugins/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/plugins/bootstrap.min.css') }}">
     <!-- font awesome css -->
-    <link rel="stylesheet" href="{{ asset('client/css/plugins/font-awesome.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/plugins/font-awesome.min.css') }}">
     <!-- swiper css -->
-    <link rel="stylesheet" href="{{ asset('client/css/plugins/swiper.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/plugins/swiper.min.css') }}">
     <!-- fancybox css -->
-    <link rel="stylesheet" href="{{ asset('client/css/plugins/fancybox.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/plugins/fancybox.min.css') }}">
     <!-- main css -->
-    <link rel="stylesheet" href="{{ asset('client/css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     <title>{{ env('OWNER') }}</title>

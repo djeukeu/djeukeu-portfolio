@@ -1,9 +1,6 @@
 <?php
 
-use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\HomeController;
-use App\Http\Controllers\PostController;
-use App\Http\Controllers\TagController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -37,10 +34,3 @@ Route::get('/blog/{id}', function ($id) {
     // abort_if(!isset($post[$id]), 404);
     return view('post');
 })->name('blog.post');
-
-Route::prefix('admin')->group(function () {
-    Route::view('/home', 'admin-home');
-    Route::resource('/post', PostController::class);
-    Route::resource('/category', CategoryController::class);
-    Route::resource('/tag', TagController::class);
-});

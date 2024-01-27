@@ -10,9 +10,9 @@
 
         <div class="art-header">
             <div class="art-avatar">
-                <a data-fancybox="avatar" data-no-swup href="{{ asset('client/img/face-1.png') }}"
+                <a data-fancybox="avatar" data-no-swup href="{{ asset('img/face-1.png') }}"
                     class="art-avatar-curtain">
-                    <img src="{{ asset('client/img/face-1.png') }}" alt="avatar">
+                    <img src="{{ asset('img/face-1.png') }}" alt="avatar">
                     <i class="fas fa-expand"></i>
                 </a>
                 <div class="art-lamp-light">
@@ -83,7 +83,7 @@
 
             <!-- download cv -->
             <div class="art-links-frame p-15-15">
-                <a href="{{ asset('client/files/djeukeu_cv.pdf') }}" class="art-link" download data-no-swup>Download cv
+                <a href="{{ asset('files/djeukeu_cv.pdf') }}" class="art-link" download data-no-swup>Download cv
                     <i class="fas fa-download"></i></a>
             </div>
             <!-- download cv -->

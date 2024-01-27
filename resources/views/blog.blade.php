@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @php
-    $posts = [1 => ['title' => 'Post title 1', 'short_description' => '2 sentence short description', 'thumbnail' => 'client/img/blog/1.jpg'], 2 => ['title' => 'Post title 2', 'short_description' => '2 sentence short description', 'thumbnail' => 'client/img/blog/1.jpg'], 3 => ['title' => 'Post title 3', 'short_description' => '2 sentence short description', 'thumbnail' => 'client/img/blog/1.jpg'], 4 => ['title' => 'Post title 4', 'short_description' => '2 sentence short description', 'thumbnail' => 'client/img/blog/1.jpg'], 5 => ['title' => 'Post title 5', 'short_description' => '2 sentence short description', 'thumbnail' => 'client/img/blog/1.jpg']];
+    $posts = [1 => ['title' => 'Post title 1', 'short_description' => '2 sentence short description', 'thumbnail' => 'img/blog/1.jpg'], 2 => ['title' => 'Post title 2', 'short_description' => '2 sentence short description', 'thumbnail' => 'img/blog/1.jpg'], 3 => ['title' => 'Post title 3', 'short_description' => '2 sentence short description', 'thumbnail' => 'img/blog/1.jpg'], 4 => ['title' => 'Post title 4', 'short_description' => '2 sentence short description', 'thumbnail' => 'img/blog/1.jpg'], 5 => ['title' => 'Post title 5', 'short_description' => '2 sentence short description', 'thumbnail' => 'img/blog/1.jpg']];
 @endphp
 
 @section('content')

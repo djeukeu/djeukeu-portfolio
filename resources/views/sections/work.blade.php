@@ -25,9 +25,9 @@
             <!-- mobile items-->
             <!-- single mobile item-->
             <div class="art-grid-item mobileTemplates">
-                <a data-fancybox="gallery" data-no-swup href="{{ asset('client/img/projects/ekoh/arrah-2.png') }}"
+                <a data-fancybox="gallery" data-no-swup href="{{ asset('img/projects/ekoh/arrah-2.png') }}"
                     class="art-a art-portfolio-item-frame art-square">
-                    <img src="{{ asset('client/img/projects/ekoh/arrah-2.png') }}" alt="item">
+                    <img src="{{ asset('img/projects/ekoh/arrah-2.png') }}" alt="item">
                     <span class="art-item-hover"><i class="fas fa-expand"></i></span>
                 </a>
                 <div class="art-item-description">
@@ -42,9 +42,9 @@
             <!-- single mobile item-->
             <div class="art-grid-item mobileTemplates">
                 <a data-fancybox="gallery" data-no-swup
-                    href="{{ asset('client/img/projects/flexipay/flexipay-4.png') }}"
+                    href="{{ asset('img/projects/flexipay/flexipay-4.png') }}"
                     class="art-a art-portfolio-item-frame art-square">
-                    <img src="{{ asset('client/img/projects/flexipay/flexipay-4.png') }}" alt="item">
+                    <img src="{{ asset('img/projects/flexipay/flexipay-4.png') }}" alt="item">
                     <span class="art-item-hover"><i class="fas fa-expand"></i></span>
                 </a>
                 <div class="art-item-description">
@@ -57,9 +57,9 @@
 
             <!-- single mobile item-->
             <div class="art-grid-item mobileTemplates">
-                <a data-fancybox="gallery" data-no-swup href="{{ asset('client/img/projects/ttm/ttm-6.png') }}"
+                <a data-fancybox="gallery" data-no-swup href="{{ asset('img/projects/ttm/ttm-6.png') }}"
                     class="art-a art-portfolio-item-frame art-square">
-                    <img src="{{ asset('client/img/projects/ttm/ttm-6.png') }}" alt="item">
+                    <img src="{{ asset('img/projects/ttm/ttm-6.png') }}" alt="item">
                     <span class="art-item-hover"><i class="fas fa-expand"></i></span>
                 </a>
                 <div class="art-item-description">
@@ -74,9 +74,9 @@
             <!-- single mobile item-->
             <div class="art-grid-item mobileTemplates">
                 <a data-fancybox="gallery" data-no-swup
-                    href="{{ asset('client/img/projects/cook-and-share/cook-and-share-3.png') }}"
+                    href="{{ asset('img/projects/cook-and-share/cook-and-share-3.png') }}"
                     class="art-a art-portfolio-item-frame art-square">
-                    <img src="{{ asset('client/img/projects/cook-and-share/cook-and-share-3.png') }}" alt="item">
+                    <img src="{{ asset('img/projects/cook-and-share/cook-and-share-3.png') }}" alt="item">
                     <span class="art-item-hover"><i class="fas fa-expand"></i></span>
                 </a>
                 <div class="art-item-description">
@@ -91,9 +91,9 @@
             <!-- single mobile item-->
             <div class="art-grid-item mobileTemplates">
                 <a data-fancybox="gallery" data-no-swup
-                    href="{{ asset('client/img/projects/genius-home/genius-home-1.png') }}"
+                    href="{{ asset('img/projects/genius-home/genius-home-1.png') }}"
                     class="art-a art-portfolio-item-frame art-square">
-                    <img src="{{ asset('client/img/projects/genius-home/genius-home-1.png') }}" alt="item">
+                    <img src="{{ asset('img/projects/genius-home/genius-home-1.png') }}" alt="item">
                     <span class="art-item-hover"><i class="fas fa-expand"></i></span>
                 </a>
                 <div class="art-item-description">
@@ -110,9 +110,9 @@
             <!-- web items -->
             <!-- single web item -->
             <div class="art-grid-item webTemplates">
-                <a data-fancybox="gallery" data-no-swup href="{{ asset('client/img/projects/ekoh/arrah-2.png') }}"
+                <a data-fancybox="gallery" data-no-swup href="{{ asset('img/projects/ekoh/arrah-2.png') }}"
                     class="art-a art-portfolio-item-frame art-square">
-                    <img src="{{ asset('client/img/projects/ekoh/arrah-2.png') }}" alt="item">
+                    <img src="{{ asset('img/projects/ekoh/arrah-2.png') }}" alt="item">
                     <span class="art-item-hover"><i class="fas fa-expand"></i></span>
                 </a>
                 <div class="art-item-description">
@@ -130,10 +130,10 @@
             <!-- single ui item -->
             <div class="art-grid-item uiTemplates">
                 <!-- grid item frame -->
-                <a data-fancybox="gallery" data-no-swup href="{{ asset('client/img/works/original-size/3.jpg') }}"
+                <a data-fancybox="gallery" data-no-swup href="{{ asset('img/works/original-size/3.jpg') }}"
                     class="art-a art-portfolio-item-frame art-square">
                     <!-- img -->
-                    <img src="{{ asset('client/img/works/original-size/3.jpg') }}" alt="item">
+                    <img src="{{ asset('img/works/original-size/3.jpg') }}" alt="item">
                     <!-- zoom icon -->
                     <span class="art-item-hover"><i class="fas fa-expand"></i></span>
                 </a>
