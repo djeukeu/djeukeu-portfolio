@@ -3469,7 +3469,19 @@ html.is-animating .fade-left {
     font-size: 10px;
 }
 
-.skills{
+.skills {
     display: flex;
     flex-wrap: wrap;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 500px) {
+    .contact-info h6 {
+        margin: 4px 0;
+    }
 }
