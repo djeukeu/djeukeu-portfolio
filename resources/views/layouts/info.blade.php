@@ -10,8 +10,7 @@
 
         <div class="art-header">
             <div class="art-avatar">
-                <a data-fancybox="avatar" data-no-swup href="{{ asset('img/face-1.png') }}"
-                    class="art-avatar-curtain">
+                <a data-fancybox="avatar" data-no-swup href="{{ asset('img/face-1.png') }}" class="art-avatar-curtain">
                     <img src="{{ asset('img/face-1.png') }}" alt="avatar">
                     <i class="fas fa-expand"></i>
                 </a>
@@ -20,28 +19,83 @@
                 </div>
             </div>
             <h5 class="art-name mb-10"><a href="/">{{ env('OWNER') }}</a></h5>
-            <div class="art-sm-text">Software Developer, <br>UI/UX Designer</div>
+            <div class="art-sm-text">Software Developer <br>UI/UX Designer</div>
         </div>
 
-        <!-- scroll frame -->
         <div id="scrollbar2" class="art-scroll-frame">
 
-            <div class="art-table p-15-15">
-                <ul>
-                    <li>
-                        <h6>Residence:</h6><span>United Kingdom</span>
-                    </li>
-                    <li>
-                        <h6>City:</h6><span>Leeds</span>
-                    </li>
-                    <li>
-                        <h6>Age:</h6><span><?php $dob = '2000-01-12';
-                        $year = date('Y') - date('Y', strtotime($dob));
-                        echo $year;
-                        ?></span>
-                    </li>
-                </ul>
+            <div class="art-hard-skills p-30-15">
+
+                <!-- single skill -->
+                <div class="art-hard-skills-item">
+                    <div class="art-skill-heading">
+                        <h6>Mobile Development</h6>
+                    </div>
+                    <div class="art-line-progress">
+                        <div id="lineprog1"></div>
+                    </div>
+                </div>
+                <!-- single skill -->
+
+                <!-- single skill -->
+                <div class="art-hard-skills-item">
+                    <div class="art-skill-heading">
+                        <h6>UI / UX Development</h6>
+                    </div>
+                    <div class="art-line-progress">
+                        <div id="lineprog4"></div>
+                    </div>
+                </div>
+                <!-- single skill -->
+
+                <!-- single skill -->
+                <div class="art-hard-skills-item">
+                    <div class="art-skill-heading">
+                        <h6>Web Development</h6>
+                    </div>
+                    <div class="art-line-progress">
+                        <div id="lineprog2"></div>
+                    </div>
+                </div>
+                <!-- single skill -->
+
+                <!-- single skill -->
+                <div class="art-hard-skills-item">
+                    <div class="art-skill-heading">
+                        <h6>Backend Development</h6>
+                    </div>
+                    <div class="art-line-progress">
+                        <div id="lineprog3"></div>
+                    </div>
+                </div>
+                <!-- single skill -->
+
+
+
+                <!-- single skill -->
+                <div class="art-hard-skills-item">
+                    <div class="art-skill-heading">
+                        <h6>Database Management</h6>
+                    </div>
+                    <div class="art-line-progress">
+                        <div id="lineprog5"></div>
+                    </div>
+                </div>
+                <!-- single skill -->
+
+                <!-- single skill -->
+                <div class="art-hard-skills-item">
+                    <div class="art-skill-heading">
+                        <h6>Cloud Computing</h6>
+                    </div>
+                    <div class="art-line-progress">
+                        <div id="lineprog6"></div>
+                    </div>
+                </div>
+                <!-- single skill -->
+
             </div>
+
 
             <!-- divider -->
             <div class="art-ls-divider"></div>
@@ -74,7 +128,6 @@
                 <li>Video games</li>
                 <li>Chess</li>
                 <li>Reading</li>
-                <li>Learning</li>
             </ul>
             <!-- hobbies list -->
 
@@ -96,9 +149,7 @@
             <a href="https://www.linkedin.com/in/djeukeu/" target="_blank" data-no-swup><i
                     class="fab fa-linkedin-in"></i></a>
             <a href="https://github.com/djeukeu" target="_blank" data-no-swup><i class="fab fa-github"></i></a>
-            <div></div>
-            <div></div>
-            <div></div>
+
         </div>
         <!-- sidebar social end -->
 
