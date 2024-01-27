@@ -16,8 +16,11 @@
             <div class="art-a art-service-icon-box">
                 <div class="art-service-ib-content">
                     <h5 class="mb-15">Mobile Development</h5>
-                    <div class="mb-15">As a Front End developer, my interest is mainly focused on mobile development
-                        using hybrid frameworks such as React-Native, Ionic and Flutter.</div>
+                    <div class="skills">
+                        <span class="skill-item">React-Native</span>
+                        <span class="skill-item">Flutter</span>
+                        <span class="skill-item">Fastlane</span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -28,8 +31,11 @@
             <div class="art-a art-service-icon-box">
                 <div class="art-service-ib-content">
                     <h5 class="mb-15">Web Development</h5>
-                    <div class="mb-15">I use React and Angular to build single-page application for better performance
-                        and rich features that they offer. And UI libraries such as Material UI.</div>
+                    <div class="skills">
+                        <span class="skill-item">HTML, CSS & JS</span>
+                        <span class="skill-item">React</span>
+                        <span class="skill-item">Angular</span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -41,8 +47,11 @@
             <div class="art-a art-service-icon-box">
                 <div class="art-service-ib-content">
                     <h5 class="mb-15">Backend Development</h5>
-                    <div class="mb-15">I develop API with nodeJS using different architectural approach and
-                        communication mechanism.With knowledge of Java and Python.</div>
+                    <div class="skills">
+                        <span class="skill-item">NodeJS</span>
+                        <span class="skill-item">Spring Boot</span>
+                        <span class="skill-item">Python</span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -53,8 +62,11 @@
             <div class="art-a art-service-icon-box">
                 <div class="art-service-ib-content">
                     <h5 class="mb-15">Cloud Computing</h5>
-                    <div class="mb-15">Whenever I am developing a new application, I like to leverage AWS as my IaaS
-                        and the rich set of services they offer.</div>
+                    <div class="skills">
+                        <span class="skill-item">AWS</span>
+                        <span class="skill-item">Docker</span>
+                        <span class="skill-item">Kubernetes</span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -65,8 +77,10 @@
             <div class="art-a art-service-icon-box">
                 <div class="art-service-ib-content">
                     <h5 class="mb-15">Database Management</h5>
-                    <div class="mb-15">Choosing between PostgreSQL, MySQL and MongoDB
-                        depending on the needs of the application.
+                    <div class="skills">
+                        <span class="skill-item">MySQL</span>
+                        <span class="skill-item">PostgreSQL</span>
+                        <span class="skill-item">MongoDB</span>
                     </div>
                 </div>
             </div>
@@ -78,8 +92,11 @@
             <div class="art-a art-service-icon-box">
                 <div class="art-service-ib-content">
                     <h5 class="mb-15">UI / UX Design</h5>
-                    <div class="mb-15">At first I started prototyping application using Adobe XD, but with Figma
-                        things got more interesting and innovative.</div>
+                    <div class="skills">
+                        <span class="skill-item">Adobe XD</span>
+                        <span class="skill-item">Figma</span>
+                        <span class="skill-item">Photoshop</span>
+                    </div>
                 </div>
             </div>
         </div>
