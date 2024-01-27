@@ -169,18 +169,19 @@
                         <div class="art-card-header">
                             <div class="art-left-side">
                                 <h5>Orbite Holding</h5>
-                                <div class="art-el-suptitle mb-15">Software Developer</div>
+                                <div class="art-el-suptitle mb-15">Lead Software Developer</div>
                             </div>
                             <div class="art-right-side">
                                 <span class="art-date">Aug 2022 - Nov 2023</span>
                             </div>
                         </div>
                         <p>
-                            <li>Prototype new application using Adobe XD</li>
-                            <li>Turned UI designs into working applications</li>
-                            <li>Continuous integration/deployment pipeline integration</li>
-                            <li>Provided proper documentation and reporting</li>
-                            <li>Recommended solutions</li>
+                            <li>Ensured that all stages of the software development lifecycle were properly documented
+                                and reported</li>
+                            <li>Continuous integration / deployment pipeline integration, pull requests, code reviews
+                                and unit / integration
+                                testing</li>
+                            <li>Recommended solutions for a streamlined, user-friendly interface to the design team</li>
                         </p>
                     </div>
                 </div>
@@ -201,10 +202,10 @@
                             </div>
                         </div>
                         <p>
-                            <li>Worked with back-end developers and UX designers to design, build, test and improve web
-                                applications</li>
+                            <li>Worked with back-end developers and UX designers to design, build, test and improve web applications.</li>
                             <li>Converted UI designs into web or mobile applications</li>
-                            <li>Trained new software developers</li>
+                            <li>Worked as a part time web developer instructor</li>
+                            <li>Conducted online training and prepared coding exercises for students</li>
                         </p>
                     </div>
                 </div>
@@ -225,8 +226,8 @@
                             </div>
                         </div>
                         <p>
-                            <li>Debug existing code to improve application performance and user experience.</li>
-                            <li>Continuous integration/deployment pipeline integration, pull requests and code reviews.
+                            <li>Modify the existing application and implement new features using modern techniques and tools</li>
+                            <li>Continuous integration/deployment pipeline integration, pull requests and code reviews
                             </li>
                         </p>
                     </div>
@@ -248,10 +249,9 @@
                             </div>
                         </div>
                         <p>
-                            <li>Learn to code with React and React Native</li>
-                            <li>Modify the existing application and implement new features using modern techniques and
-                                tools</li>
-                            <li>Provide daily stand-up notes task done</li>
+                            <li>Learn to code and debug apps using React and React Native</li>
+                            <li>Worked remotely with developers, designers and product managers to achieve our goals</li>
+                            <li>Debug existing code to improve application performance and user experience</li>
                         </p>
                     </div>
                 </div>
