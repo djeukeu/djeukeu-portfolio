@@ -9,11 +9,11 @@
                         <h1 class="mb-15">Discover my amazing <br>Project Space</h1>
                         <div class="art-lg-text art-code mb-25">&lt;<i>code</i>&gt; I
                             <span class="txt-rotate" data-period="2000"
-                                data-rotate='[ "build web application.", "build ios and android applications.", " design mockups.", "use automation tools." ]'></span>&lt;/<i>code</i>&gt;
+                                data-rotate='[ "build amazing websites.", "build iOS and Android applications.", " design beautiful UIs.", "automate my projects." ]'></span>&lt;/<i>code</i>&gt;
                         </div>
                         <div class="art-buttons-frame">
-                            <a href="/projects" class="art-btn art-btn-md"><span>Explore Projects</span></a>
-                            <a href="/contact" class="art-link art-white-link art-w-chevron">Contact me</a>
+                            <a href="/contact" class="art-btn art-btn-md"><span>Contact Me</span></a>
+                            <a href="/about-me" class="art-link art-white-link art-w-chevron">About Me</a>
                         </div>
                     </div>
                     <img src="{{ asset('img/face-2.png') }}" class="art-banner-photo" alt="Your Name">
