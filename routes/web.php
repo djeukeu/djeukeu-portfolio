@@ -29,8 +29,6 @@ Route::prefix('projects')->group(function () {
 Route::get('/contact', [ContactController::class, 'index'])->name('contact.index');
 Route::post('/contact', [ContactController::class, 'send_message'])->name('contact.send');
 
-Route::view('/about-me', 'about-me');
-
 Route::prefix('blog')->group(function () {
     Route::view('/', 'blog');
     Route::get('/{id}', function ($id) {

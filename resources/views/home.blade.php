@@ -5,6 +5,10 @@
     @include('sections.banner')
     <!-- banner -->
 
+    <!-- about me -->
+    @include('sections.about-me')
+    <!-- about me -->
+
     <!-- counter -->
     {{-- @include('layouts.counter') --}}
     <!-- counter -->
