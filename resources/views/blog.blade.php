@@ -11,7 +11,7 @@
             <div class="col-lg-12">
                 <div class="art-section-title">
                     <div class="art-title-frame">
-                        <h4>Blog</h4>
+                        <h4>Newsletter</h4>
                     </div>
                 </div>
             </div>
