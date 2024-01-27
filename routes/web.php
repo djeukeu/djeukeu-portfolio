@@ -1,6 +1,6 @@
 <?php
 
-use App\Http\Controllers\HomeController;
+use App\Http\Controllers\ContactController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,8 +14,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', [HomeController::class, 'index'])->name('home.index');
-Route::post('/', [HomeController::class, 'send_message'])->name('home.contact');
+Route::view('/', 'home');
 
 Route::prefix('projects')->group(function () {
     Route::view('/', 'projects');
@@ -27,4 +26,13 @@ Route::prefix('projects')->group(function () {
     Route::view('/ekoh-web', 'ekoh-web');
 });
 
-Route::view('/contact', 'contact');
+Route::get('/contact', [ContactController::class, 'index'])->name('contact.index');
+Route::post('/contact', [ContactController::class, 'send_message'])->name('contact.send');
+
+Route::prefix('blog')->group(function () {
+    Route::view('/', 'blog');
+    Route::get('/{id}', function ($id) {
+        // abort_if(!isset($post[$id]), 404);
+        return view('blog.post');
+    })->name('blog.post');
+});

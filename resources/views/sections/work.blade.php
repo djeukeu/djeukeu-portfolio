@@ -1,82 +1,28 @@
 <div class="container-fluid">
 
-    <div class="row p-30-0">
+    <!-- header -->
 
-        <!-- header -->
+    <div class="row p-30-0">
         <div class="col-lg-12">
             <div class="art-section-title">
                 <div class="art-title-frame">
-                    <h4>Projects</h4>
+                    <h4>Featured Projects</h4>
                 </div>
                 <div class="art-right-frame">
-                    <div class="art-filter">
-                        <a href="#" data-filter="*" class="art-link art-current">All</a>
-                        <a href="#" data-filter=".mobileTemplates" class="art-link">Mobile</a>
-                        <a href="#" data-filter=".webTemplates" class="art-link">Web</a>
-                        <a href="#" data-filter=".uiTemplates" class="art-link">UI Designs</a>
-                    </div>
+                    <a href="/projects" class="art-link art-color-link art-w-chevron">More Projects</a>
                 </div>
             </div>
         </div>
         <!-- header -->
 
-        <div class="art-grid art-grid-3-col art-gallery">
+        <div class="art-grid art-grid-2-col art-gallery">
 
-            <!-- mobile items-->
-            <!-- single mobile item-->
-            <div class="art-grid-item mobileTemplates">
-                <a data-fancybox="gallery" data-no-swup href="{{ asset('client/img/projects/ekoh/arrah-2.png') }}"
-                    class="art-a art-portfolio-item-frame art-square">
-                    <img src="{{ asset('client/img/projects/ekoh/arrah-2.png') }}" alt="item">
-                    <span class="art-item-hover"><i class="fas fa-expand"></i></span>
-                </a>
-                <div class="art-item-description">
-                    <h5 class="mb-15">Ekoh Mobile</h5>
-                    <div class="mb-15">Ekoh, meaning music in an African dialect, is an African owned online music
-                        store.</div>
-                    <a href="/projects/ekoh-mobile" class="art-link art-color-link art-w-chevron">Read more</a>
-                </div>
-            </div>
-            <!-- single mobile item-->
-
-            <!-- single mobile item-->
-            <div class="art-grid-item mobileTemplates">
+            <!-- single item -->
+            <div class="art-grid-item webTemplates">
                 <a data-fancybox="gallery" data-no-swup
-                    href="{{ asset('client/img/projects/flexipay/flexipay-4.png') }}"
-                    class="art-a art-portfolio-item-frame art-square">
-                    <img src="{{ asset('client/img/projects/flexipay/flexipay-4.png') }}" alt="item">
-                    <span class="art-item-hover"><i class="fas fa-expand"></i></span>
-                </a>
-                <div class="art-item-description">
-                    <h5 class="mb-15">FlexiPay</h5>
-                    <div class="mb-15">FlexiPay is a payment management app owned by Flexicol</div>
-                    <a href="/projects/flexipay" class="art-link art-color-link art-w-chevron">Read more</a>
-                </div>
-            </div>
-            <!-- single mobile item-->
-
-            <!-- single mobile item-->
-            <div class="art-grid-item mobileTemplates">
-                <a data-fancybox="gallery" data-no-swup href="{{ asset('client/img/projects/ttm/ttm-6.png') }}"
-                    class="art-a art-portfolio-item-frame art-square">
-                    <img src="{{ asset('client/img/projects/ttm/ttm-6.png') }}" alt="item">
-                    <span class="art-item-hover"><i class="fas fa-expand"></i></span>
-                </a>
-                <div class="art-item-description">
-                    <h5 class="mb-15">Tchang Tchang Money</h5>
-                    <div class="mb-15">Tchang Tchang money is an innovative, efficient, secure and
-                        very easy-to-use electronic payment solution.</div>
-                    <a href="/projects/tchangtchangmoney" class="art-link art-color-link art-w-chevron">Read more</a>
-                </div>
-            </div>
-            <!-- single mobile item-->
-
-            <!-- single mobile item-->
-            <div class="art-grid-item mobileTemplates">
-                <a data-fancybox="gallery" data-no-swup
-                    href="{{ asset('client/img/projects/cook-and-share/cook-and-share-3.png') }}"
-                    class="art-a art-portfolio-item-frame art-square">
-                    <img src="{{ asset('client/img/projects/cook-and-share/cook-and-share-3.png') }}" alt="item">
+                    href="{{ asset('img/projects/cook-and-share/cook-and-share-3.png') }}"
+                    class="art-a art-portfolio-item-frame art-horizontal">
+                    <img src="{{ asset('img/projects/cook-and-share/cook-and-share-3.png') }}" alt="item">
                     <span class="art-item-hover"><i class="fas fa-expand"></i></span>
                 </a>
                 <div class="art-item-description">
@@ -86,73 +32,28 @@
                     <a href="/projects/cook-and-share" class="art-link art-color-link art-w-chevron">Read more</a>
                 </div>
             </div>
-            <!-- single mobile item-->
+            <!-- single item-->
 
-            <!-- single mobile item-->
-            <div class="art-grid-item mobileTemplates">
-                <a data-fancybox="gallery" data-no-swup
-                    href="{{ asset('client/img/projects/genius-home/genius-home-1.png') }}"
-                    class="art-a art-portfolio-item-frame art-square">
-                    <img src="{{ asset('client/img/projects/genius-home/genius-home-1.png') }}" alt="item">
-                    <span class="art-item-hover"><i class="fas fa-expand"></i></span>
-                </a>
-                <div class="art-item-description">
-                    <h5 class="mb-15">Genius Home</h5>
-                    <div class="mb-15">Become a genius through repetitive learning using the Genius Home App.</div>
-                    <a href="/projects/genius-home" class="art-link art-color-link art-w-chevron">Read more</a>
-                </div>
-            </div>
-            <!-- single mobile item-->
-
-
-            <!-- mobile items-->
-
-            <!-- web items -->
-            <!-- single web item -->
+            <!-- single item -->
             <div class="art-grid-item webTemplates">
-                <a data-fancybox="gallery" data-no-swup href="{{ asset('client/img/projects/ekoh/arrah-2.png') }}"
-                    class="art-a art-portfolio-item-frame art-square">
-                    <img src="{{ asset('client/img/projects/ekoh/arrah-2.png') }}" alt="item">
+                <a data-fancybox="gallery" data-no-swup href="{{ asset('img/projects/ekoh/arrah-2.png') }}"
+                    class="art-a art-portfolio-item-frame art-horizontal">
+                    <img src="{{ asset('img/projects/ekoh/arrah-2.png') }}" alt="item">
                     <span class="art-item-hover"><i class="fas fa-expand"></i></span>
                 </a>
                 <div class="art-item-description">
-                    <h5 class="mb-15">Ekoh Web</h5>
+                    <h5 class="mb-15">Ekoh Mobile</h5>
                     <div class="mb-15">Ekoh, meaning music in an African dialect, is an African owned online music
                         store.</div>
-                    <a href="/projects/ekoh-web" class="art-link art-color-link art-w-chevron">Read more</a>
+                    <a href="/projects/ekoh-mobile" class="art-link art-color-link art-w-chevron">Read more</a>
                 </div>
-
             </div>
-            <!-- single web item -->
-            <!-- web items -->
+            <!-- single item-->
 
-            <!-- ui items -->
-            <!-- single ui item -->
-            <div class="art-grid-item uiTemplates">
-                <!-- grid item frame -->
-                <a data-fancybox="gallery" data-no-swup href="{{ asset('client/img/works/original-size/3.jpg') }}"
-                    class="art-a art-portfolio-item-frame art-square">
-                    <!-- img -->
-                    <img src="{{ asset('client/img/works/original-size/3.jpg') }}" alt="item">
-                    <!-- zoom icon -->
-                    <span class="art-item-hover"><i class="fas fa-expand"></i></span>
-                </a>
-                <!-- grid item frame end -->
-                <!-- description -->
-                <div class="art-item-description">
-                    <!-- title -->
-                    <h5 class="mb-15">Afritude</h5>
-                    <div class="mb-15">Sit amet, consectetur adipisicing elit. Quas, architecto.</div>
-                    <!-- button -->
-                    <a href="#" class="art-link art-color-link art-w-chevron">Read more</a>
-                </div>
-                <!-- description end -->
-
-            </div>
-            <!-- single ui item -->
 
         </div>
 
     </div>
+    <!-- row end -->
 
 </div>

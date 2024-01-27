@@ -5,6 +5,10 @@
     @include('sections.banner')
     <!-- banner -->
 
+    <!-- about me -->
+    @include('sections.about-me')
+    <!-- about me -->
+
     <!-- counter -->
     {{-- @include('layouts.counter') --}}
     <!-- counter -->
@@ -22,10 +26,10 @@
     <!-- education-->
 
     <!-- blog -->
-    {{-- @include('layouts.blog') --}}
+    @include('sections.blog')
     <!-- blog -->
 
-    <!-- contact -->
-    @include('sections.contact')
-    <!-- contact -->
+    <!-- subscribe -->
+    {{-- @include('sections.subscribe') --}}
+    <!-- subscribe -->
 @endsection
