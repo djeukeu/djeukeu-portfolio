@@ -31,8 +31,10 @@ Route::post('/contact', [ContactController::class, 'send_message'])->name('conta
 
 Route::view('/about-me', 'about-me');
 
-Route::view('/blog', 'blog');
-Route::get('/blog/{id}', function ($id) {
-    // abort_if(!isset($post[$id]), 404);
-    return view('post');
-})->name('blog.post');
+Route::prefix('blog')->group(function () {
+    Route::view('/', 'blog');
+    Route::get('/{id}', function ($id) {
+        // abort_if(!isset($post[$id]), 404);
+        return view('blog.post');
+    })->name('blog.post');
+});

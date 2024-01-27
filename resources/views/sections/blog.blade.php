@@ -9,7 +9,7 @@
         <div class="col-lg-12">
             <div class="art-section-title">
                 <div class="art-title-frame">
-                    <h4>Blog</h4>
+                    <h4>Newsletter</h4>
                 </div>
                 <div class="art-right-frame">
                     <a href="/blog" class="art-link art-color-link art-w-chevron">All publications</a>
