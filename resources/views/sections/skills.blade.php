@@ -6,7 +6,7 @@
         <div class="col-lg-12">
             <div class="art-section-title">
                 <div class="art-title-frame">
-                    <h4>My Skills</h4>
+                    <h4>Skills</h4>
                 </div>
             </div>
         </div>
@@ -48,7 +48,7 @@
                 <div class="art-service-ib-content">
                     <h5 class="mb-15">Backend Development</h5>
                     <div class="skills">
-                        <span class="skill-item">NodeJS</span>
+                        <span class="skill-item">Node.js</span>
                         <span class="skill-item">Spring Boot</span>
                         <span class="skill-item">Python</span>
                     </div>

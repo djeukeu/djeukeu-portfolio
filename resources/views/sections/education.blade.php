@@ -156,7 +156,7 @@
 
             <div class="art-section-title">
                 <div class="art-title-frame">
-                    <h4>My Experience</h4>
+                    <h4>Experience</h4>
                 </div>
             </div>
             <div class="art-timeline">
@@ -183,6 +183,18 @@
                                 testing</li>
                             <li>Recommended solutions for a streamlined, user-friendly interface to the design team</li>
                         </p>
+                        <div class="skills">
+                            <span class="skill-item">Jira</span>
+                            <span class="skill-item">React</span>
+                            <span class="skill-item">React-Native</span>
+                            <span class="skill-item">AWS</span>
+                            <span class="skill-item">Github Actions</span>
+                            <span class="skill-item">Typescript</span>
+                            <span class="skill-item">Node.js</span>
+                            <span class="skill-item">Apollo Federation</span>
+                            <span class="skill-item">PostgreSQL</span>
+                            <span class="skill-item">Apache Kafka</span>
+                        </div>
                     </div>
                 </div>
                 <!-- Single Experience -->
@@ -202,11 +214,25 @@
                             </div>
                         </div>
                         <p>
-                            <li>Worked with back-end developers and UX designers to design, build, test and improve web applications.</li>
+                            <li>Worked with back-end developers and UX designers to design, build, test and improve web
+                                applications.</li>
                             <li>Converted UI designs into web or mobile applications</li>
                             <li>Worked as a part time web developer instructor</li>
                             <li>Conducted online training and prepared coding exercises for students</li>
                         </p>
+                        <div class="skills">
+                            <span class="skill-item">React</span>
+                            <span class="skill-item">React-Native</span>
+                            <span class="skill-item">Sentry</span>
+                            <span class="skill-item">JAVA</span>
+                            <span class="skill-item">Python</span>
+                            <span class="skill-item">Spring Boot</span>
+                            <span class="skill-item">AWS</span>
+                            <span class="skill-item">Docker</span>
+                            <span class="skill-item">Flutter</span>
+                            <span class="skill-item">Stripe</span>
+                            <span class="skill-item">MySQL</span>
+                        </div>
                     </div>
                 </div>
                 <!-- Single Experience -->
@@ -226,10 +252,22 @@
                             </div>
                         </div>
                         <p>
-                            <li>Modify the existing application and implement new features using modern techniques and tools</li>
+                            <li>Modify the existing application and implement new features using modern techniques and
+                                tools</li>
                             <li>Continuous integration/deployment pipeline integration, pull requests and code reviews
                             </li>
                         </p>
+                        <div class="skills">
+                            <span class="skill-item">React-Native</span>
+                            <span class="skill-item">Fastlane</span>
+                            <span class="skill-item">Node.js</span>
+                            <span class="skill-item">Apollo Federation</span>
+                            <span class="skill-item">Apache Kafka</span>
+                            <span class="skill-item">Docker</span>
+                            <span class="skill-item">AWS</span>
+                            <span class="skill-item">TimescaleDB</span>
+                            <span class="skill-item">Python</span>
+                        </div>
                     </div>
                 </div>
                 <!-- Single Experience -->
@@ -250,35 +288,24 @@
                         </div>
                         <p>
                             <li>Learn to code and debug apps using React and React Native</li>
-                            <li>Worked remotely with developers, designers and product managers to achieve our goals</li>
+                            <li>Worked remotely with developers, designers and product managers to achieve our goals
+                            </li>
                             <li>Debug existing code to improve application performance and user experience</li>
                         </p>
-                    </div>
-                </div>
-                <!-- Single Experience -->
-
-                <!-- Single Experience -->
-                <div class="art-timeline-item">
-                    <div class="art-timeline-mark-light"></div>
-                    <div class="art-timeline-mark"></div>
-                    <div class="art-a art-timeline-content">
-                        <div class="art-card-header">
-                            <div class="art-left-side">
-                                <h5>Institut Africain D'Injection Diesel</h5>
-                                <div class="art-el-suptitle mb-15">IT Support Technician</div>
-                            </div>
-                            <div class="art-right-side">
-                                <span class="art-date">Oct 2020 - Apr 2021</span>
-                            </div>
+                        <div class="skills">
+                            <span class="skill-item">React</span>
+                            <span class="skill-item">React-Native</span>
+                            <span class="skill-item">Lighthouse</span>
+                            <span class="skill-item">Sentry</span>
+                            <span class="skill-item">Node.js</span>
+                            <span class="skill-item">Apollo Server</span>
+                            <span class="skill-item">GraphQL</span>
+                            <span class="skill-item">Jira</span>
+                            <span class="skill-item">Docker</span>
                         </div>
-                        <p>
-                            <li>Troubleshooting and diagnosing computer software issues</li>
-                            <li>Providing remote support during the COVID crisis</li>
-                        </p>
                     </div>
                 </div>
                 <!-- Single Experience -->
-
 
             </div>
 
