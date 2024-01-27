@@ -25,7 +25,7 @@
     @include('sections.blog')
     <!-- blog -->
 
-    <!-- contact -->
-    @include('sections.contact')
-    <!-- contact -->
+    <!-- subscribe -->
+    {{-- @include('sections.subscribe') --}}
+    <!-- subscribe -->
 @endsection
