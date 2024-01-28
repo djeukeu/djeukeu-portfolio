@@ -26,7 +26,7 @@
     <!-- education-->
 
     <!-- blog -->
-    @include('sections.blog')
+    {{-- @include('sections.blog') --}}
     <!-- blog -->
 
     <!-- subscribe -->
