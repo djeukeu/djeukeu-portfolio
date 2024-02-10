@@ -10,7 +10,7 @@
             <!-- contact form -->
             <div class="art-a art-card">
                 <p class="mb-15">Subscribe to get latest news and update</p>
-                <form id="form" class="art-contact-form" action="{{ route('contact.send') }}">
+                <form id="form" class="art-contact-form">
                     <input type="hidden" id="token" value="{{ @csrf_token() }}">
 
                     <!-- form field -->

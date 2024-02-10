@@ -21,9 +21,9 @@
                         <div class="contact-info">
                             <h6>Email: <span><a href="mailto:christian@djeukeu.com"
                                         data-no-swup>christian@djeukeu.com</a></span></h6>
-                            <h6>Tel: <span><a href="tel:+4407455363235" data-no-swup>+44 (074) 55 363 235</a></span></h6>
+                            <h6>Tel: <span><a href="tel:+4407455363235" data-no-swup>+44 (0)74 55 363 235</a></span></h6>
                             <h6>WhatsApp: <span><a href="https://wa.me/+4407455363235" target="_blank" data-no-swup>+44
-                                        (074) 55 363 235</a></span></h6>
+                                        (0)74 55 363 235</a></span></h6>
                         </div>
                     </div>
                 </div>
