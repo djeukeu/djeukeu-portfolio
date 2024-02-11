@@ -30,6 +30,6 @@
     <!-- blog -->
 
     <!-- subscribe -->
-    @include('sections.subscribe')
+    {{-- @include('sections.subscribe') --}}
     <!-- subscribe -->
 @endsection
