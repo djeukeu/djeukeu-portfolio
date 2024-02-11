@@ -39,7 +39,7 @@
 
                 <!-- contact form -->
                 <div class="art-a art-card">
-                    <form id="form" class="art-contact-form" action="{{ route('contact.send') }}">
+                    <form id="form" class="art-contact-form" action="{{ route('contact.send') }}" method="POST">
                         <input type="hidden" id="token" value="{{ @csrf_token() }}">
                         <!-- form field -->
                         <div class="art-form-field">
