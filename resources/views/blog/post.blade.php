@@ -113,5 +113,5 @@
         </div>
     </div>
 
-    @include('sections.subscribe')
+    {{-- @include('sections.subscribe') --}}
 @endsection
