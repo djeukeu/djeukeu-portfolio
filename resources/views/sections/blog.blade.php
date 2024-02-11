@@ -4,7 +4,7 @@
 
 <div class="container-fluid">
 
-    <div class="row">
+    <div class="row mb-15">
 
         <div class="col-lg-12">
             <div class="art-section-title">

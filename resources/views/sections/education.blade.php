@@ -84,14 +84,14 @@
                     <div class="art-a art-timeline-content">
                         <div class="art-card-header">
                             <div class="art-left-side">
-                                <h5>NodeJS</h5>
+                                <h5>Node.js</h5>
                                 <div class="art-el-suptitle mb-15">Udemy</div>
                             </div>
                             <div class="art-right-side">
                                 <span class="art-date">Issued Dec 2023</span>
                             </div>
                         </div>
-                        <p>This certificate indicates that I have completed the entire NodeJS - The Complete Guide (MVC,
+                        <p>This certificate indicates that I have completed the entire Node.js - The Complete Guide (MVC,
                             REST APIs, GraphQL, Deno) course.</p>
                         <a data-no-swup target="_blank"
                             href="https://www.udemy.com/certificate/UC-0d4f345f-bf71-45be-9acb-32cfe154fa66/"
@@ -169,7 +169,7 @@
                         <div class="art-card-header">
                             <div class="art-left-side">
                                 <h5>Orbite Holding</h5>
-                                <div class="art-el-suptitle mb-15">Lead Software Developer</div>
+                                <div class="art-el-suptitle mb-15">Software Developer</div>
                             </div>
                             <div class="art-right-side">
                                 <span class="art-date">Aug 2022 - Nov 2023</span>

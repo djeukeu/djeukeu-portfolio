@@ -4,7 +4,7 @@
 
         <div class="art-info-bar-header">
             <div class="art-info-bar-btn">
-                <i class="fas fa-ellipsis-v"></i>
+                <i class="fas fa-bars"></i>
             </div>
         </div>
 
@@ -24,6 +24,49 @@
 
         <div id="scrollbar2" class="art-scroll-frame">
 
+            <div class="art-table p-15-15">
+                <ul>
+                    <li>
+                        <h6>Residence:</h6><span>United Kingdom</span>
+                    </li>
+                    <li>
+                        <h6>City:</h6><span>Leeds</span>
+                    </li>
+                    <li>
+                        <h6>Age:</h6><span><?php $dob = '2000-01-12';
+                        $year = date('Y') - date('Y', strtotime($dob));
+                        echo $year;
+                        ?></span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="art-ls-divider"></div>
+
+            <!-- language skills-->
+            <div class="art-lang-skills p-30-15">
+
+                <!-- skill -->
+                <div class="art-lang-skills-item">
+                    <div id="circleprog1" class="art-cirkle-progress"></div>
+                    <h6>English</h6>
+                </div>
+                <!-- skill -->
+
+                <!-- skill -->
+                <div class="art-lang-skills-item">
+                    <div id="circleprog2" class="art-cirkle-progress"></div>
+                    <h6>French</h6>
+                </div>
+                <!-- skill  -->
+
+            </div>
+            <!-- language skills -->
+
+            <!-- divider -->
+            <div class="art-ls-divider"></div>
+
+
             <div class="art-hard-skills p-30-15">
 
                 <!-- single skill -->
@@ -40,7 +83,7 @@
                 <!-- single skill -->
                 <div class="art-hard-skills-item">
                     <div class="art-skill-heading">
-                        <h6>UI / UX Development</h6>
+                        <h6>UI / UX Design</h6>
                     </div>
                     <div class="art-line-progress">
                         <div id="lineprog4"></div>
@@ -70,8 +113,6 @@
                 </div>
                 <!-- single skill -->
 
-
-
                 <!-- single skill -->
                 <div class="art-hard-skills-item">
                     <div class="art-skill-heading">
@@ -95,30 +136,6 @@
                 <!-- single skill -->
 
             </div>
-
-
-            <!-- divider -->
-            <div class="art-ls-divider"></div>
-
-            <!-- language skills-->
-            <div class="art-lang-skills p-30-15">
-
-                <!-- skill -->
-                <div class="art-lang-skills-item">
-                    <div id="circleprog1" class="art-cirkle-progress"></div>
-                    <h6>English</h6>
-                </div>
-                <!-- skill -->
-
-                <!-- skill -->
-                <div class="art-lang-skills-item">
-                    <div id="circleprog2" class="art-cirkle-progress"></div>
-                    <h6>French</h6>
-                </div>
-                <!-- skill  -->
-
-            </div>
-            <!-- language skills -->
 
             <!-- divider -->
             <div class="art-ls-divider"></div>

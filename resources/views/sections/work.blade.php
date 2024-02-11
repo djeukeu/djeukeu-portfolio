@@ -2,7 +2,7 @@
 
     <!-- header -->
 
-    <div class="row p-30-0">
+    <div class="row">
         <div class="col-lg-12">
             <div class="art-section-title">
                 <div class="art-title-frame">

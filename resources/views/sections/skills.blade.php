@@ -1,7 +1,6 @@
 <div class="container-fluid">
 
-    <div class="p-30-0"></div>
-    <div class="row ">
+    <div class="row">
 
         <div class="col-lg-12">
             <div class="art-section-title">

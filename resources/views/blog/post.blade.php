@@ -64,7 +64,6 @@
         </div>
     </div>
 
-
     <div class="container-fluid">
         <div class="row p-30-0 mb-15">
             <div class="col-lg-12">
@@ -113,4 +112,6 @@
             </div>
         </div>
     </div>
+
+    {{-- @include('sections.subscribe') --}}
 @endsection
