@@ -4,7 +4,7 @@
 
         <div class="art-info-bar-header">
             <div class="art-info-bar-btn">
-                <i class="fas fa-ellipsis-v"></i>
+                <i class="fas fa-bars"></i>
             </div>
         </div>
 
