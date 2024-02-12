@@ -5,21 +5,17 @@
     @include('sections.banner')
     <!-- banner -->
 
-    <!-- about me -->
-    @include('sections.about-me')
-    <!-- about me -->
-
     <!-- counter -->
-    {{-- @include('layouts.counter') --}}
+    {{-- @include('sections.counter') --}}
     <!-- counter -->
-
-    <!-- skills -->
-    @include('sections.skills')
-    <!-- skills -->
 
     <!-- work -->
     @include('sections.work')
     <!-- work-->
+
+    <!-- skills -->
+    @include('sections.skills')
+    <!-- skills -->
 
     <!-- blog -->
     @include('sections.blog')

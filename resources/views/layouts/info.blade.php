@@ -30,9 +30,6 @@
                         <h6>Residence:</h6><span>United Kingdom</span>
                     </li>
                     <li>
-                        <h6>City:</h6><span>Leeds</span>
-                    </li>
-                    <li>
                         <h6>Age:</h6><span><?php $dob = '2000-01-12';
                         $year = date('Y') - date('Y', strtotime($dob));
                         echo $year;

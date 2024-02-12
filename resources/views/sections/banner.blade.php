@@ -13,6 +13,7 @@
                         </div>
                         <div class="art-buttons-frame">
                             <a href="/contact" class="art-btn art-btn-md"><span>Contact Me</span></a>
+                            <a href="/about" class="art-link art-white-link art-w-chevron">About Me</a>
                         </div>
                     </div>
                     <img src="{{ asset('img/face-2.png') }}" class="art-banner-photo" alt="Your Name">

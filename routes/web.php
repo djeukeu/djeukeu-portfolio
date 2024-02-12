@@ -16,6 +16,9 @@ use Illuminate\Support\Facades\Route;
 
 Route::view('/', 'home');
 
+Route::view('/about', 'about');
+
+
 Route::prefix('projects')->group(function () {
     Route::view('/', 'projects');
     Route::view('/ekoh-mobile', 'ekoh-mobile');

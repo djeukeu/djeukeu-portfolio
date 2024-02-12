@@ -15,11 +15,8 @@
             <div class="art-a art-service-icon-box">
                 <div class="art-service-ib-content">
                     <h5 class="mb-15">Mobile Development</h5>
-                    <div class="skills">
-                        <span class="skill-item">React-Native</span>
-                        <span class="skill-item">Flutter</span>
-                        <span class="skill-item">Fastlane</span>
-                    </div>
+                    <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus esse commodi deserunt vitae,
+                        vero quasi! Veniam quaerat tenetur pariatur doloribus.</div>
                 </div>
             </div>
         </div>
@@ -30,11 +27,8 @@
             <div class="art-a art-service-icon-box">
                 <div class="art-service-ib-content">
                     <h5 class="mb-15">Web Development</h5>
-                    <div class="skills">
-                        <span class="skill-item">HTML, CSS & JS</span>
-                        <span class="skill-item">React</span>
-                        <span class="skill-item">Angular</span>
-                    </div>
+                    <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus esse commodi deserunt vitae,
+                        vero quasi! Veniam quaerat tenetur pariatur doloribus.</div>
                 </div>
             </div>
         </div>
@@ -46,11 +40,8 @@
             <div class="art-a art-service-icon-box">
                 <div class="art-service-ib-content">
                     <h5 class="mb-15">Backend Development</h5>
-                    <div class="skills">
-                        <span class="skill-item">Node.js</span>
-                        <span class="skill-item">Spring Boot</span>
-                        <span class="skill-item">Python</span>
-                    </div>
+                    <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus esse commodi deserunt vitae,
+                        vero quasi! Veniam quaerat tenetur pariatur doloribus.</div>
                 </div>
             </div>
         </div>
@@ -61,11 +52,8 @@
             <div class="art-a art-service-icon-box">
                 <div class="art-service-ib-content">
                     <h5 class="mb-15">Cloud Computing</h5>
-                    <div class="skills">
-                        <span class="skill-item">AWS</span>
-                        <span class="skill-item">Docker</span>
-                        <span class="skill-item">Kubernetes</span>
-                    </div>
+                    <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus esse commodi deserunt vitae,
+                        vero quasi! Veniam quaerat tenetur pariatur doloribus.</div>
                 </div>
             </div>
         </div>
@@ -76,11 +64,8 @@
             <div class="art-a art-service-icon-box">
                 <div class="art-service-ib-content">
                     <h5 class="mb-15">Database Management</h5>
-                    <div class="skills">
-                        <span class="skill-item">MySQL</span>
-                        <span class="skill-item">PostgreSQL</span>
-                        <span class="skill-item">MongoDB</span>
-                    </div>
+                    <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus esse commodi deserunt vitae,
+                        vero quasi! Veniam quaerat tenetur pariatur doloribus.</div>
                 </div>
             </div>
         </div>
@@ -91,11 +76,8 @@
             <div class="art-a art-service-icon-box">
                 <div class="art-service-ib-content">
                     <h5 class="mb-15">UI / UX Design</h5>
-                    <div class="skills">
-                        <span class="skill-item">Adobe XD</span>
-                        <span class="skill-item">Figma</span>
-                        <span class="skill-item">Photoshop</span>
-                    </div>
+                    <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus esse commodi deserunt vitae,
+                        vero quasi! Veniam quaerat tenetur pariatur doloribus.</div>
                 </div>
             </div>
         </div>
