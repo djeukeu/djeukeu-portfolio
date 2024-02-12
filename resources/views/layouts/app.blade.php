@@ -13,7 +13,7 @@
                 @include('layouts.info')
                 <div class="art-content">
                     <div class="art-curtain"></div>
-                    <div class="art-top-bg" style="background-image: url({{ asset('img/bg-2.png') }})">
+                    <div class="art-top-bg" style="background-image: url({{ asset('img/bg.png') }})">
                         <div class="art-top-bg-overlay"></div>
                     </div>
                     <div class="transition-fade" id="swup">

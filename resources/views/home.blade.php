@@ -21,15 +21,15 @@
     @include('sections.work')
     <!-- work-->
 
-    <!-- education -->
-    @include('sections.education')
-    <!-- education-->
-
     <!-- blog -->
     @include('sections.blog')
     <!-- blog -->
 
     <!-- subscribe -->
-    {{-- @include('sections.subscribe') --}}
+    @include('sections.subscribe')
     <!-- subscribe -->
+
+    <!-- education -->
+    @include('sections.education')
+    <!-- education-->
 @endsection
