@@ -18,6 +18,8 @@ Route::view('/', 'home');
 
 Route::view('/about', 'about');
 
+Route::view('/resume', 'resume');
+
 
 Route::prefix('projects')->group(function () {
     Route::view('/', 'projects');
@@ -29,9 +31,6 @@ Route::prefix('projects')->group(function () {
     Route::view('/ekoh-web', 'ekoh-web');
 });
 
-Route::get('/contact', [ContactController::class, 'index'])->name('contact.index');
-Route::post('/contact', [ContactController::class, 'send_message'])->name('contact.send');
-
 Route::prefix('blog')->group(function () {
     Route::view('/', 'blog');
     Route::get('/{id}', function ($id) {
@@ -39,3 +38,6 @@ Route::prefix('blog')->group(function () {
         return view('blog.post');
     })->name('blog.post');
 });
+
+Route::get('/contact', [ContactController::class, 'index'])->name('contact.index');
+Route::post('/contact', [ContactController::class, 'send_message'])->name('contact.send');

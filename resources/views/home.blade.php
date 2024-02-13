@@ -9,13 +9,13 @@
     {{-- @include('sections.counter') --}}
     <!-- counter -->
 
-    <!-- work -->
-    @include('sections.work')
-    <!-- work-->
-
     <!-- skills -->
     @include('sections.skills')
     <!-- skills -->
+
+    <!-- work -->
+    @include('sections.work')
+    <!-- work-->
 
     <!-- blog -->
     @include('sections.blog')
@@ -25,7 +25,4 @@
     @include('sections.subscribe')
     <!-- subscribe -->
 
-    <!-- education -->
-    @include('sections.education')
-    <!-- education-->
 @endsection
