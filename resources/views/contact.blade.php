@@ -40,7 +40,7 @@
                 <!-- contact form -->
                 <div class="art-a art-card">
                     <form id="form" class="art-contact-form" action="{{ route('contact.send') }}" method="POST">
-                        <input type="hidden" id="token" value="{{ @csrf_token() }}">
+                        @csrf
                         <!-- form field -->
                         <div class="art-form-field">
                             <input id="name" name="name" class="art-input" type="text"
@@ -73,6 +73,9 @@
                         </div>
                         <!-- form field end -->
 
+                        @if (session()->has('success'))
+                            <div class="art-form-success">Message sent <i class="fas fa-check"></i>
+                        @endif
                         <div class="art-form-success" style="display: none;">Message sent <i class="fas fa-check"></i>
                         </div>
                         <div class="art-submit-frame">
