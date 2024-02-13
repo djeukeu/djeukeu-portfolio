@@ -23,12 +23,12 @@ Route::view('/resume', 'resume');
 
 Route::prefix('projects')->group(function () {
     Route::view('/', 'projects');
-    Route::view('/ekoh-mobile', 'ekoh-mobile');
-    Route::view('/flexipay', 'flexipay');
-    Route::view('/tchangtchangmoney', 'tchangtchangmoney');
-    Route::view('/cook-and-share', 'cook-and-share');
-    Route::view('/genius-home', 'genius-home');
-    Route::view('/ekoh-web', 'ekoh-web');
+    Route::view('/ekoh-mobile', 'projects.ekoh-mobile');
+    Route::view('/flexipay', 'projects.flexipay');
+    Route::view('/tchangtchangmoney', 'projects.tchangtchangmoney');
+    Route::view('/cook-and-share', 'projects.cook-and-share');
+    Route::view('/genius-home', 'projects.genius-home');
+    Route::view('/ekoh-web', 'projects.ekoh-web');
 });
 
 Route::prefix('blog')->group(function () {
