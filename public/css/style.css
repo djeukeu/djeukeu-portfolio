@@ -3485,3 +3485,12 @@ html.is-animating .fade-left {
         margin: 4px 0;
     }
 }
+
+.skill-link.skill-color-link {
+    color: #3a529b;
+}
+/* line 230, ../scss/_common.scss */
+.skill-link.skill-color-link:hover {
+    color: #3a529b;
+    text-shadow: 0 0 3px rgba(112, 138, 213, 0.2);
+}

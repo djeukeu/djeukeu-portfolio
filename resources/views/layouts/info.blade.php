@@ -91,7 +91,7 @@
                 <!-- single skill -->
                 <div class="art-hard-skills-item">
                     <div class="art-skill-heading">
-                        <h6>Web Development</h6>
+                        <h6>Front-end Development</h6>
                     </div>
                     <div class="art-line-progress">
                         <div id="lineprog2"></div>
@@ -102,7 +102,7 @@
                 <!-- single skill -->
                 <div class="art-hard-skills-item">
                     <div class="art-skill-heading">
-                        <h6>Backend Development</h6>
+                        <h6>Back-end Development</h6>
                     </div>
                     <div class="art-line-progress">
                         <div id="lineprog3"></div>
