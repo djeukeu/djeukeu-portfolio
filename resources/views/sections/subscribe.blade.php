@@ -10,9 +10,8 @@
             <!-- contact form -->
             <div class="art-a art-card">
                 <p class="mb-15">Subscribe to get latest news and update</p>
-                <form id="form" class="art-contact-form">
-                    <input type="hidden" id="token" value="{{ @csrf_token() }}">
-
+                <form id="form" class="art-contact-form" action="{{ route('home.subscribe') }}" method="POST">
+                    @csrf
                     <!-- form field -->
                     <div class="art-form-field">
                         <input id="email" name="email" class="art-input" type="email" placeholder="Email"
