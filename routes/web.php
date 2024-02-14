@@ -44,5 +44,8 @@ Route::get('/contact', [ContactController::class, 'index'])->name('contact.index
 Route::post('/contact', [ContactController::class, 'send_message'])->name('contact.send');
 
 Route::get('/subscribe', function () {
-    dd(request()->hasValidSignature());
+    if (!request()->hasValidSignature()) {
+        abort(401);
+    }
+    return view('subscribe');
 })->name('subscribe');

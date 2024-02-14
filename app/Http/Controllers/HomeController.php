@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Mail\Subscribe;
+use App\Models\Subscriber;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\URL;
 
@@ -19,10 +20,28 @@ class HomeController extends Controller
             'name' => 'required|string',
             'email' => 'required|email',
         ]);
-        $data['url'] = URL::signedRoute('subscribe', ['user' => 1]);
 
-        Mail::to($data['email'])->send(new Subscribe($data));
+        $existSubscriber = Subscriber::where('email', $data['email'])->first();
 
+        if (!$existSubscriber) {
+            $subscriber = new Subscriber;
+            $subscriber->name = $data['name'];
+            $subscriber->email = $data['email'];
+            $subscriber->save();
+            $data['url'] = URL::temporarySignedRoute(
+                'subscribe',
+                now()->addMinutes(30),
+                ['token' => $subscriber->id]
+            );
+            Mail::to($data['email'])->send(new Subscribe($data));
+        } else {
+            $data['url'] = URL::temporarySignedRoute(
+                'subscribe',
+                now()->addMinutes(30),
+                ['token' => $existSubscriber->id]
+            );
+            Mail::to($data['email'])->send(new Subscribe($data));
+        }
         return redirect()->back()->with('success', 'message sent');
     }
 }
