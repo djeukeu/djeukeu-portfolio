@@ -15,6 +15,7 @@ class HomeController extends Controller
     public function subscribe()
     {
         $data = request()->validate([
+            'name' => 'required|string',
             'email' => 'required|email',
         ]);
         Mail::to($data['email'])->send(new Subscribe($data));
