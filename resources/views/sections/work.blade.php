@@ -1,7 +1,5 @@
 <div class="container-fluid">
 
-    <!-- header -->
-
     <div class="row">
         <div class="col-lg-12">
             <div class="art-section-title">
@@ -13,7 +11,6 @@
                 </div>
             </div>
         </div>
-        <!-- header -->
 
         <div class="art-grid art-grid-2-col art-gallery">
 

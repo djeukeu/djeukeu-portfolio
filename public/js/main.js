@@ -33,6 +33,11 @@ $(function () {
 
     // page loading
     $(document).ready(function () {
+        $.ajaxSetup({
+            headers: {
+                "X-CSRF-TOKEN": $('meta[name="csrf-token"]').attr("content"),
+            },
+        });
         anime({
             targets: ".art-preloader .art-preloader-content",
             opacity: [0, 1],
@@ -276,7 +281,6 @@ $(function () {
         $.post(
             url,
             {
-                _token: $("#token").val(),
                 name: $("#name").val(),
                 email: $("#email").val(),
                 message: $("#message").val(),

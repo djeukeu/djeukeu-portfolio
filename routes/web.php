@@ -1,6 +1,9 @@
 <?php
 
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\HomeController;
+use App\Models\Subscriber;
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,20 +17,22 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::view('/', 'home');
+Route::get('/', [HomeController::class, 'index'])->name('home.index');
+Route::post('/', [HomeController::class, 'subscribe'])->name('home.subscribe');
+
+Route::view('/about', 'about');
+
+Route::view('/resume', 'resume');
 
 Route::prefix('projects')->group(function () {
     Route::view('/', 'projects');
-    Route::view('/ekoh-mobile', 'ekoh-mobile');
-    Route::view('/flexipay', 'flexipay');
-    Route::view('/tchangtchangmoney', 'tchangtchangmoney');
-    Route::view('/cook-and-share', 'cook-and-share');
-    Route::view('/genius-home', 'genius-home');
-    Route::view('/ekoh-web', 'ekoh-web');
+    Route::view('/ekoh-mobile', 'projects.ekoh-mobile');
+    Route::view('/flexipay', 'projects.flexipay');
+    Route::view('/tchangtchangmoney', 'projects.tchangtchangmoney');
+    Route::view('/cook-and-share', 'projects.cook-and-share');
+    Route::view('/genius-home', 'projects.genius-home');
+    Route::view('/ekoh-web', 'projects.ekoh-web');
 });
-
-Route::get('/contact', [ContactController::class, 'index'])->name('contact.index');
-Route::post('/contact', [ContactController::class, 'send_message'])->name('contact.send');
 
 Route::prefix('blog')->group(function () {
     Route::view('/', 'blog');
@@ -36,3 +41,18 @@ Route::prefix('blog')->group(function () {
         return view('blog.post');
     })->name('blog.post');
 });
+
+Route::get('/contact', [ContactController::class, 'index'])->name('contact.index');
+Route::post('/contact', [ContactController::class, 'send_message'])->name('contact.send');
+
+Route::get('/subscribe', function (Request $request) {
+    if (! $request->hasValidSignature()) {
+        abort(404);
+    }
+    $userId = $request->query('token');
+    $subscriber = Subscriber::find($userId);
+    $subscriber->status = 'active';
+    $subscriber->save();
+
+    return view('subscribe');
+})->name('subscribe');
