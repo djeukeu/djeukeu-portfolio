@@ -2,7 +2,9 @@
 
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\HomeController;
+use App\Models\Subscriber;
 use Illuminate\Support\Facades\Route;
+use Illuminate\Http\Request;
 
 /*
 |--------------------------------------------------------------------------
@@ -43,9 +45,13 @@ Route::prefix('blog')->group(function () {
 Route::get('/contact', [ContactController::class, 'index'])->name('contact.index');
 Route::post('/contact', [ContactController::class, 'send_message'])->name('contact.send');
 
-Route::get('/subscribe', function () {
-    if (!request()->hasValidSignature()) {
+Route::get('/subscribe', function (Request $request) {
+    if (!$request->hasValidSignature()) {
         abort(401);
     }
+    $userId = $request->query('token');
+    $subscriber = Subscriber::find($userId);
+    $subscriber->status = 'active';
+    $subscriber->save();
     return view('subscribe');
 })->name('subscribe');

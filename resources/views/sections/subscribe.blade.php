@@ -32,8 +32,13 @@
                         @enderror
                     </div>
                     <!-- form field -->
-
-                    <div class="art-form-success mb-15" style="display: none;">Please check your inbox to confirm your email! <i class="fas fa-check"></i>
+                    @if (session()->has('success'))
+                        <div class="art-form-success mb-15">Please check your inbox to confirm your
+                            email! <i class="fas fa-check"></i>
+                        </div>
+                    @endif
+                    <div class="art-form-success mb-15" style="display: none;">Please check your inbox to confirm your
+                        email! <i class="fas fa-check"></i>
                     </div>
                     <div class="art-submit-frame">
                         <button class="art-btn art-btn-md art-submit" type="submit"><span>Subscribe <div
