@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Mail\Subscribe;
 use Illuminate\Support\Facades\Mail;
+use Illuminate\Support\Facades\URL;
 
 class HomeController extends Controller
 {
@@ -18,6 +19,8 @@ class HomeController extends Controller
             'name' => 'required|string',
             'email' => 'required|email',
         ]);
+        $data['url'] = URL::signedRoute('subscribe', ['user' => 1]);
+
         Mail::to($data['email'])->send(new Subscribe($data));
 
         return redirect()->back()->with('success', 'message sent');

@@ -276,7 +276,7 @@
                                                             <!--[if mso]><style>.v-button {background: transparent !important;}</style><![endif]-->
                                                             <div align="center">
                                                                 <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://unlayer.com" style="height:57px; v-text-anchor:middle; width:227px;" arcsize="16%"  stroke="f" fillcolor="#3a529b"><w:anchorlock/><center style="color:#FFFFFF;"><![endif]-->
-                                                                <a href="https://unlayer.com" target="_blank"
+                                                                <a href="{{ $data['url'] }}" target="_blank"
                                                                     class="v-button"
                                                                     style="box-sizing: border-box;display: inline-block;text-decoration: none;-webkit-text-size-adjust: none;text-align: center;color: #FFFFFF; background-color: #3a529b; border-radius: 9px;-webkit-border-radius: 9px; -moz-border-radius: 9px; width:auto; max-width:100%; overflow-wrap: break-word; word-break: break-word; word-wrap:break-word; mso-border-alt: none;font-size: 14px;">
                                                                     <span

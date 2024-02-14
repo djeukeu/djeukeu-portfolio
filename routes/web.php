@@ -42,3 +42,7 @@ Route::prefix('blog')->group(function () {
 
 Route::get('/contact', [ContactController::class, 'index'])->name('contact.index');
 Route::post('/contact', [ContactController::class, 'send_message'])->name('contact.send');
+
+Route::get('/subscribe', function () {
+    dd(request()->hasValidSignature());
+})->name('subscribe');
