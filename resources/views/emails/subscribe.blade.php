@@ -483,9 +483,10 @@
                                                             <div
                                                                 style="font-size: 14px; color: #ffffff; line-height: 210%; text-align: center; word-wrap: break-word;">
                                                                 <p style="line-height: 210%; text-align: center;">You
-                                                                    are
                                                                     are receiving this email because you have subscribed
-                                                                    to the djeukeu newsletter.
+                                                                    to the djeukeu newsletter.If you didn't request
+                                                                    any subscription, you don't have to do anything. Just
+                                                                    ignore this email.
                                                                 </p>
                                                                 <p
                                                                     style="font-size: 14px; line-height: 210%; text-align: center;">
