@@ -46,7 +46,7 @@ Route::get('/contact', [ContactController::class, 'index'])->name('contact.index
 Route::post('/contact', [ContactController::class, 'send_message'])->name('contact.send');
 
 Route::get('/subscribe', function (Request $request) {
-    if (!$request->hasValidSignature()) {
+    if (! $request->hasValidSignature()) {
         abort(404);
     }
     $userId = $request->query('token');
