@@ -168,7 +168,7 @@
                                                                         align="center">
 
                                                                         <img align="center" border="0"
-                                                                            src="{{ asset('img/thumbnail.png') }}"
+                                                                            src="https://djeukeu.com/img/thumbnail.png"
                                                                             alt="" title=""
                                                                             style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;width: 19%;max-width: 110.2px;"
                                                                             width="110.2" />
@@ -426,7 +426,7 @@
                                                                                     <a href="https://www.linkedin.com/in/djeukeu"
                                                                                         title="LinkedIn"
                                                                                         target="_blank">
-                                                                                        <img src="{{ asset('img/icons/linkedin.png') }}"
+                                                                                        <img src="https://djeukeu.com/img/icons/linkedin.png"
                                                                                             alt="LinkedIn"
                                                                                             title="LinkedIn"
                                                                                             width="32"
@@ -450,7 +450,7 @@
                                                                                     <a href="https://github.com/djeukeu"
                                                                                         title="GitHub"
                                                                                         target="_blank">
-                                                                                        <img src="{{ asset('img/icons/github.png') }}"
+                                                                                        <img src="https://djeukeu.com/img/icons/github.png"
                                                                                             alt="GitHub"
                                                                                             title="GitHub"
                                                                                             width="32"
@@ -482,10 +482,13 @@
 
                                                             <div
                                                                 style="font-size: 14px; color: #ffffff; line-height: 210%; text-align: center; word-wrap: break-word;">
-                                                                <p style="line-height: 210%; text-align: center;">You
+                                                                <p
+                                                                    style="line-height: 210%; text-align: center; font-size: 12px">
+                                                                    You
                                                                     are receiving this email because you have subscribed
                                                                     to the djeukeu newsletter.If you didn't request
-                                                                    any subscription, you don't have to do anything. Just
+                                                                    any subscription, you don't have to do anything.
+                                                                    Just
                                                                     ignore this email.
                                                                 </p>
                                                                 <p
