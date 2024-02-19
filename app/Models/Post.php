@@ -10,7 +10,7 @@ class Post extends Model
 {
     use HasFactory, HasUlids;
 
-    public $table = "post";
+    public $table = 'post';
 
     public function category()
     {

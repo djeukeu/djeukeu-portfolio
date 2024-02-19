@@ -10,7 +10,7 @@ class PostTag extends Model
 {
     use HasFactory, HasUlids;
 
-    public $table = "post_tag";
+    public $table = 'post_tag';
 
     public function tag()
     {

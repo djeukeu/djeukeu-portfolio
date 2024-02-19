@@ -24,7 +24,7 @@ class HomeController extends Controller
 
         $existSubscriber = Subscriber::where('email', $data['email'])->first();
 
-        if (!$existSubscriber) {
+        if (! $existSubscriber) {
             $subscriber = new Subscriber;
             $subscriber->name = $data['name'];
             $subscriber->email = $data['email'];
