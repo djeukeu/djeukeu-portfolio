@@ -19,9 +19,9 @@
             </div>
             <div class="col-lg-12">
                 <div class="art-a art-project-cover">
-                    <a data-fancybox="gallery" href="{{ asset('img/blog/2.jpg') }}"
+                    <a data-fancybox="gallery" href="{{ asset('img/blog/1.jpg') }}"
                         class="art-portfolio-item-frame art-horizontal">
-                        <img src="{{ asset('img/blog/2.jpg') }}" alt="item">
+                        <img src="{{ asset('img/blog/1.jpg') }}" alt="item">
                         <span class="art-item-hover"><i class="fas fa-expand"></i></span>
                     </a>
                 </div>
@@ -41,24 +41,41 @@
                         assumenda, iste suscipit facere.
                         Voluptatibus animi, laboriosam qui officiis voluptatum. Voluptates quibusdam numquam distinctio
                         fuga.</p>
-
+                    <p class="published">Published on: <span>12/01/2000</span></p>
                 </div>
             </div>
             <div class="col-lg-4">
                 <div class="art-a art-card">
-                    <div class="art-table p-15-15">
-                        <ul>
-                            <li>
-                                <h6>Date:</h6><span>24.12.2019</span>
-                            </li>
-                            <li>
-                                <h6>Category:</h6><span>Product design</span>
-                            </li>
-                            <li>
-                                <h6>Tag:</h6><span>Artur Carter</span>
-                            </li>
-                        </ul>
+                    <div class="art-table">
+                        <h4>Tags</h4>
+                        <div class="tags">
+                            <span class="tag-item">Jira</span>
+                            <span class="tag-item">React</span>
+                            <span class="tag-item">React-Native</span>
+                            <span class="tag-item">AWS</span>
+                            <span class="tag-item">Github Actions</span>
+                            <span class="tag-item">Typescript</span>
+                            <span class="tag-item">Node.js</span>
+                            <span class="tag-item">Apollo Federation</span>
+                            <span class="tag-item">PostgreSQL</span>
+                            <span class="tag-item">Apache Kafka</span>
+                        </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="art-a art-pagination">
+                    <a href="#" class="art-link art-color-link art-w-chevron art-left-link"><span>Previous
+                            post</span></a>
+                    <div class="art-pagination-center art-m-hidden">
+                        <a class="art-link" href="/blog">All publications</a>
+                    </div>
+                    <a href="#" class="art-link art-color-link art-w-chevron"><span>Next post</span></a>
                 </div>
             </div>
         </div>
@@ -112,5 +129,4 @@
             </div>
         </div>
     </div>
-
 @endsection

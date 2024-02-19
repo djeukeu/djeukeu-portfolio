@@ -3494,3 +3494,25 @@ html.is-animating .fade-left {
     color: #3a529b;
     text-shadow: 0 0 3px rgba(112, 138, 213, 0.2);
 }
+
+.published {
+    color: white;
+    text-align: end;
+}
+
+.tag-item {
+    color: #3a529b;
+    margin: 2px 1px;
+    background: #20202a;
+    padding: 5px 15px;
+    border-radius: 13px;
+    -webkit-box-shadow: inset 0 3px 8px 0 rgba(15, 15, 20, 0.2);
+    box-shadow: inset 0 3px 8px 0 rgba(15, 15, 20, 0.2);
+    font-size: 10px;
+}
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 16px;
+}
