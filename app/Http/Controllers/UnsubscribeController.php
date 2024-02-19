@@ -20,13 +20,14 @@ class UnsubscribeController extends Controller
         ]);
         $subscriber = Subscriber::where(['email' => $data['email'], 'status' => 'active'])->first();
 
-        if (!$subscriber) {
+        if (! $subscriber) {
             return response()->json(['message' => 'Your email in not subscribe.'], '400');
         } else {
             $subscriber->status = 'inactive';
             $subscriber->save();
             Mail::to($data['email'])->send(new Unsubscribe($data));
-            return redirect()->back()->with('success', "You have been successfully unsubscribed.");
+
+            return redirect()->back()->with('success', 'You have been successfully unsubscribed.');
         }
     }
 }
