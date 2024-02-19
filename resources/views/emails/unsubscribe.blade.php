@@ -192,10 +192,6 @@
                         </div>
                     </div>
 
-
-
-
-
                     <div class="u-row-container" style="padding: 0px;background-color: transparent">
                         <div class="u-row"
                             style="margin: 0 auto;min-width: 320px;max-width: 600px;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;background-color: #ffffff;">
@@ -224,39 +220,12 @@
 
                                                             <div
                                                                 style="font-size: 14px; color: #333333; line-height: 180%; text-align: left; word-wrap: break-word;">
+
                                                                 <p style="font-size: 14px; line-height: 180%;"><span
                                                                         style="font-family: helvetica, sans-serif; font-size: 16px; line-height: 28.8px;"><span
-                                                                            style="color: #333333; font-size: 16px; white-space: normal; background-color: #ffffff; float: none; display: inline; line-height: 28.8px;">Hi
-                                                                            {{ $data['name'] }},</span></span></p>
-                                                                <p style="font-size: 14px; line-height: 180%;"> </p>
-                                                                <p style="font-size: 14px; line-height: 180%;"><span
-                                                                        style="font-family: helvetica, sans-serif; font-size: 16px; line-height: 28.8px;"><span
-                                                                            style="color: #333333; font-size: 16px; white-space: normal; background-color: #ffffff; float: none; display: inline; line-height: 28.8px;">Thanks
-                                                                            for signing up. Click the link below to
-                                                                            confirm your subscription. <span
-                                                                                style="font-size: 16px; line-height: 28.8px;"><span
-                                                                                    style="color: #333333; font-size: 16px; white-space: normal; background-color: #ffffff; float: none; display: inline; line-height: 28.8px;"><span
-                                                                                        style="color: #404040; font-size: 16px; white-space: normal; background-color: #ffffff; float: none; display: inline; line-height: 28.8px;">And
-                                                                                        you
-                                                                                        will start receiving updates
-                                                                                        about my </span><span
-                                                                                        style="color: #404040; font-size: 16px; white-space: normal; background-color: #ffffff; line-height: 28.8px;"
-                                                                                        class="il">newsletter</span><span
-                                                                                        style="color: #404040; font-size: 16px; white-space: normal; background-color: #ffffff; float: none; display: inline; line-height: 28.8px;">
-                                                                                        right here in your
-                                                                                        inbox.</span></span></span></span></span>
-                                                                </p>
-                                                                <p style="font-size: 14px; line-height: 180%;"> </p>
-                                                                <p style="font-size: 14px; line-height: 180%;"><span
-                                                                        style="font-family: helvetica, sans-serif; font-size: 16px; line-height: 28.8px;"><span
-                                                                            style="color: #333333; font-size: 16px; white-space: normal; background-color: #ffffff; float: none; display: inline; line-height: 28.8px;"><span
-                                                                                style="color: #333333; font-size: 16px; white-space: normal; background-color: #ffffff; float: none; display: inline; line-height: 28.8px;">Make
-                                                                                sure to </span><strong
-                                                                                style="color: #333333; font-size: 16px; white-space: normal; background-color: #ffffff;">consent
-                                                                                to my emails</strong><span
-                                                                                style="color: #333333; font-size: 16px; white-space: normal; background-color: #ffffff; float: none; display: inline; line-height: 28.8px;">
-                                                                                otherwise you won't receive the
-                                                                                newsletter updates.</span></span></span>
+                                                                            style="color: #333333; font-size: 16px; white-space: normal; background-color: #ffffff; float: none; display: inline; line-height: 28.8px;">
+                                                                            You unsubscribed from Djeukeu
+                                                                            Newsletter.</span>
                                                                 </p>
                                                                 <p style="line-height: 180%;"> </p>
                                                             </div>
@@ -266,110 +235,6 @@
                                                 </tbody>
                                             </table>
 
-                                            <table style="font-family:arial,helvetica,sans-serif;" role="presentation"
-                                                cellpadding="0" cellspacing="0" width="100%" border="0">
-                                                <tbody>
-                                                    <tr>
-                                                        <td class="v-container-padding-padding"
-                                                            style="overflow-wrap:break-word;word-break:break-word;padding:20px 10px 30px;font-family:arial,helvetica,sans-serif;"
-                                                            align="left">
-
-                                                            <!--[if mso]><style>.v-button {background: transparent !important;}</style><![endif]-->
-                                                            <div align="center">
-                                                                <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://unlayer.com" style="height:57px; v-text-anchor:middle; width:227px;" arcsize="16%"  stroke="f" fillcolor="#3a529b"><w:anchorlock/><center style="color:#FFFFFF;"><![endif]-->
-                                                                <a href="{{ $data['url'] }}" target="_blank"
-                                                                    class="v-button"
-                                                                    style="box-sizing: border-box;display: inline-block;text-decoration: none;-webkit-text-size-adjust: none;text-align: center;color: #FFFFFF; background-color: #3a529b; border-radius: 9px;-webkit-border-radius: 9px; -moz-border-radius: 9px; width:auto; max-width:100%; overflow-wrap: break-word; word-break: break-word; word-wrap:break-word; mso-border-alt: none;font-size: 14px;">
-                                                                    <span
-                                                                        style="display:block;padding:20px 40px;line-height:120%;"><strong><span
-                                                                                style="font-family: 'Open Sans', sans-serif; font-size: 14px; line-height: 16.8px;">Confirm
-                                                                                subscription</span></strong></span>
-                                                                </a>
-                                                                <!--[if mso]></center></v:roundrect><![endif]-->
-                                                            </div>
-
-                                                        </td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-
-                                            <table id="u_content_text_3"
-                                                style="font-family:arial,helvetica,sans-serif;" role="presentation"
-                                                cellpadding="0" cellspacing="0" width="100%" border="0">
-                                                <tbody>
-                                                    <tr>
-                                                        <td class="v-container-padding-padding"
-                                                            style="overflow-wrap:break-word;word-break:break-word;padding:10px 55px 40px;font-family:arial,helvetica,sans-serif;"
-                                                            align="left">
-
-                                                            <div
-                                                                style="font-size: 14px; line-height: 170%; text-align: left; word-wrap: break-word;">
-                                                                <p
-                                                                    style="font-size: 14px; line-height: 170%; text-align: left;">
-                                                                    <span
-                                                                        style="font-family: helvetica, sans-serif; font-size: 16px; line-height: 27.2px;"><span
-                                                                            style="color: #333333; font-size: 16px; white-space: normal; background-color: #ffffff; float: none; display: inline; line-height: 27.2px;"><span
-                                                                                style="color: #404040; font-size: 16px; white-space: normal; background-color: #ffffff; float: none; display: inline; line-height: 27.2px;"><strong>Note:</strong>
-                                                                                If you can’t find the </span><span
-                                                                                class="il"
-                                                                                style="color: #404040; font-size: 16px; white-space: normal; background-color: #ffffff; line-height: 27.2px;">newsletter</span><span
-                                                                                style="color: #404040; font-size: 16px; white-space: normal; background-color: #ffffff; float: none; display: inline; line-height: 27.2px;">,
-                                                                                check your spam folder. And please mark
-                                                                                this address as ‘not
-                                                                                spam.’ </span></span></span>
-                                                                </p>
-                                                                <p
-                                                                    style="font-size: 14px; line-height: 170%; text-align: left;">
-                                                                </p>
-                                                                <p
-                                                                    style="font-size: 14px; line-height: 170%; text-align: left;">
-                                                                    <span
-                                                                        style="font-family: helvetica, sans-serif; font-size: 16px; line-height: 27.2px;"><span
-                                                                            style="color: #333333; font-size: 16px; white-space: normal; background-color: #ffffff; float: none; display: inline; line-height: 27.2px;"><span
-                                                                                style="color: #404040; font-size: 16px; white-space: normal; background-color: #ffffff; float: none; display: inline; line-height: 27.2px;"><span
-                                                                                    style="color: #404040; font-size: 16px; white-space: normal; background-color: #ffffff; line-height: 27.2px;">You
-                                                                                    can always see everything on my
-                                                                                    <span
-                                                                                        style="color: #000000; line-height: 23.8px;"><a
-                                                                                            rel="noopener"
-                                                                                            href="https://djeukeu.com/"
-                                                                                            target="_blank"
-                                                                                            style="color: #000000;">website</a></span></span><span
-                                                                                    style="color: #404040; font-size: 16px; white-space: normal; background-color: #ffffff; line-height: 27.2px;">.</span></span></span></span>
-                                                                </p>
-                                                                <p
-                                                                    style="font-size: 14px; line-height: 170%; text-align: left;">
-                                                                </p>
-                                                                <p
-                                                                    style="font-size: 14px; line-height: 170%; text-align: left;">
-                                                                    <span
-                                                                        style="font-family: helvetica, sans-serif; font-size: 16px; line-height: 27.2px;"><span
-                                                                            style="color: #333333; font-size: 16px; white-space: normal; background-color: #ffffff; float: none; display: inline; line-height: 27.2px;"><span
-                                                                                style="color: #404040; font-size: 16px; white-space: normal; background-color: #ffffff; float: none; display: inline; line-height: 27.2px;"><span
-                                                                                    style="color: #404040; font-size: 16px; white-space: normal; background-color: #ffffff; line-height: 27.2px;"><span
-                                                                                        style="color: #404040; font-size: 16px; white-space: normal; background-color: #ffffff; float: none; display: inline; line-height: 27.2px;">Thanks
-                                                                                        again.</span></span></span></span></span>
-                                                                </p>
-                                                                <p
-                                                                    style="font-size: 14px; line-height: 170%; text-align: left;">
-                                                                    <span
-                                                                        style="font-family: helvetica, sans-serif; font-size: 16px; line-height: 27.2px;"><span
-                                                                            style="color: #333333; font-size: 16px; white-space: normal; background-color: #ffffff; float: none; display: inline; line-height: 27.2px;"><span
-                                                                                style="color: #404040; font-size: 16px; white-space: normal; background-color: #ffffff; float: none; display: inline; line-height: 27.2px;"><span
-                                                                                    style="color: #404040; font-size: 16px; white-space: normal; background-color: #ffffff; line-height: 27.2px;"><span
-                                                                                        style="color: #404040; font-size: 16px; white-space: normal; background-color: #ffffff; float: none; display: inline; line-height: 27.2px;"><span
-                                                                                            style="font-size: 16px; line-height: 27.2px;"><span
-                                                                                                style="color: #333333; font-size: 16px; white-space: normal; background-color: #ffffff; float: none; display: inline; line-height: 27.2px;">#LeCodeNeMentPas</span></span></span></span></span></span></span>
-                                                                </p>
-                                                                <p
-                                                                    style="font-size: 14px; line-height: 170%; text-align: center;">
-                                                                </p>
-                                                            </div>
-
-                                                        </td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
 
                                             <!--[if (!mso)&(!IE)]><!-->
                                         </div><!--<![endif]-->
@@ -485,12 +350,9 @@
                                                                 style="font-size: 14px; color: #ffffff; line-height: 210%; text-align: center; word-wrap: break-word;">
                                                                 <p
                                                                     style="line-height: 210%; text-align: center; font-size: 12px">
-                                                                    You
-                                                                    are receiving this email because you have subscribed
-                                                                    to the djeukeu newsletter.If you didn't request
-                                                                    any subscription, you don't have to do anything.
-                                                                    Just
-                                                                    ignore this email.
+                                                                    You are receiving this email because you have
+                                                                    unsubscribed
+                                                                    to the djeukeu newsletter.
                                                                 </p>
                                                                 <p
                                                                     style="font-size: 14px; line-height: 210%; text-align: center;">

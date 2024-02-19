@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\UnsubscribeController;
 use App\Models\Subscriber;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
@@ -56,3 +57,6 @@ Route::get('/subscribe', function (Request $request) {
 
     return view('subscribe');
 })->name('subscribe');
+
+Route::get('/unsubscribe', [UnsubscribeController::class, 'index'])->name('unsubscribe.index');
+Route::post('/unsubscribe', [UnsubscribeController::class, 'send'])->name('unsubscribe.send');
