@@ -40,8 +40,7 @@ Route::prefix('blog')->group(function () {
     Route::view('/', 'blog', ['posts' => Post::all()]);
     Route::get('/{id}', function ($id) {
         $post = Post::findOrFail($id);
-        $posts = Post::where('category_id', $post['category_id'])->get();
-
+        $posts = Post::where('category_id', $post['category_id'])->get()->take(5);
         return view('blog.post', ['post' => $post, 'posts' => $posts]);
     })->name('blog.post');
 });
@@ -50,7 +49,7 @@ Route::get('/contact', [ContactController::class, 'index'])->name('contact.index
 Route::post('/contact', [ContactController::class, 'send_message'])->name('contact.send');
 
 Route::get('/subscribe', function (Request $request) {
-    if (! $request->hasValidSignature()) {
+    if (!$request->hasValidSignature()) {
         abort(404);
     }
     $userId = $request->query('token');

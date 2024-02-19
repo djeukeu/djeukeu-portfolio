@@ -9,7 +9,7 @@
                         <h4>{{ $post['title'] }}</h4>
                     </div>
                     <div class="art-right-frame">
-                        <div class="art-project-category">Ui Design, Graphic</div>
+                        <div class="art-project-category">{{ $post->category['name'] }}</div>
                     </div>
                 </div>
             </div>
@@ -26,7 +26,7 @@
             <div class="col-lg-8">
                 <div class="art-a art-card">
                     {{ $post['content'] }}
-                    <p class="published">Published on: <span>12/01/2000</span></p>
+                    <p class="published">Published on: <span>{{ date('d-m-Y', strtotime($post['created_at'])) }}</span></p>
                 </div>
             </div>
             <div class="col-lg-4">
@@ -34,16 +34,9 @@
                     <div class="art-table">
                         <h4>Tags</h4>
                         <div class="tags">
-                            <span class="tag-item">Jira</span>
-                            <span class="tag-item">React</span>
-                            <span class="tag-item">React-Native</span>
-                            <span class="tag-item">AWS</span>
-                            <span class="tag-item">Github Actions</span>
-                            <span class="tag-item">Typescript</span>
-                            <span class="tag-item">Node.js</span>
-                            <span class="tag-item">Apollo Federation</span>
-                            <span class="tag-item">PostgreSQL</span>
-                            <span class="tag-item">Apache Kafka</span>
+                            @foreach ($post->post_tags as $post_tag)
+                                <span class="tag-item">{{ $post_tag->tag['name'] }}</span>
+                            @endforeach
                         </div>
                     </div>
                 </div>

@@ -12,7 +12,7 @@ class HomeController extends Controller
 {
     public function index()
     {
-        return view('home', ['posts' => Post::all()]);
+        return view('home', ['posts' => Post::all()->take(10)]);
     }
 
     public function subscribe()
