@@ -48,12 +48,29 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="art-a art-pagination">
-                    <a href="#" class="art-link art-color-link art-w-chevron art-left-link"><span>Previous
-                            post</span></a>
+                    @if (!$previous_post)
+                        <a href="#"
+                            class="art-link art-color-link art-w-chevron art-left-link art-link-disabled"><span>Previous
+                                post</span></a>
+                    @else
+                        <a href="{{ route('blog.post', ['id' => $previous_post['id']]) }}"
+                            class="art-link art-color-link art-w-chevron art-left-link"><span>Previous
+                                post</span></a>
+                    @endif
+
                     <div class="art-pagination-center art-m-hidden">
                         <a class="art-link" href="/blog">All publications</a>
                     </div>
-                    <a href="#" class="art-link art-color-link art-w-chevron"><span>Next post</span></a>
+
+                    @if (!$next_post)
+                        <a href="#" class="art-link art-color-link art-w-chevronart-link-disabled"><span>Next
+                                post</span></a>
+                    @else
+                        <a href="{{ route('blog.post', ['id' => $next_post['id']]) }}"
+                            class="art-link art-color-link art-w-chevron"><span>Next
+                                post</span></a>
+                    @endif
+
                 </div>
             </div>
         </div>

@@ -45,7 +45,11 @@ Route::prefix('blog')->group(function () {
     Route::get('/{id}', function ($id) {
         $post = Post::findOrFail($id);
         $posts = Post::where('category_id', $post['category_id'])->get()->take(5);
-        return view('blog.post', ['post' => $post, 'posts' => $posts]);
+
+        $next_post = Post::where('id', '>', $post->id)->orderBy('id')->first();
+        $previous_post = Post::where('id', '<', $post->id)->orderBy('id', 'desc')->first();
+
+        return view('blog.post', ['post' => $post, 'posts' => $posts, 'next_post' => $next_post, 'previous_post' => $previous_post]);
     })->name('blog.post');
 });
 
