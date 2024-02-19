@@ -11,14 +11,15 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('post', function (Blueprint $table) {
-            $table->uuid('id')->primary();
-            $table->string('title');
-            $table->string('summary');
-            $table->text('content');
-            $table->string('thumbnail');
-            $table->timestamps();
+        Schema::table('post', function (Blueprint $table) {
+            $table->foreignUuid('category_id')->constrained('category', 'id');
         });
+
+        Schema::table('post_tag', function (Blueprint $table) {
+            $table->foreignUuid('tag_id')->constrained('tag', 'id');
+            $table->foreignUuid('post_id')->constrained('post', 'id');
+        });
+
     }
 
     /**
@@ -26,6 +27,5 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('post');
     }
 };

@@ -9,4 +9,13 @@ use Illuminate\Database\Eloquent\Model;
 class PostTag extends Model
 {
     use HasFactory, HasUlids;
+
+    public function tag(){
+        return $this->belongsTo('App\Models\Tag', 'tag_id');
+    }
+
+    public function post(){
+        return $this->belongsTo('App\Models\Post', 'post_id');
+    }
+
 }

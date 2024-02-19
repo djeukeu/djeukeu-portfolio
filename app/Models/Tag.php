@@ -9,4 +9,9 @@ use Illuminate\Database\Eloquent\Model;
 class Tag extends Model
 {
     use HasFactory, HasUlids;
+
+    public function post_tags()
+    {
+        return $this->hasMany('App\Models\PostTag');
+    }
 }
