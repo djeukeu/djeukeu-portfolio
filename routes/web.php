@@ -37,7 +37,11 @@ Route::prefix('projects')->group(function () {
 });
 
 Route::prefix('blog')->group(function () {
-    Route::view('/', 'blog', ['posts' => Post::all()]);
+    Route::get('/', function () {
+        $posts = Post::paginate(10);
+        // dd($posts);
+        return view('blog', ['posts' => $posts]);
+    });
     Route::get('/{id}', function ($id) {
         $post = Post::findOrFail($id);
         $posts = Post::where('category_id', $post['category_id'])->get()->take(5);

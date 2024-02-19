@@ -35,18 +35,7 @@
     <div class="container-fluid">
         <div class="row mb-15">
             <div class="col-lg-12">
-                <div class="art-a art-pagination">
-                    <a href="#" class="art-link art-color-link art-w-chevron art-left-link"><span>Previous
-                            page</span></a>
-                    <div class="art-pagination-center art-m-hidden">
-                        <a href="#"></a>
-                        <a href="#">1</a>
-                        <a class="art-active-pag" href="#">2</a>
-                        <a href="#">3</a>
-                        <a href="#">...</a>
-                    </div>
-                    <a href="#" class="art-link art-color-link art-w-chevron"><span>Next page</span></a>
-                </div>
+                {{ $posts->links('vendor.pagination.blog') }}
             </div>
         </div>
     </div>
