@@ -233,10 +233,11 @@
                                                                         style="font-family: helvetica, sans-serif; font-size: 16px; line-height: 28.8px;"><span
                                                                             style="color: #333333; font-size: 16px; white-space: normal; background-color: #ffffff; float: none; display: inline; line-height: 28.8px;">Thanks
                                                                             for signing up. Click the link below to
-                                                                            confirm your subscription.And y<span
+                                                                            confirm your subscription. <span
                                                                                 style="font-size: 16px; line-height: 28.8px;"><span
                                                                                     style="color: #333333; font-size: 16px; white-space: normal; background-color: #ffffff; float: none; display: inline; line-height: 28.8px;"><span
-                                                                                        style="color: #404040; font-size: 16px; white-space: normal; background-color: #ffffff; float: none; display: inline; line-height: 28.8px;">ou
+                                                                                        style="color: #404040; font-size: 16px; white-space: normal; background-color: #ffffff; float: none; display: inline; line-height: 28.8px;">And
+                                                                                        you
                                                                                         will start receiving updates
                                                                                         about my </span><span
                                                                                         style="color: #404040; font-size: 16px; white-space: normal; background-color: #ffffff; line-height: 28.8px;"
@@ -347,7 +348,7 @@
                                                                                 style="color: #404040; font-size: 16px; white-space: normal; background-color: #ffffff; float: none; display: inline; line-height: 27.2px;"><span
                                                                                     style="color: #404040; font-size: 16px; white-space: normal; background-color: #ffffff; line-height: 27.2px;"><span
                                                                                         style="color: #404040; font-size: 16px; white-space: normal; background-color: #ffffff; float: none; display: inline; line-height: 27.2px;">Thanks
-                                                                                        again,</span></span></span></span></span>
+                                                                                        again.</span></span></span></span></span>
                                                                 </p>
                                                                 <p
                                                                     style="font-size: 14px; line-height: 170%; text-align: left;">
