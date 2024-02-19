@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Mail\Subscribe;
+use App\Models\Post;
 use App\Models\Subscriber;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\URL;
@@ -11,7 +12,7 @@ class HomeController extends Controller
 {
     public function index()
     {
-        return view('home');
+        return view('home', ['posts' => Post::all()]);
     }
 
     public function subscribe()
@@ -23,7 +24,7 @@ class HomeController extends Controller
 
         $existSubscriber = Subscriber::where('email', $data['email'])->first();
 
-        if (! $existSubscriber) {
+        if (!$existSubscriber) {
             $subscriber = new Subscriber;
             $subscriber->name = $data['name'];
             $subscriber->email = $data['email'];

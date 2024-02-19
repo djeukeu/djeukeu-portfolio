@@ -10,6 +10,8 @@ class Tag extends Model
 {
     use HasFactory, HasUlids;
 
+    public $table = "tag";
+
     public function post_tags()
     {
         return $this->hasMany('App\Models\PostTag');

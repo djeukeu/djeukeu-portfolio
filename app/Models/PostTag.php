@@ -10,6 +10,8 @@ class PostTag extends Model
 {
     use HasFactory, HasUlids;
 
+    public $table = "post_tag";
+
     public function tag()
     {
         return $this->belongsTo('App\Models\Tag', 'tag_id');

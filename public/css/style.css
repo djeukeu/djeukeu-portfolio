@@ -3516,3 +3516,18 @@ html.is-animating .fade-left {
     flex-wrap: wrap;
     margin-top: 16px;
 }
+
+.truncate-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.truncate-title {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}

@@ -10,6 +10,8 @@ class Category extends Model
 {
     use HasFactory, HasUlids;
 
+    public $table = "category";
+
     public function posts()
     {
         return $this->hasMany('App\Models\Post');

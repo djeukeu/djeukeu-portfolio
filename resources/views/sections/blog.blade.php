@@ -1,7 +1,3 @@
-@php
-    $posts = [1 => ['title' => 'Post title 1', 'short_description' => '2 sentence short description', 'thumbnail' => 'img/blog/1.jpg'], 2 => ['title' => 'Post title 2', 'short_description' => '2 sentence short description', 'thumbnail' => 'img/blog/1.jpg'], 3 => ['title' => 'Post title 3', 'short_description' => '2 sentence short description', 'thumbnail' => 'img/blog/1.jpg'], 4 => ['title' => 'Post title 4', 'short_description' => '2 sentence short description', 'thumbnail' => 'img/blog/1.jpg'], 5 => ['title' => 'Post title 5', 'short_description' => '2 sentence short description', 'thumbnail' => 'img/blog/1.jpg']];
-@endphp
-
 <div class="container-fluid">
 
     <div class="row mb-15">
@@ -22,16 +18,16 @@
                 <div class="swiper-wrapper">
                     @foreach ($posts as $post)
                         <div class="swiper-slide">
-                            <div class="art-a art-blog-card">
-                                <a href="{{ route('blog.post', ['id' => $post['title']]) }}" class="art-port-cover">
-                                    <img src="{{ asset($post['thumbnail']) }}" alt="blog post">
+                            <div class="art-a art-blog-card ">
+                                <a href="{{ route('blog.post', ['id' => $post['id']]) }}" class="art-port-cover ">
+                                    <img src="{{ asset('img/blog/1.jpg') }}" alt="blog post">
                                 </a>
                                 <div class="art-post-description">
-                                    <a href="{{ route('blog.post', ['id' => $post['title']]) }}">
-                                        <h5 class="mb-15">{{ $post['title'] }}</h5>
+                                    <a href="{{ route('blog.post', ['id' => $post['id']]) }}">
+                                        <h5 class="mb-15 truncate-title">{{ $post['title'] }}</h5>
                                     </a>
-                                    <div class="mb-15">{{ $post['short_description'] }}</div>
-                                    <a href="{{ route('blog.post', ['id' => $post['title']]) }}"
+                                    <div class="mb-15 truncate-text">{{ $post['summary'] }}</div>
+                                    <a href="{{ route('blog.post', ['id' => $post['id']]) }}"
                                         class="art-link art-color-link art-w-chevron">Read
                                         more</a>
                                 </div>
