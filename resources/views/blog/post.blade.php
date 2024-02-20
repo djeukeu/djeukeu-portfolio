@@ -25,7 +25,7 @@
 
             <div class="col-lg-8">
                 <div class="art-a art-card">
-                    {{ $post['content'] }}
+                    {!! html_entity_decode($post['content']) !!}
                     <p class="published">Published on: <span>{{ date('d-m-Y', strtotime($post['created_at'])) }}</span></p>
                 </div>
             </div>
