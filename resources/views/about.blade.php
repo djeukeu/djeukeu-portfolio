@@ -11,13 +11,13 @@
                         <div class="art-banner-title">
                             <h1 class="mb-25">About Me</h1>
                             <div class="art-lg-text art-code mb-10">&lt;<i>code</i>&gt;I build amazing
-                                websites/<i>code</i>&gt;</div>
+                                websites.&lt;/<i>code</i>&gt;</div>
                             <div class="art-lg-text art-code mb-10">&lt;<i>code</i>&gt;I build iOS and Android
-                                applications/<i>code</i>&gt;</div>
+                                applications.&lt;/<i>code</i>&gt;</div>
                             <div class="art-lg-text art-code mb-10">&lt;<i>code</i>&gt;I design beautiful
-                                UIs./<i>code</i>&gt;</div>
-                            <div class="art-lg-text art-code mb-10">&lt;<i>code</i>&gt; I automate my projects.
-                                /<i>code</i>&gt;
+                                UIs.&lt;/<i>code</i>&gt;</div>
+                            <div class="art-lg-text art-code mb-10">&lt;<i>code</i>&gt;I automate my
+                                projects.&lt;/<i>code</i>&gt;
                             </div>
                         </div>
                         <img src="{{ asset('img/face-2.png') }}" class="art-banner-photo" alt="Your Name">
