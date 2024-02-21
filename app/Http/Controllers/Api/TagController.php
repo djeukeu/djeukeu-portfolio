@@ -27,6 +27,7 @@ class TagController extends Controller
         $tag = new Tag;
         $tag->name = $data['name'];
         $tag->save();
+
         return $tag;
     }
 

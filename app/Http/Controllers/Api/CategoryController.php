@@ -27,6 +27,7 @@ class CategoryController extends Controller
         $category = new Category;
         $category->name = $data['name'];
         $category->save();
+
         return $category;
     }
 

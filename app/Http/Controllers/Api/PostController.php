@@ -36,6 +36,7 @@ class PostController extends Controller
         $post->category_id = $data['category_id'];
         $post->save();
         $post->post_tags()->createMany($data['tags']);
+
         return $post;
     }
 
