@@ -10,6 +10,7 @@ class PostTag extends Model
 {
     use HasFactory, HasUlids;
 
+    protected $fillable = ['tag_id'];
     public $table = 'post_tag';
 
     public function tag()

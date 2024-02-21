@@ -21,7 +21,22 @@ class PostController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $data = $request->validate([
+            'title' => 'required|string',
+            'summary' => 'required|string',
+            'content' => 'required|string',
+            'category_id' => 'required|string',
+            'tags' => 'required|array',
+        ]);
+        $post = new Post;
+        $post->title = $data['title'];
+        $post->summary = $data['summary'];
+        $post->content = $data['content'];
+        $post->thumbnail = 'thumbnail';
+        $post->category_id = $data['category_id'];
+        $post->save();
+        $post->post_tags()->createMany($data['tags']);
+        return $post;
     }
 
     /**
