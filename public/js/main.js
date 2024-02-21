@@ -291,7 +291,10 @@ $(function () {
                     $(".art-form-success").css("display", "block");
                 }
             }
-        );
+        ).fail(function () {
+            $(".spinner-border").css("display", "none");
+            $(".art-form-error").css("display", "block");
+        });
     });
 
     // portfolio filter
