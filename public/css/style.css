@@ -3531,3 +3531,7 @@ html.is-animating .fade-left {
     overflow: hidden;
     white-space: nowrap;
 }
+
+.post-text {
+    color: #3a529b;
+}
