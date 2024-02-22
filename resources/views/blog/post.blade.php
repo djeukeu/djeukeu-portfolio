@@ -15,9 +15,11 @@
             </div>
             <div class="col-lg-12">
                 <div class="art-a art-project-cover">
-                    <a data-fancybox="gallery" href="{{ asset('img/blog/1.jpg') }}"
+                    <a data-fancybox="gallery"
+                        href="{{ $post['thumbnail'] == 'thumbnail' ? asset('img/blog/1.jpg') : asset($post['thumbnail']) }}"
                         class="art-portfolio-item-frame art-horizontal">
-                        <img src="{{ asset('img/blog/1.jpg') }}" alt="item">
+                        <img src="{{ $post['thumbnail'] == 'thumbnail' ? asset('img/blog/1.jpg') : asset($post['thumbnail']) }}"
+                            alt="item">
                         <span class="art-item-hover"><i class="fas fa-expand"></i></span>
                     </a>
                 </div>
@@ -32,7 +34,7 @@
             <div class="col-lg-4">
                 <div class="art-a art-card">
                     <div class="art-table">
-                        <h4>Tags</h4>
+                        <h4>Keywords</h4>
                         <div class="tags">
                             @foreach ($post->post_tags as $post_tag)
                                 <span class="tag-item">{{ $post_tag->tag['name'] }}</span>
@@ -63,7 +65,7 @@
                     </div>
 
                     @if (!$next_post)
-                        <a href="#" class="art-link art-color-link art-w-chevronart-link-disabled"><span>Next
+                        <a href="#" class="art-link art-color-link art-w-chevron art-link-disabled"><span>Next
                                 post</span></a>
                     @else
                         <a href="{{ route('blog.post', ['id' => $next_post['id']]) }}"
@@ -92,7 +94,8 @@
                             <div class="swiper-slide">
                                 <div class="art-a art-blog-card">
                                     <a href="{{ route('blog.post', ['id' => $p['id']]) }}" class="art-port-cover">
-                                        <img src="{{ asset('img/blog/1.jpg') }}" alt="blog post">
+                                        <img src="{{ $post['thumbnail'] == 'thumbnail' ? asset('img/blog/1.jpg') : asset($post['thumbnail']) }}"
+                                        alt="item">
                                     </a>
                                     <div class="art-post-description">
                                         <a href="{{ route('blog.post', ['id' => $p['id']]) }}">

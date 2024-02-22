@@ -15,7 +15,8 @@
                 <div class="col-lg-6">
                     <div class="art-a art-blog-card">
                         <a href="{{ route('blog.post', ['id' => $post['id']]) }}" class="art-port-cover">
-                            <img src="{{ asset('img/blog/1.jpg') }}" alt="blog post">
+                            <img src="{{ $post['thumbnail'] == 'thumbnail' ? asset('img/blog/1.jpg') : asset($post['thumbnail']) }}"
+                                alt="item">
                         </a>
                         <div class="art-post-description">
                             <a href="{{ route('blog.post', ['id' => $post['id']]) }}">
