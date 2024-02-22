@@ -43,6 +43,7 @@ Route::prefix('blog')->group(function () {
         // dd($posts);
         return view('blog', ['posts' => $posts]);
     });
+    Route::view('/subscribe', 'blog.subscribe');
     Route::get('/{id}', function ($id) {
         $post = Post::findOrFail($id);
         $posts = Post::where('category_id', $post['category_id'])->get()->take(5);
