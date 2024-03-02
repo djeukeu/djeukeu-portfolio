@@ -19,8 +19,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', [HomeController::class, 'index'])->name('home.index');
-Route::post('/', [HomeController::class, 'subscribe'])->name('home.subscribe');
+Route::view('/', 'home');
 
 Route::view('/about', 'about');
 
@@ -36,39 +35,5 @@ Route::prefix('projects')->group(function () {
     Route::view('/ekoh-web', 'projects.ekoh-web');
 });
 
-Route::prefix('blog')->group(function () {
-    Route::get('/', function () {
-        $posts = Post::paginate(10);
-
-        // dd($posts);
-        return view('blog', ['posts' => $posts]);
-    });
-    Route::view('/subscribe', 'blog.subscribe');
-    Route::get('/{id}', function ($id) {
-        $post = Post::findOrFail($id);
-        $posts = Post::where('category_id', $post['category_id'])->get()->take(5);
-
-        $next_post = Post::where('id', '>', $post->id)->orderBy('id')->first();
-        $previous_post = Post::where('id', '<', $post->id)->orderBy('id', 'desc')->first();
-
-        return view('blog.post', ['post' => $post, 'posts' => $posts, 'next_post' => $next_post, 'previous_post' => $previous_post]);
-    })->name('blog.post');
-});
-
 Route::get('/contact', [ContactController::class, 'index'])->name('contact.index');
 Route::post('/contact', [ContactController::class, 'send_message'])->name('contact.send');
-
-Route::get('/subscribe', function (Request $request) {
-    if (! $request->hasValidSignature()) {
-        abort(404);
-    }
-    $userId = $request->query('token');
-    $subscriber = Subscriber::find($userId);
-    $subscriber->status = 'active';
-    $subscriber->save();
-
-    return view('subscribe');
-})->name('subscribe');
-
-Route::get('/unsubscribe', [UnsubscribeController::class, 'index'])->name('unsubscribe.index');
-Route::post('/unsubscribe', [UnsubscribeController::class, 'send'])->name('unsubscribe.send');

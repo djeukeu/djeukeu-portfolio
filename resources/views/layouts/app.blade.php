@@ -42,8 +42,6 @@
                                             href="{{ url('resume') }}">Resume</a></li>
                                     <li class="menu-item {{ request()->is('projects') ? 'current-menu-item' : null }}"><a
                                             href="{{ url('projects') }}">Projects</a></li>
-                                    <li class="menu-item {{ request()->is('blog') ? 'current-menu-item' : null }}"><a
-                                            href="{{ url('blog') }}">Blog</a></li>
                                     <li class="menu-item {{ request()->is('contact') ? 'current-menu-item' : null }}"><a
                                             href="{{ url('contact') }}">Contact</a></li>
                                 </ul>
