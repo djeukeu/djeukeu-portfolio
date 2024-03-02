@@ -265,38 +265,6 @@ $(function () {
 
     bar.animate(0.65);
 
-    // Contact form
-    $(".art-input").keyup(function () {
-        if ($(this).val()) {
-            $(this).addClass("art-active");
-        } else {
-            $(this).removeClass("art-active");
-        }
-    });
-
-    $("#form").submit(function (event) {
-        event.preventDefault();
-        let url = $(this).attr("action");
-        $(".spinner-border").css("display", "inline-block");
-        $.post(
-            url,
-            {
-                name: $("#name").val(),
-                email: $("#email").val(),
-                message: $("#message").val(),
-            },
-            function (_resp, status) {
-                if (status == "success") {
-                    $(".spinner-border").css("display", "none");
-                    $(".art-form-success").css("display", "block");
-                }
-            }
-        ).fail(function () {
-            $(".spinner-border").css("display", "none");
-            $(".art-form-error").css("display", "block");
-        });
-    });
-
     // portfolio filter
     $(".art-filter a").on("click", function () {
         $(".art-filter .art-current").removeClass("art-current");

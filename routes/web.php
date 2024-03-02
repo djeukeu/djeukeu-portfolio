@@ -1,11 +1,6 @@
 <?php
 
 use App\Http\Controllers\ContactController;
-use App\Http\Controllers\HomeController;
-use App\Http\Controllers\UnsubscribeController;
-use App\Models\Post;
-use App\Models\Subscriber;
-use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
 /*
