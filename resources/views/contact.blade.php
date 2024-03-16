@@ -76,14 +76,8 @@
                         @if (session()->has('success'))
                             <div class="art-form-success">Message sent <i class="fas fa-check"></i>
                         @endif
-                        <div class="art-form-success" style="display: none;">Message sent <i class="fas fa-check"></i>
-                        </div>
                         <div class="art-submit-frame">
-                            <button class="art-btn art-btn-md art-submit" type="submit"><span>Send message <div
-                                        class="spinner-border" style="width: 1rem; height: 1rem; display: none;"
-                                        role="status">
-                                        <span class="sr-only">Loading...</span>
-                                    </div></span></button>
+                            <button class="art-btn art-btn-md art-submit" type="submit"><span>Send message</span></button>
                         </div>
                     </form>
 

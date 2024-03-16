@@ -20,9 +20,4 @@
     <!-- blog -->
     @include('sections.blog')
     <!-- blog -->
-
-    <!-- subscribe -->
-    @include('sections.subscribe')
-    <!-- subscribe -->
-
 @endsection
