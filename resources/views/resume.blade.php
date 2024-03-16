@@ -172,6 +172,40 @@
                         <div class="art-a art-timeline-content">
                             <div class="art-card-header">
                                 <div class="art-left-side">
+                                    <h5>Freelance</h5>
+                                    <div class="art-el-suptitle mb-15">Software Developer</div>
+                                </div>
+                                <div class="art-right-side">
+                                    <span class="art-date">Dec 2023 - Present</span>
+                                </div>
+                            </div>
+                            <p>
+                                <li>Worked closely with client to deliver projects on time and to quality.</li>
+                                <li>Prototype new application using Figma</li>
+                                <li>Turned UI designs into working applications</li>
+                            </p>
+                            <div class="skills">
+                                <span class="skill-item">AWS</span>
+                                <span class="skill-item">Wordpress</span>
+                                <span class="skill-item">React</span>
+                                <span class="skill-item">React-Native</span>
+                                <span class="skill-item">Apache Kafka</span>
+                                <span class="skill-item">Github Actions</span>
+                                <span class="skill-item">Terraform</span>
+                                <span class="skill-item">Docker</span>
+                                <span class="skill-item">laravel</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single Experience -->
+
+                    <!-- Single Experience -->
+                    <div class="art-timeline-item">
+                        <div class="art-timeline-mark-light"></div>
+                        <div class="art-timeline-mark"></div>
+                        <div class="art-a art-timeline-content">
+                            <div class="art-card-header">
+                                <div class="art-left-side">
                                     <h5>Orbite Holding</h5>
                                     <div class="art-el-suptitle mb-15">Software Developer</div>
                                 </div>
