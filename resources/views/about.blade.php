@@ -15,7 +15,7 @@
                             <div class="art-lg-text art-code mb-10">&lt;<i>code</i>&gt;I build iOS and Android
                                 applications.&lt;/<i>code</i>&gt;</div>
                             <div class="art-lg-text art-code mb-10">&lt;<i>code</i>&gt;I design beautiful
-                                UIs.&lt;/<i>code</i>&gt;</div>
+                                User Interfaces.&lt;/<i>code</i>&gt;</div>
                             <div class="art-lg-text art-code mb-10">&lt;<i>code</i>&gt;I automate my
                                 projects.&lt;/<i>code</i>&gt;
                             </div>
@@ -33,7 +33,7 @@
             <div class="col-lg-12">
 
                 <div class="art-a art-card">
-                    <p class="art-text art-white">Hello,</p>
+                    <p class="art-text art-white">Hi 👋 I'm Christian Djeukeu,</p>
                     <p class="art-text art-white">I am a Cameroonian software developer currently based in the UK. During my
                         time at university, I was always curious to solve real life problems through programming. In June
                         2021, I started an internship at Arrah Solution, where I was introduced to mobile and web
