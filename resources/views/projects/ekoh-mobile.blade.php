@@ -108,7 +108,7 @@
                 <div class="art-a art-banner" style="background-image: url({{ asset('img/bg.png') }})">
                     <div class="art-banner-overlay">
                         <div class="art-banner-title text-center">
-                            <h1 class="mb-15">Ready to download EkohOnline</h1>
+                            <h1 class="mb-15">Ready to download EkohOnline?</h1>
                             <div class="art-lg-text art-code mb-25">Available on playstore</div>
                             <a href="https://play.google.com/store/apps/details?id=online.ekoh" target="_blank" data-no-swup
                                 class="art-btn art-btn-md"><span class="custom-icon-container"> <i

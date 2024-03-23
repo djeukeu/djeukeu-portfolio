@@ -59,9 +59,9 @@
 
                 <!-- single mobile item-->
                 <div class="art-grid-item mobileTemplates">
-                    <a data-fancybox="gallery" data-no-swup href="{{ asset('img/projects/ttm/ttm-6.png') }}"
+                    <a data-fancybox="gallery" data-no-swup href="{{ asset('img/projects/ttm/ttm-3.png') }}"
                         class="art-a art-portfolio-item-frame art-square">
-                        <img src="{{ asset('img/projects/ttm/ttm-6.png') }}" alt="item">
+                        <img src="{{ asset('img/projects/ttm/ttm-3.png') }}" alt="item">
                         <span class="art-item-hover"><i class="fas fa-expand"></i></span>
                     </a>
                     <div class="art-item-description">
