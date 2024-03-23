@@ -26,7 +26,6 @@ Route::prefix('projects')->group(function () {
     Route::view('/flexipay', 'projects.flexipay');
     Route::view('/tchangtchangmoney', 'projects.tchangtchangmoney');
     Route::view('/cook-and-share', 'projects.cook-and-share');
-    Route::view('/genius-home', 'projects.genius-home');
     Route::view('/ekoh-web', 'projects.ekoh-web');
 });
 

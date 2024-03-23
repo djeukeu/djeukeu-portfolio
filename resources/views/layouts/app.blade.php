@@ -43,8 +43,8 @@
                                     <li class="menu-item {{ request()->is('projects') ? 'current-menu-item' : null }}">
                                         <a href="{{ url('projects') }}">Projects</a>
                                     </li>
-                                    <li class="menu-item""><a href="https://blog.djeukeu.com/" data-no-swup
-                                            target="_blank">Blog</a></li>
+                                    {{-- <li class="menu-item""><a href="https://blog.djeukeu.com/" data-no-swup
+                                            target="_blank">Blog</a></li> --}}
                                     <li class="menu-item {{ request()->is('contact') ? 'current-menu-item' : null }}"><a
                                             href="{{ url('contact') }}">Contact</a></li>
                                 </ul>

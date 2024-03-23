@@ -17,9 +17,9 @@
             <!-- single item -->
             <div class="art-grid-item webTemplates">
                 <a data-fancybox="gallery" data-no-swup
-                    href="{{ asset('img/projects/cook-and-share/cook-and-share-3.png') }}"
+                    href="{{ asset('img/projects/cook-and-share/cook-and-share-2.png') }}"
                     class="art-a art-portfolio-item-frame art-horizontal">
-                    <img src="{{ asset('img/projects/cook-and-share/cook-and-share-3.png') }}" alt="item">
+                    <img src="{{ asset('img/projects/cook-and-share/cook-and-share-2.png') }}" alt="item">
                     <span class="art-item-hover"><i class="fas fa-expand"></i></span>
                 </a>
                 <div class="art-item-description">
@@ -33,9 +33,9 @@
 
             <!-- single item -->
             <div class="art-grid-item webTemplates">
-                <a data-fancybox="gallery" data-no-swup href="{{ asset('img/projects/ekoh/arrah-2.png') }}"
+                <a data-fancybox="gallery" data-no-swup href="{{ asset('img/projects/ekoh/arrah-3.png') }}"
                     class="art-a art-portfolio-item-frame art-horizontal">
-                    <img src="{{ asset('img/projects/ekoh/arrah-2.png') }}" alt="item">
+                    <img src="{{ asset('img/projects/ekoh/arrah-3.png') }}" alt="item">
                     <span class="art-item-hover"><i class="fas fa-expand"></i></span>
                 </a>
                 <div class="art-item-description">

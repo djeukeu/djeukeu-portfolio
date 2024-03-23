@@ -114,7 +114,7 @@
         <div class="row mb-15 ">
             <div class="col-lg-12">
                 <div class="art-a art-pagination">
-                    <a href="/projects/genius-home"
+                    <a href="/projects/cook-and-share"
                         class="art-link art-color-link art-w-chevron art-left-link"><span>Previous
                             project</span></a>
                     <div class="art-pagination-center art-m-hidden">
