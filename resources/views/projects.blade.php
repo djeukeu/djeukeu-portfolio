@@ -44,14 +44,14 @@
 
                 <!-- single mobile item-->
                 <div class="art-grid-item mobileTemplates">
-                    <a data-fancybox="gallery" data-no-swup href="{{ asset('img/projects/flexipay/flexipay-4.png') }}"
+                    <a data-fancybox="gallery" data-no-swup href="{{ asset('img/projects/flexipay/flexipay-3.png') }}"
                         class="art-a art-portfolio-item-frame art-square">
-                        <img src="{{ asset('img/projects/flexipay/flexipay-4.png') }}" alt="item">
+                        <img src="{{ asset('img/projects/flexipay/flexipay-3.png') }}" alt="item">
                         <span class="art-item-hover"><i class="fas fa-expand"></i></span>
                     </a>
                     <div class="art-item-description">
                         <h5 class="mb-15">FlexiPay</h5>
-                        <div class="mb-15">FlexiPay is a payment management app owned by Flexicol</div>
+                        <div class="mb-15">FlexiPay is a payment management app for cement workers.</div>
                         <a href="/projects/flexipay" class="art-link art-color-link art-w-chevron">Read more</a>
                     </div>
                 </div>
