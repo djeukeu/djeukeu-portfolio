@@ -122,7 +122,7 @@
                     <div class="art-pagination-center art-m-hidden">
                         <a class="art-link" href="#" style="pointer-events: none;">Cook & Share</a>
                     </div>
-                    <a href="/projects/genius-home" class="art-link art-color-link art-w-chevron"><span>Next
+                    <a href="/projects/ekoh-web" class="art-link art-color-link art-w-chevron"><span>Next
                             project</span></a>
                 </div>
             </div>

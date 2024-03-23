@@ -89,23 +89,6 @@
                     </div>
                 </div>
                 <!-- single mobile item-->
-
-                <!-- single mobile item-->
-                <div class="art-grid-item mobileTemplates">
-                    <a data-fancybox="gallery" data-no-swup href="{{ asset('img/projects/genius-home/genius-home-1.png') }}"
-                        class="art-a art-portfolio-item-frame art-square">
-                        <img src="{{ asset('img/projects/genius-home/genius-home-1.png') }}" alt="item">
-                        <span class="art-item-hover"><i class="fas fa-expand"></i></span>
-                    </a>
-                    <div class="art-item-description">
-                        <h5 class="mb-15">Genius Home</h5>
-                        <div class="mb-15">Become a genius through repetitive learning using the Genius Home App.</div>
-                        <a href="/projects/genius-home" class="art-link art-color-link art-w-chevron">Read more</a>
-                    </div>
-                </div>
-                <!-- single mobile item-->
-
-
                 <!-- mobile items-->
 
                 <!-- web items -->
