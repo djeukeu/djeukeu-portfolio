@@ -11,14 +11,15 @@
                     <div class="art-title-frame">
                         <h4>Projects</h4>
                     </div>
-                    {{-- <div class="art-right-frame">
+                    <div class="art-right-frame">
                         <div class="art-filter">
                             <a href="#" data-filter="*" class="art-link art-current">All</a>
                             <a href="#" data-filter=".mobileTemplates" class="art-link">Mobile</a>
                             <a href="#" data-filter=".webTemplates" class="art-link">Web</a>
-                            <a href="#" data-filter=".uiTemplates" class="art-link">UI Designs</a>
+                            <a href="#" data-filter=".uiTemplates" class="art-link">UI Design</a>
+                            <a href="#" data-filter=".systemTemplates" class="art-link">System Design</a>
                         </div>
-                    </div> --}}
+                    </div>
                 </div>
             </div>
             <!-- header -->
@@ -92,7 +93,7 @@
                 <!-- mobile items-->
 
                 <!-- web items -->
-                {{-- <!-- single web item -->
+                <!-- single web item -->
                 <div class="art-grid-item webTemplates">
                     <a data-fancybox="gallery" data-no-swup href="{{ asset('img/projects/ekoh/arrah-2.png') }}"
                         class="art-a art-portfolio-item-frame art-square">
@@ -107,12 +108,12 @@
                     </div>
 
                 </div>
-                <!-- single web item --> --}}
+                <!-- single web item -->
                 <!-- web items -->
 
                 <!-- ui items -->
                 <!-- single ui item -->
-                {{-- <div class="art-grid-item uiTemplates">
+                <div class="art-grid-item uiTemplates">
                     <!-- grid item frame -->
                     <a data-fancybox="gallery" data-no-swup href="{{ asset('img/works/original-size/3.jpg') }}"
                         class="art-a art-portfolio-item-frame art-square">
@@ -132,8 +133,35 @@
                     </div>
                     <!-- description end -->
 
-                </div> --}}
+                </div>
                 <!-- single ui item -->
+                <!-- ui items -->
+
+                <!-- system items -->
+                <!-- single system item -->
+                <div class="art-grid-item systemTemplates">
+                    <!-- grid item frame -->
+                    <a data-fancybox="gallery" data-no-swup href="{{ asset('img/works/original-size/3.jpg') }}"
+                        class="art-a art-portfolio-item-frame art-square">
+                        <!-- img -->
+                        <img src="{{ asset('img/works/original-size/3.jpg') }}" alt="item">
+                        <!-- zoom icon -->
+                        <span class="art-item-hover"><i class="fas fa-expand"></i></span>
+                    </a>
+                    <!-- grid item frame end -->
+                    <!-- description -->
+                    <div class="art-item-description">
+                        <!-- title -->
+                        <h5 class="mb-15">systemTemplates</h5>
+                        <div class="mb-15">Sit amet, consectetur adipisicing elit. Quas, architecto.</div>
+                        <!-- button -->
+                        <a href="#" class="art-link art-color-link art-w-chevron">Read more</a>
+                    </div>
+                    <!-- description end -->
+
+                </div>
+                <!-- single system item -->
+                <!-- system items -->
 
             </div>
 
