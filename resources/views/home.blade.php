@@ -18,6 +18,6 @@
     <!-- work-->
 
     <!-- blog -->
-    {{-- @include('sections.blog') --}}
+    @include('sections.blog')
     <!-- blog -->
 @endsection
