@@ -19,7 +19,7 @@
                 </div>
             </div>
             <h5 class="art-name mb-10"><a href="/">{{ env('OWNER') }}</a></h5>
-            <div class="art-sm-text">Software Developer <br>Cloud Developer</div>
+            <div class="art-sm-text">Software Developer <br>DevOps</div>
         </div>
 
         <div id="scrollbar2" class="art-scroll-frame">
