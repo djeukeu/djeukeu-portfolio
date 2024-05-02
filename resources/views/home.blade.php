@@ -9,6 +9,10 @@
     {{-- @include('sections.counter') --}}
     <!-- counter -->
 
+    <!-- about -->
+    @include('sections.about')
+    <!-- about -->
+
     <!-- skills -->
     @include('sections.skills')
     <!-- skills -->
@@ -17,7 +21,11 @@
     @include('sections.work')
     <!-- work-->
 
+    <!-- resume -->
+    @include('sections.resume')
+    <!-- resume -->
+
     <!-- blog -->
-    {{-- @include('sections.blog') --}}
+    @include('sections.blog')
     <!-- blog -->
 @endsection
