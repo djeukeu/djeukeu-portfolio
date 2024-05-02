@@ -8,54 +8,6 @@
             <div class="col-lg-12">
                 <div class="art-section-title">
                     <div class="art-title-frame">
-                        <h4>Contact information</h4>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-12 col-xl-6">
-                <div class="art-a art-card">
-                    <div class="art-table p-15-15">
-                        <ul>
-                            <li>
-                                <h6>Country:</h6><span>United Kingdom</span>
-                            </li>
-                            <li>
-                                <h6>City:</h6><span>Leeds</span>
-                            </li>
-
-                            <li>
-                                <h6>Streat:</h6><span>4 Neville Walk</span>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-12 col-xl-6">
-                <div class="art-a art-card">
-                    <div class="art-table p-15-15">
-                        <ul>
-                            <li>
-                                <h6>Email:</h6><span><a href="mailto:christian@djeukeu.com"
-                                        data-no-swup>christian@djeukeu.com</a></span>
-                            </li>
-                            <li>
-                                <h6>Tel:</h6><span><a href="tel:+4407455363235" data-no-swup>+44 (0)74 55 363 235</a></span>
-                            </li>
-                            <li>
-                                <h6>WhatsApp:</h6><span><a href="https://wa.me/+4407455363235" target="_blank"
-                                        data-no-swup>+44
-                                        (0)74 55 363 235</a></span>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-12">
-                <div class="art-section-title">
-                    <div class="art-title-frame">
                         <h4>Get in touch</h4>
                     </div>
                 </div>
