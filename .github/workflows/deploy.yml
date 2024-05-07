@@ -26,14 +26,3 @@ jobs:
           exclude: |
             **/.git*
             **/.git*/**
-      - name: Install dependencies and migrate db using ssh
-        uses: appleboy/ssh-action@master
-        with:
-          host: ${{ secrets.SSH_HOST }}
-          username: ${{ secrets.SSH_USERNAME }}
-          password: ${{ secrets.SSH_PASSWORD }}
-          port: ${{ secrets.SSH_PORT }}
-          script: |
-            cd public_html
-            composer2 install
-            php artisan migrate --force
