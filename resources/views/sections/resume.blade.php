@@ -6,7 +6,7 @@
         <div class="col-lg-6">
             <div class="art-section-title">
                 <div class="art-title-frame">
-                    <h4>Education</h4>
+                    <h4>Education & Certifications</h4>
                 </div>
             </div>
 
@@ -19,37 +19,19 @@
                     <div class="art-a art-timeline-content">
                         <div class="art-card-header">
                             <div class="art-left-side">
-                                <h5>Bachelor of Technology</h5>
-                                <div class="art-el-suptitle mb-15">Computer Engineering</div>
+                                <h5>HashiCorp Certified</h5>
+                                <h5>Terraform Associate (003)</h5>
+                                <div class="art-el-suptitle mb-15">HashiCorp</div>
                             </div>
                             <div class="art-right-side">
-                                <span class="art-date">Oct 2019 - Jun 2020</span>
+                                <span class="art-date">Issued May 2024</span>
                             </div>
                         </div>
-                        <div>Graduated from <a href="https://myiuc.com/en/home-en/" target="_blank"
-                                class="art-link art-color-link" data-no-swup>INSTITUT UNIVERSITAIRE DE
-                                LA CÔTE</a> with a Bachelor's degree in Software Engineering.</div>
-                    </div>
-                </div>
-                <!-- Single Education -->
-
-                <!-- Single Education -->
-                <div class="art-timeline-item">
-                    <div class="art-timeline-mark-light"></div>
-                    <div class="art-timeline-mark"></div>
-                    <div class="art-a art-timeline-content">
-                        <div class="art-card-header">
-                            <div class="art-left-side">
-                                <h5>Higher National Diploma</h5>
-                                <div class="art-el-suptitle mb-15">Computer Engineering</div>
-                            </div>
-                            <div class="art-right-side">
-                                <span class="art-date">Oct 2017 - Jul 2019</span>
-                            </div>
-                        </div>
-                        <p>HND in Software Engineering and Computing from<a href="https://myiuc.com/en/home-en/"
-                                target="_blank" class="art-link art-color-link" data-no-swup>INSTITUT UNIVERSITAIRE DE
-                                LA CÔTE</a></p>
+                        <p>This certificate demonstrates my understanding of the use of Terraform to provision cloud
+                            resources across multiple cloud providers.</p>
+                        <a data-no-swup target="_blank"
+                            href="https://www.credly.com/badges/ff78fb78-6081-455c-a991-98804424945b/linked_in_profile"
+                            class="art-link art-color-link art-w-chevron">Verify</a>
                     </div>
                 </div>
                 <!-- Single Education -->
@@ -143,6 +125,48 @@
                         <a data-no-swup target="_blank"
                             href="https://www.udemy.com/certificate/UC-fb0abddc-35fb-4573-aa2b-d06e072bac76/"
                             class="art-link art-color-link art-w-chevron">Verify</a>
+                    </div>
+                </div>
+                <!-- Single Education -->
+
+                <!-- Single Education -->
+                <div class="art-timeline-item">
+                    <div class="art-timeline-mark-light"></div>
+                    <div class="art-timeline-mark"></div>
+                    <div class="art-a art-timeline-content">
+                        <div class="art-card-header">
+                            <div class="art-left-side">
+                                <h5>Bachelor of Technology</h5>
+                                <div class="art-el-suptitle mb-15">Computer Engineering</div>
+                            </div>
+                            <div class="art-right-side">
+                                <span class="art-date">Oct 2019 - Jun 2020</span>
+                            </div>
+                        </div>
+                        <div>Graduated from <a href="https://myiuc.com/en/home-en/" target="_blank"
+                                class="art-link art-color-link" data-no-swup>INSTITUT UNIVERSITAIRE DE
+                                LA CÔTE</a> with a Bachelor's degree in Software Engineering.</div>
+                    </div>
+                </div>
+                <!-- Single Education -->
+
+                <!-- Single Education -->
+                <div class="art-timeline-item">
+                    <div class="art-timeline-mark-light"></div>
+                    <div class="art-timeline-mark"></div>
+                    <div class="art-a art-timeline-content">
+                        <div class="art-card-header">
+                            <div class="art-left-side">
+                                <h5>Higher National Diploma</h5>
+                                <div class="art-el-suptitle mb-15">Computer Engineering</div>
+                            </div>
+                            <div class="art-right-side">
+                                <span class="art-date">Oct 2017 - Jul 2019</span>
+                            </div>
+                        </div>
+                        <p>HND in Software Engineering and Computing from<a href="https://myiuc.com/en/home-en/"
+                                target="_blank" class="art-link art-color-link" data-no-swup>INSTITUT UNIVERSITAIRE DE
+                                LA CÔTE</a></p>
                     </div>
                 </div>
                 <!-- Single Education -->
