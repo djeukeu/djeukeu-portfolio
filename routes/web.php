@@ -18,10 +18,7 @@ Route::view('/', 'home');
 
 Route::prefix('projects')->group(function () {
     Route::view('/', 'projects');
-    Route::view('/ekoh-mobile', 'projects.ekoh-mobile');
-    Route::view('/flexipay', 'projects.flexipay');
-    Route::view('/tchangtchangmoney', 'projects.tchangtchangmoney');
-    Route::view('/cook-and-share', 'projects.cook-and-share');
+    Route::view('/example', 'projects.example');
 });
 
 Route::get('/contact', [ContactController::class, 'index'])->name('contact.index');
