@@ -26,7 +26,8 @@
             </a>
             <div class="art-item-description">
                 <h5 class="mb-15">AgogoChop</h5>
-                <a href="#." class="art-link art-color-link art-w-chevron">Read more</a>
+                <div class="mb-15">Sit amet, consectetur adipisicing elit. Quas, architecto.</div>
+                <a href="/projects/agogochop" class="art-link art-color-link art-w-chevron">Read more</a>
             </div>
         </div>
         <!--single project item -->
@@ -41,7 +42,7 @@
             <div class="art-item-description">
                 <h5 class="mb-15">CAMXI</h5>
                 <div class="mb-15">Sit amet, consectetur adipisicing elit. Quas, architecto.</div>
-                <a href="#." class="art-link art-color-link art-w-chevron">Read more</a>
+                <a href="/projects/camxi" class="art-link art-color-link art-w-chevron">Read more</a>
             </div>
         </div>
         <!--single project item -->
@@ -55,9 +56,9 @@
                 <span class="art-item-hover"><i class="fas fa-expand"></i></span>
             </a>
             <div class="art-item-description">
-                <h5 class="mb-15">DevOps1</h5>
+                <h5 class="mb-15">Mobile App CI / CD using Fastlane and Github Actions</h5>
                 <div class="mb-15">Sit amet, consectetur adipisicing elit. Quas, architecto.</div>
-                <a href="#." class="art-link art-color-link art-w-chevron">Read more</a>
+                <a href="/projects/mobile-app-ci-cd-using-fastlane-and-github-actions" class="art-link art-color-link art-w-chevron">Read more</a>
             </div>
         </div>
         <!--single project item -->
