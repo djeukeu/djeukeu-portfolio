@@ -34,30 +34,27 @@
             <div class="col-lg-8">
                 <div class="art-a art-card art-fluid-card">
                     <h5 class="mb-15">Description</h5>
-                    <div class="mb-15">FlexiPay is a payment management application for cement worker. Its robustness and
-                        ease of use allow cement companies to optimise their daily operations.</div>
-                    <div class="mb-15">When I joined <span><a href="https://getsmarter-group.com/" class="art-link"
-                                target="_blank" data-no-swup>Getsmarter</a></span>, this was the first project I started
-                        working on. As
-                        the frontend developer, I was responsible for converting the UIs (designed by
-                        <a href="https://maisoft-group.com/" data-no-swup target="_blank" class="art-link">Maisoft
-                            Group</a>) into a
-                        mobile application and I worked closely with the backend developer to integrate the APIs.
+                    <div class="mb-15">Communication is the act of developing meaning between entities or groups through
+                        the use of sufficient mutually understood signs, symbols and semiotic conventions. DsChat is a
+                        social networking application that takes advantage of technology advancements to make communication
+                        easy anywhere in the world by sending and receiving messages in real time. DsChat is designed with
+                        the aim to include the listed features.
                     </div>
                 </div>
 
             </div>
             <div class="col-lg-4">
                 <div class="art-a art-card">
-                    <h5 class="mb-15">Featuress</h5>
-                    <div class="skills">
-                        <span class="skill-item">React-Native</span>
-                        <span class="skill-item">Laravel</span>
-                        <span class="skill-item">MySQL</span>
-                        <span class="skill-item">Stripe</span>
-                        <span class="skill-item">Fastlane</span>
-                        <span class="skill-item">Github Actions</span>
-                    </div>
+                    <h5 class="mb-15">Features</h5>
+                    <ul class="features">
+                        <li>Real time connection</li>
+                        <li>Easy navigation</li>
+                        <li>Multimedia sharing</li>
+                        <li>Online voice and video calls</li>
+                        <li>Push notification</li>
+                        <li>Profile sharing and Scanning</li>
+                        <li>Stories sharing</li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -77,32 +74,28 @@
                     <div class="swiper-wrapper">
 
                         <div class="swiper-slide">
-                            <a data-fancybox="gallery" data-no-swup
-                                href="{{ asset('img/projects/dschat/dschat-1.png') }}"
+                            <a data-fancybox="gallery" data-no-swup href="{{ asset('img/projects/dschat/dschat-1.png') }}"
                                 class="art-a art-portfolio-item-frame art-horizontal">
                                 <img src="{{ asset('img/projects/dschat/dschat-1.png') }}" alt="item">
                                 <span class="art-item-hover"><i class="fas fa-expand"></i></span>
                             </a>
                         </div>
                         <div class="swiper-slide">
-                            <a data-fancybox="gallery" data-no-swup
-                                href="{{ asset('img/projects/dschat/dschat-2.png') }}"
+                            <a data-fancybox="gallery" data-no-swup href="{{ asset('img/projects/dschat/dschat-2.png') }}"
                                 class="art-a art-portfolio-item-frame art-horizontal">
                                 <img src="{{ asset('img/projects/dschat/dschat-2.png') }}" alt="item">
                                 <span class="art-item-hover"><i class="fas fa-expand"></i></span>
                             </a>
                         </div>
                         <div class="swiper-slide">
-                            <a data-fancybox="gallery" data-no-swup
-                                href="{{ asset('img/projects/dschat/dschat-3.png') }}"
+                            <a data-fancybox="gallery" data-no-swup href="{{ asset('img/projects/dschat/dschat-3.png') }}"
                                 class="art-a art-portfolio-item-frame art-horizontal">
                                 <img src="{{ asset('img/projects/dschat/dschat-3.png') }}" alt="item">
                                 <span class="art-item-hover"><i class="fas fa-expand"></i></span>
                             </a>
                         </div>
                         <div class="swiper-slide">
-                            <a data-fancybox="gallery" data-no-swup
-                                href="{{ asset('img/projects/dschat/dschat-4.png') }}"
+                            <a data-fancybox="gallery" data-no-swup href="{{ asset('img/projects/dschat/dschat-4.png') }}"
                                 class="art-a art-portfolio-item-frame art-horizontal">
                                 <img src="{{ asset('img/projects/dschat/dschat-4.png') }}" alt="item">
                                 <span class="art-item-hover"><i class="fas fa-expand"></i></span>
@@ -139,9 +132,9 @@
                     <div class="art-banner-overlay">
                         <div class="art-banner-title text-center">
                             <h1 class="mb-15">Ready to hire me?</h1>
-                            <a href="/contact" target="_blank"
-                                data-no-swup class="art-btn art-btn-md"><span class="custom-icon-container"> <i
-                                        class="fab fa-google-play custom-icon"></i>Contact Me</span></a>
+                            <a href="/contact" target="_blank" data-no-swup class="art-btn art-btn-md"><span
+                                    class="custom-icon-container"> <i class="fab fa-google-play custom-icon"></i>Contact
+                                    Me</span></a>
                         </div>
                     </div>
                 </div>

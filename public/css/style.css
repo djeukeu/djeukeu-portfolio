@@ -3493,3 +3493,7 @@ html.is-animating .fade-left {
     font-size: large;
     margin-right: 6px;
 }
+
+.features {
+    padding: 0 0 0 16px;
+}
