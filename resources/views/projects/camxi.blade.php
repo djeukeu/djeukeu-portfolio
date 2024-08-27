@@ -34,30 +34,25 @@
             <div class="col-lg-8">
                 <div class="art-a art-card art-fluid-card">
                     <h5 class="mb-15">Description</h5>
-                    <div class="mb-15">FlexiPay is a payment management application for cement worker. Its robustness and
-                        ease of use allow cement companies to optimise their daily operations.</div>
-                    <div class="mb-15">When I joined <span><a href="https://getsmarter-group.com/" class="art-link"
-                                target="_blank" data-no-swup>Getsmarter</a></span>, this was the first project I started
-                        working on. As
-                        the frontend developer, I was responsible for converting the UIs (designed by
-                        <a href="https://maisoft-group.com/" data-no-swup target="_blank" class="art-link">Maisoft
-                            Group</a>) into a
-                        mobile application and I worked closely with the backend developer to integrate the APIs.
+                    <div class="mb-15">Do you know how hard it is to get a ride from home or your current location in less
+                        developed countries like Cameroon?</div>
+                    <div class="mb-15">CAMXI (Cameroon Taxi) is a local ride app that aims to facilitate the requesting of
+                        taxis in Cameroon. It also gives drivers the opportunity to get more clients by easily connecting
+                        them with passengers. CAMXI will provide the listed features.
                     </div>
                 </div>
 
             </div>
             <div class="col-lg-4">
                 <div class="art-a art-card">
-                    <h5 class="mb-15">Tech Stack</h5>
-                    <div class="skills">
-                        <span class="skill-item">React-Native</span>
-                        <span class="skill-item">Laravel</span>
-                        <span class="skill-item">MySQL</span>
-                        <span class="skill-item">Stripe</span>
-                        <span class="skill-item">Fastlane</span>
-                        <span class="skill-item">Github Actions</span>
-                    </div>
+                    <h5 class="mb-15">Features</h5>
+                    <ul class="features">
+                        <li>Easy ride and drive</li>
+                        <li>Schedule trips</li>
+                        <li>Cashless & In-App payment</li>
+                        <li>Share Ride</li>
+                        <li>Pay4Me</li>
+                    </ul>
                 </div>
             </div>
         </div>

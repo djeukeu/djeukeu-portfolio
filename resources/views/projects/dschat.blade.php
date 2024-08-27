@@ -47,12 +47,12 @@
                 <div class="art-a art-card">
                     <h5 class="mb-15">Features</h5>
                     <ul class="features">
-                        <li>Real time connection</li>
+                        <li>Real-time connection</li>
                         <li>Easy navigation</li>
                         <li>Multimedia sharing</li>
                         <li>Online voice and video calls</li>
                         <li>Push notification</li>
-                        <li>Profile sharing and Scanning</li>
+                        <li>Profile sharing and scanning</li>
                         <li>Stories sharing</li>
                     </ul>
                 </div>
