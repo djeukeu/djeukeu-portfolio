@@ -22,6 +22,7 @@ Route::prefix('projects')->group(function () {
     Route::view('/mobile-app-ci-cd-using-fastlane-and-github-actions', 'projects.mobile_ci_cd');
     Route::view('/agogochop', 'projects.agogochop');
     Route::view('/camxi', 'projects.camxi');
+    Route::view('/dschat', 'projects.dschat');
 });
 
 Route::get('/contact', [ContactController::class, 'index'])->name('contact.index');

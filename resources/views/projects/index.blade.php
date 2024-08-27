@@ -34,9 +34,9 @@
 
         <!--single project item -->
         <div class="art-grid-item uiProjects">
-            <a data-fancybox="gallery" data-no-swup href="img/works/original-size/2.jpg"
+            <a data-fancybox="gallery" data-no-swup href="{{ asset('img/projects/camxi/camxi-5.png') }}"
                 class="art-a art-portfolio-item-frame art-vertical">
-                <img src="img/works/thumbnail/2.jpg" alt="item">
+                <img src="{{ asset('img/projects/camxi/camxi-5.png') }}" alt="item">
                 <span class="art-item-hover"><i class="fas fa-expand"></i></span>
             </a>
             <div class="art-item-description">
@@ -58,7 +58,8 @@
             <div class="art-item-description">
                 <h5 class="mb-15">Mobile App CI / CD using Fastlane and Github Actions</h5>
                 <div class="mb-15">Sit amet, consectetur adipisicing elit. Quas, architecto.</div>
-                <a href="/projects/mobile-app-ci-cd-using-fastlane-and-github-actions" class="art-link art-color-link art-w-chevron">Read more</a>
+                <a href="/projects/mobile-app-ci-cd-using-fastlane-and-github-actions"
+                    class="art-link art-color-link art-w-chevron">Read more</a>
             </div>
         </div>
         <!--single project item -->
@@ -97,15 +98,15 @@
 
         <!--single project item -->
         <div class="art-grid-item uiProjects">
-            <a data-fancybox="gallery" data-no-swup href="img/works/original-size/6.jpg"
+            <a data-fancybox="gallery" data-no-swup href="{{ asset('img/projects/dschat/dschat-5.png') }}"
                 class="art-a art-portfolio-item-frame art-vertical">
-                <img src="img/works/thumbnail/6.jpg" alt="item">
+                <img src="{{ asset('img/projects/dschat/dschat-5.png') }}" alt="item">
                 <span class="art-item-hover"><i class="fas fa-expand"></i></span>
             </a>
             <div class="art-item-description">
-                <h5 class="mb-15">Ui project</h5>
+                <h5 class="mb-15">DsChat</h5>
                 <div class="mb-15">Sit amet, consectetur adipisicing elit. Quas, architecto.</div>
-                <a href="#." class="art-link art-color-link art-w-chevron">Read more</a>
+                <a href="/projects/dschat" class="art-link art-color-link art-w-chevron">Read more</a>
             </div>
         </div>
         <!--single project item -->
