@@ -54,6 +54,7 @@
                         <li>Push notification</li>
                         <li>Profile sharing and scanning</li>
                         <li>Stories sharing</li>
+                        <li>Light & Dark theme</li>
                     </ul>
                 </div>
             </div>
