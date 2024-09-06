@@ -88,9 +88,9 @@
                 <span class="art-item-hover"><i class="fas fa-expand"></i></span>
             </a>
             <div class="art-item-description">
-                <h5 class="mb-15">devOps2</h5>
+                <h5 class="mb-15">Web Server CI / CD using AWS CloudFormation and Github Actions</h5>
                 <div class="mb-15">Sit amet, consectetur adipisicing elit. Quas, architecto.</div>
-                <a href="#." class="art-link art-color-link art-w-chevron">Read more</a>
+                <a href="projects/web-server-ci-cd-using-aws-cloudformation-and-github-actions" class="art-link art-color-link art-w-chevron">Read more</a>
             </div>
         </div>
         <!--single project item -->

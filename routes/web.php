@@ -20,6 +20,7 @@ Route::prefix('projects')->group(function () {
     Route::view('/', 'projects');
     Route::view('/example', 'projects.example');
     Route::view('/mobile-app-ci-cd-using-fastlane-and-github-actions', 'projects.mobile_ci_cd');
+    Route::view('/web-server-ci-cd-using-aws-cloudformation-and-github-actions', 'projects.server_ci_cd');
     Route::view('/agogochop', 'projects.agogochop');
     Route::view('/camxi', 'projects.camxi');
     Route::view('/dschat', 'projects.dschat');
