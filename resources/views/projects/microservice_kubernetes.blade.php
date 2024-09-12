@@ -6,10 +6,10 @@
             <div class="col-lg-12">
                 <div class="art-section-title">
                     <div class="art-title-frame">
-                        <h4>AgogoChop</h4>
+                        <h4>FlexiPay</h4>
                     </div>
                     <div class="art-right-frame">
-                        <div class="art-project-category">Mobile</div>
+                        <div class="art-project-category">Tools & utilities</div>
                     </div>
                 </div>
             </div>

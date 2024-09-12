@@ -25,9 +25,9 @@
                 <span class="art-item-hover"><i class="fas fa-expand"></i></span>
             </a>
             <div class="art-item-description">
-                <h5 class="mb-15">AgogoChop</h5>
+                <h5 class="mb-15">Cook&Share</h5>
                 <div class="mb-15">Sit amet, consectetur adipisicing elit. Quas, architecto.</div>
-                <a href="/projects/agogochop" class="art-link art-color-link art-w-chevron">Read more</a>
+                <a href="/projects/cook-and-share" class="art-link art-color-link art-w-chevron">Read more</a>
             </div>
         </div>
         <!--single project item -->
@@ -72,9 +72,9 @@
                 <span class="art-item-hover"><i class="fas fa-expand"></i></span>
             </a>
             <div class="art-item-description">
-                <h5 class="mb-15">Restaurant App</h5>
+                <h5 class="mb-15">Ekoh Online</h5>
                 <div class="mb-15">Sit amet, consectetur adipisicing elit. Quas, architecto.</div>
-                <a href="#." class="art-link art-color-link art-w-chevron">Read more</a>
+                <a href="/projects/ekoh-online" class="art-link art-color-link art-w-chevron">Read more</a>
             </div>
         </div>
         <!--single project item -->
@@ -90,7 +90,8 @@
             <div class="art-item-description">
                 <h5 class="mb-15">Web Server CI / CD using AWS CloudFormation and Github Actions</h5>
                 <div class="mb-15">Sit amet, consectetur adipisicing elit. Quas, architecto.</div>
-                <a href="projects/web-server-ci-cd-using-aws-cloudformation-and-github-actions" class="art-link art-color-link art-w-chevron">Read more</a>
+                <a href="projects/web-server-ci-cd-using-aws-cloudformation-and-github-actions"
+                    class="art-link art-color-link art-w-chevron">Read more</a>
             </div>
         </div>
         <!--single project item -->
@@ -119,9 +120,10 @@
                 <span class="art-item-hover"><i class="fas fa-expand"></i></span>
             </a>
             <div class="art-item-description">
-                <h5 class="mb-15">devOps3</h5>
+                <h5 class="mb-15">Microservice cloud infrastructure deployment with Terraform and CircleCI</h5>
                 <div class="mb-15">Sit amet, consectetur adipisicing elit. Quas, architecto.</div>
-                <a href="#." class="art-link art-color-link art-w-chevron">Read more</a>
+                <a href="/projects/microservice-cloud-insfrastructure-deployment-with-terraform-and-circleci"
+                    class="art-link art-color-link art-w-chevron">Read more</a>
             </div>
         </div>
         <!--single project item -->
@@ -134,9 +136,10 @@
                 <span class="art-item-hover"><i class="fas fa-expand"></i></span>
             </a>
             <div class="art-item-description">
-                <h5 class="mb-15">devOps4</h5>
+                <h5 class="mb-15">Microservice Orchestration with Kubernetes</h5>
                 <div class="mb-15">Sit amet, consectetur adipisicing elit. Quas, architecto.</div>
-                <a href="#." class="art-link art-color-link art-w-chevron">Read more</a>
+                <a href="/projects/microservice-orchestration-with-kubernetes"
+                    class="art-link art-color-link art-w-chevron">Read more</a>
             </div>
         </div>
         <!--single project item -->
