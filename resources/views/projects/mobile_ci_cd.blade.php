@@ -138,13 +138,13 @@
                     </div>
                 </div>
                 <div class="art-a art-pagination">
-                    <a href="/projects/ekoh-mobile"
+                    <a href="/projects/camxi"
                         class="art-link art-color-link art-w-chevron art-left-link"><span>Previous
                             project</span></a>
                     <div class="art-pagination-center art-m-hidden">
-                        <a class="art-link" href="#" style="pointer-events: none;">FlexiPay</a>
+                        <a class="art-link" href="#" style="pointer-events: none;">Mobile App CI / CD</a>
                     </div>
-                    <a href="/projects/tchangtchangmoney" class="art-link art-color-link art-w-chevron"><span>Next
+                    <a href="/projects/ekoh-online" class="art-link art-color-link art-w-chevron"><span>Next
                             project</span></a>
                 </div>
             </div>

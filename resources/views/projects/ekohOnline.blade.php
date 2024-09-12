@@ -6,10 +6,10 @@
             <div class="col-lg-12">
                 <div class="art-section-title">
                     <div class="art-title-frame">
-                        <h4>ekohOnline</h4>
+                        <h4>Ekoh Online</h4>
                     </div>
                     <div class="art-right-frame">
-                        <div class="art-project-category">Tools & utilities</div>
+                        <div class="art-project-category">Web</div>
                     </div>
                 </div>
             </div>
@@ -138,13 +138,13 @@
                     </div>
                 </div>
                 <div class="art-a art-pagination">
-                    <a href="/projects/ekoh-mobile"
+                    <a href="/projects/mobile-app-ci-cd-using-fastlane-and-github-actions"
                         class="art-link art-color-link art-w-chevron art-left-link"><span>Previous
                             project</span></a>
                     <div class="art-pagination-center art-m-hidden">
-                        <a class="art-link" href="#" style="pointer-events: none;">FlexiPay</a>
+                        <a class="art-link" href="#" style="pointer-events: none;">Ekoh Online</a>
                     </div>
-                    <a href="/projects/tchangtchangmoney" class="art-link art-color-link art-w-chevron"><span>Next
+                    <a href="/projects/dschat" class="art-link art-color-link art-w-chevron"><span>Next
                             project</span></a>
                 </div>
             </div>

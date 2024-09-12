@@ -107,12 +107,12 @@
                     </div>
                 </div>
                 <div class="art-a art-pagination">
-                    <a href="/projects/agogochop" class="art-link art-color-link art-w-chevron art-left-link"><span>Previous
+                    <a href="/projects/cook-and-share" class="art-link art-color-link art-w-chevron art-left-link"><span>Previous
                             project</span></a>
                     <div class="art-pagination-center art-m-hidden">
                         <a class="art-link" href="#" style="pointer-events: none;">CAMXI</a>
                     </div>
-                    <a href="/projects/mobile_ci_cd" class="art-link art-color-link art-w-chevron"><span>Next
+                    <a href="/projects/mobile-app-ci-cd-using-fastlane-and-github-actions" class="art-link art-color-link art-w-chevron"><span>Next
                             project</span></a>
                 </div>
             </div>

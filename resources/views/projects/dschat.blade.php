@@ -140,13 +140,13 @@
                     </div>
                 </div>
                 <div class="art-a art-pagination">
-                    <a href="/projects/ekoh-mobile"
+                    <a href="/projects/ekoh-online"
                         class="art-link art-color-link art-w-chevron art-left-link"><span>Previous
                             project</span></a>
                     <div class="art-pagination-center art-m-hidden">
                         <a class="art-link" href="#" style="pointer-events: none;">DsChat</a>
                     </div>
-                    <a href="/projects/tchangtchangmoney" class="art-link art-color-link art-w-chevron"><span>Next
+                    <a href="/projects/web-server-ci-cd-using-aws-cloudformation-and-github-actions" class="art-link art-color-link art-w-chevron"><span>Next
                             project</span></a>
                 </div>
             </div>

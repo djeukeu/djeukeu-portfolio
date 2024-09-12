@@ -6,10 +6,10 @@
             <div class="col-lg-12">
                 <div class="art-section-title">
                     <div class="art-title-frame">
-                        <h4>FlexiPay</h4>
+                        <h4>Microservice Orchestration with Kubernetes</h4>
                     </div>
                     <div class="art-right-frame">
-                        <div class="art-project-category">Tools & utilities</div>
+                        <div class="art-project-category">DevOps</div>
                     </div>
                 </div>
             </div>
@@ -138,13 +138,14 @@
                     </div>
                 </div>
                 <div class="art-a art-pagination">
-                    <a href="/projects/ekoh-mobile"
+                    <a href="/projects/web-server-ci-cd-using-aws-cloudformation-and-github-actions"
                         class="art-link art-color-link art-w-chevron art-left-link"><span>Previous
                             project</span></a>
                     <div class="art-pagination-center art-m-hidden">
-                        <a class="art-link" href="#" style="pointer-events: none;">FlexiPay</a>
+                        <a class="art-link" href="#" style="pointer-events: none;">Microservice Orchestration</a>
                     </div>
-                    <a href="/projects/tchangtchangmoney" class="art-link art-color-link art-w-chevron"><span>Next
+                    <a href="/projects/microservice-cloud-insfrastructure-deployment-with-terraform-and-circleci"
+                        class="art-link art-color-link art-w-chevron"><span>Next
                             project</span></a>
                 </div>
             </div>
