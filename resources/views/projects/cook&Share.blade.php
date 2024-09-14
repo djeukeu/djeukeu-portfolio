@@ -16,14 +16,15 @@
 
             <div class="col-lg-12">
                 <div class="art-a art-project-cover">
-                    <a data-fancybox="gallery" data-no-swup href="{{ asset('img/projects/flexipay/flexipay-4.png') }}"
+                    <a data-fancybox="gallery" data-no-swup
+                        href="{{ asset('img/projects/cook-and-share/cook-and-share-1.png') }}"
                         class="art-portfolio-item-frame art-horizontal">
-                        <img src="{{ asset('img/projects/flexipay/flexipay-4.png') }}" alt="item">
+                        <img src="{{ asset('img/projects/cook-and-share/cook-and-share-1.png') }}" alt="item">
                         <span class="art-item-hover"><i class="fas fa-expand"></i></span>
                     </a>
                 </div>
-
             </div>
+
             <div class="col-lg-12">
                 <div class="art-section-title">
                     <div class="art-title-frame">
@@ -31,27 +32,41 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-8">
+
+            <div class="col-lg-12">
                 <div class="art-a art-card art-fluid-card">
                     <h5 class="mb-15">Description</h5>
-                    <div class="mb-15">FlexiPay is a payment management application for cement worker. Its robustness and
-                        ease of use allow cement companies to optimise their daily operations.</div>
-                    <div class="mb-15">When I joined <span><a href="https://getsmarter-group.com/" class="art-link"
-                                target="_blank" data-no-swup>Getsmarter</a></span>, this was the first project I started
-                        working on. As
-                        the frontend developer, I was responsible for converting the UIs (designed by
-                        <a href="https://maisoft-group.com/" data-no-swup target="_blank" class="art-link">Maisoft
-                            Group</a>) into a
-                        mobile application and I worked closely with the backend developer to integrate the APIs.
+                    <div class="mb-15">Cook and Share is an app that aims to provide a convenient way to buy and sell
+                        home-cooked food. And the platform is a good alternative source of meals for people who eat out or
+                        regularly buy takeaway food.</div>
+                    <div class="mb-15">Cook & Share was a very interesting project to work on as it was a straightforward
+                        project with few complexities. As the frontend developer, I implemented all the designs that were
+                        sent to me. And it was developed with the aim of supporting both Android and iOS platforms. I also
+                        designed the CI/CD pipeline to make it easy to deploy to Playstore and App Store.
                     </div>
                 </div>
-
             </div>
-            <div class="col-lg-4">
+
+            <div class="col-lg-6">
+                <div class="art-a art-card">
+                    <h5 class="mb-15">Features</h5>
+                    <ul class="features">
+                        <li>Easy navigation</li>
+                        <li>Real-time communication with chefs</li>
+                        <li>Push notification</li>
+                        <li>Simple local payment methods</li>
+                        <li>Delivery GPS tracking</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
                 <div class="art-a art-card">
                     <h5 class="mb-15">Tech Stack</h5>
                     <div class="skills">
                         <span class="skill-item">React-Native</span>
+                        <span class="skill-item">Firebase Push Notification</span>
+                        <span class="skill-item">Sentry</span>
                         <span class="skill-item">Laravel</span>
                         <span class="skill-item">MySQL</span>
                         <span class="skill-item">Stripe</span>
@@ -64,63 +79,41 @@
     </div>
 
     <div class="container-fluid">
-        <div class="row mb-15">
-            <div class="col-lg-12">
-                <div class="art-section-title">
-                    <div class="art-title-frame">
-                        <h4>Result</h4>
-                    </div>
-                </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="art-section-title">
+              <div class="art-title-frame">
+                <h4>Result</h4>
+              </div>
             </div>
-            <div class="col-lg-12">
-                <div class="swiper-container art-works-slider" style="overflow: visible">
-                    <div class="swiper-wrapper">
+          </div>
+          <div class="art-grid art-grid-2-col art-gallery">
 
-                        <div class="swiper-slide">
-                            <a data-fancybox="gallery" data-no-swup
-                                href="{{ asset('img/projects/flexipay/flexipay-1.png') }}"
-                                class="art-a art-portfolio-item-frame art-horizontal">
-                                <img src="{{ asset('img/projects/flexipay/flexipay-1.png') }}" alt="item">
-                                <span class="art-item-hover"><i class="fas fa-expand"></i></span>
-                            </a>
-                        </div>
-                        <div class="swiper-slide">
-                            <a data-fancybox="gallery" data-no-swup
-                                href="{{ asset('img/projects/flexipay/flexipay-2.png') }}"
-                                class="art-a art-portfolio-item-frame art-horizontal">
-                                <img src="{{ asset('img/projects/flexipay/flexipay-2.png') }}" alt="item">
-                                <span class="art-item-hover"><i class="fas fa-expand"></i></span>
-                            </a>
-                        </div>
-                        <div class="swiper-slide">
-                            <a data-fancybox="gallery" data-no-swup
-                                href="{{ asset('img/projects/flexipay/flexipay-3.png') }}"
-                                class="art-a art-portfolio-item-frame art-horizontal">
-                                <img src="{{ asset('img/projects/flexipay/flexipay-3.png') }}" alt="item">
-                                <span class="art-item-hover"><i class="fas fa-expand"></i></span>
-                            </a>
-                        </div>
-                    </div>
+            <div class="art-grid-item webTemplates">
+              <a data-fancybox="gallery" data-no-swup href="{{ asset('img/projects/cook-and-share/cook-and-share-4.png') }}" class="art-a art-portfolio-item-frame art-horizontal">
+                <img src="{{ asset('img/projects/cook-and-share/cook-and-share-4.png') }}" alt="item">
+                <span class="art-item-hover"><i class="fas fa-expand"></i></span>
+              </a>
+            </div>
 
-                </div>
+            <div class="art-grid-item logos">
+              <a data-fancybox="gallery" data-no-swup href="{{ asset('img/projects/cook-and-share/cook-and-share-3.png') }}" class="art-a art-portfolio-item-frame art-vertical">
+                <img src="{{ asset('img/projects/cook-and-share/cook-and-share-3.png') }}" alt="item">
+                <span class="art-item-hover"><i class="fas fa-expand"></i></span>
+              </a>
+
             </div>
-            <div class="col-lg-12">
-                <div class="art-slider-navigation">
-                    <div class="art-sn-left">
-                        <div class="swiper-pagination"></div>
-                    </div>
-                    <div class="art-sn-right">
-                        <div class="art-slider-nav-frame">
-                            <div class="art-slider-nav art-works-swiper-prev"><i class="fas fa-chevron-left"></i>
-                            </div>
-                            <div class="art-slider-nav art-works-swiper-next"><i class="fas fa-chevron-right"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+
+            <div class="art-grid-item drawings">
+              <a data-fancybox="gallery" data-no-swup href="{{ asset('img/projects/cook-and-share/cook-and-share-2.png') }}" class="art-a art-portfolio-item-frame art-horizontal">
+                <img src="{{ asset('img/projects/cook-and-share/cook-and-share-2.png') }}" alt="item">
+                <span class="art-item-hover"><i class="fas fa-expand"></i></span>
+              </a>
             </div>
+
+          </div>
         </div>
-    </div>
+      </div>
 
 
     <div class="container-fluid">
@@ -129,7 +122,7 @@
                 <div class="art-a art-banner" style="background-image: url({{ asset('img/bg.png') }})">
                     <div class="art-banner-overlay">
                         <div class="art-banner-title text-center">
-                            <h1 class="mb-15">Ready to download FlexiPay?</h1>
+                            <h1 class="mb-15">Ready to download Cook&Share?</h1>
                             <div class="art-lg-text art-code mb-25">Available on playstore</div>
                             <a href="https://play.google.com/store/apps/details?id=com.flexipay" target="_blank"
                                 data-no-swup class="art-btn art-btn-md"><span class="custom-icon-container"> <i
