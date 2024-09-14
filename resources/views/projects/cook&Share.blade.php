@@ -122,11 +122,20 @@
                 <div class="art-a art-banner" style="background-image: url({{ asset('img/bg.png') }})">
                     <div class="art-banner-overlay">
                         <div class="art-banner-title text-center">
-                            <h1 class="mb-15">Ready to download Cook&Share?</h1>
-                            <div class="art-lg-text art-code mb-25">Available on playstore</div>
-                            <a href="https://play.google.com/store/apps/details?id=com.flexipay" target="_blank"
-                                data-no-swup class="art-btn art-btn-md"><span class="custom-icon-container"> <i
-                                        class="fab fa-google-play custom-icon"></i>Download</span></a>
+                            <h1 class="mb-15">Ready to download cook&Share?</h1>
+                            <div class="art-lg-text art-code mb-25">Available on play Store and App Store</div>
+                            <div class="row justify-content-center">
+                                <div class="col-lg-4 col-md-12 mb-2">
+                                    <a href="https://play.google.com/store/apps/details?id=social.cookshare" target="_blank"
+                                        data-no-swup class="art-btn art-btn-md"><span class="custom-icon-container"> <i
+                                                class="fab fa-google-play custom-icon"></i>Play Store</span></a>
+                                </div>
+                                <div class="col-lg-4 col-md-12 ">
+                                    <a href="https://apps.apple.com/tn/app/cook-share/id6467504890" target="_blank"
+                                        data-no-swup class="art-btn art-btn-md"><span class="custom-icon-container"> <i
+                                                class="fab fa-app-store-ios custom-icon"></i>App Store</span></a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
