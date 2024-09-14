@@ -61,7 +61,7 @@
             </div>
 
             <div class="col-lg-6">
-                <div class="art-a art-card">
+                <div class="art-a art-card art-fluid-card">
                     <h5 class="mb-15">Tech Stack</h5>
                     <div class="skills">
                         <span class="skill-item">React-Native</span>

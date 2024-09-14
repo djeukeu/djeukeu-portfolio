@@ -44,7 +44,7 @@
 
             </div>
             <div class="col-lg-4">
-                <div class="art-a art-card">
+                <div class="art-a art-card art-fluid-card">
                     <h5 class="mb-15">Features</h5>
                     <ul class="features">
                         <li>Easy ride and drive</li>
