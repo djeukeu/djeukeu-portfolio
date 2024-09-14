@@ -43,7 +43,7 @@
             <div class="art-item-description">
                 <h5 class="mb-15">CAMXI</h5>
                 <div class="mb-15">CAMXI is a local ride app that aims to facilitate the requesting of
-                    taxis in Cameroon.</div>
+                    taxis ... </div>
                 <a href="/projects/camxi" class="art-link art-color-link art-w-chevron">Read more</a>
             </div>
         </div>
@@ -108,7 +108,8 @@
             </a>
             <div class="art-item-description">
                 <h5 class="mb-15">DsChat</h5>
-                <div class="mb-15">Sit amet, consectetur adipisicing elit. Quas, architecto.</div>
+                <div class="mb-15">DsChat is a social networking application that takes advantage of technology ...
+                </div>
                 <a href="/projects/dschat" class="art-link art-color-link art-w-chevron">Read more</a>
             </div>
         </div>
