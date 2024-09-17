@@ -68,14 +68,14 @@
 
         <!--single project item -->
         <div class="art-grid-item webProjects">
-            <a data-fancybox="gallery" data-no-swup href="img/works/original-size/4.jpg"
+            <a data-fancybox="gallery" data-no-swup href="{{ asset('img/projects/ekoh/ekoh-3.png') }}"
                 class="art-a art-portfolio-item-frame art-vertical">
-                <img src="img/works/thumbnail/4.jpg" alt="item">
+                <img src="{{ asset('img/projects/ekoh/ekoh-3.png') }}" alt="item">
                 <span class="art-item-hover"><i class="fas fa-expand"></i></span>
             </a>
             <div class="art-item-description">
                 <h5 class="mb-15">Ekoh Online</h5>
-                <div class="mb-15">Sit amet, consectetur adipisicing elit. Quas, architecto.</div>
+                <div class="mb-15">Ekoh, meaning music in an African dialect, is an African owned online music store.</div>
                 <a href="/projects/ekoh-online" class="art-link art-color-link art-w-chevron">Read more</a>
             </div>
         </div>

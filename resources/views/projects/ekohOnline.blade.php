@@ -16,9 +16,9 @@
 
             <div class="col-lg-12">
                 <div class="art-a art-project-cover">
-                    <a data-fancybox="gallery" data-no-swup href="{{ asset('img/projects/flexipay/flexipay-4.png') }}"
+                    <a data-fancybox="gallery" data-no-swup href="{{ asset('img/projects/ekoh/ekoh-1.png') }}"
                         class="art-portfolio-item-frame art-horizontal">
-                        <img src="{{ asset('img/projects/flexipay/flexipay-4.png') }}" alt="item">
+                        <img src="{{ asset('img/projects/ekoh/ekoh-1.png') }}" alt="item">
                         <span class="art-item-hover"><i class="fas fa-expand"></i></span>
                     </a>
                 </div>
@@ -64,7 +64,7 @@
     </div>
 
     <div class="container-fluid">
-        <div class="row mb-15">
+        <div class="row">
             <div class="col-lg-12">
                 <div class="art-section-title">
                     <div class="art-title-frame">
@@ -72,51 +72,27 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-12">
-                <div class="swiper-container art-works-slider" style="overflow: visible">
-                    <div class="swiper-wrapper">
-
-                        <div class="swiper-slide">
-                            <a data-fancybox="gallery" data-no-swup
-                                href="{{ asset('img/projects/flexipay/flexipay-1.png') }}"
-                                class="art-a art-portfolio-item-frame art-horizontal">
-                                <img src="{{ asset('img/projects/flexipay/flexipay-1.png') }}" alt="item">
-                                <span class="art-item-hover"><i class="fas fa-expand"></i></span>
-                            </a>
-                        </div>
-                        <div class="swiper-slide">
-                            <a data-fancybox="gallery" data-no-swup
-                                href="{{ asset('img/projects/flexipay/flexipay-2.png') }}"
-                                class="art-a art-portfolio-item-frame art-horizontal">
-                                <img src="{{ asset('img/projects/flexipay/flexipay-2.png') }}" alt="item">
-                                <span class="art-item-hover"><i class="fas fa-expand"></i></span>
-                            </a>
-                        </div>
-                        <div class="swiper-slide">
-                            <a data-fancybox="gallery" data-no-swup
-                                href="{{ asset('img/projects/flexipay/flexipay-3.png') }}"
-                                class="art-a art-portfolio-item-frame art-horizontal">
-                                <img src="{{ asset('img/projects/flexipay/flexipay-3.png') }}" alt="item">
-                                <span class="art-item-hover"><i class="fas fa-expand"></i></span>
-                            </a>
-                        </div>
-                    </div>
-
+            <div class="art-grid art-grid-2-col art-gallery">
+                <div class="art-grid-item webTemplates">
+                    <a data-fancybox="gallery" data-no-swup href="{{ asset('img/projects/ekoh/ekoh-3.png') }}"
+                        class="art-a art-portfolio-item-frame art-horizontal">
+                        <img src="{{ asset('img/projects/ekoh/ekoh-3.png') }}" alt="item">
+                        <span class="art-item-hover"><i class="fas fa-expand"></i></span>
+                    </a>
                 </div>
-            </div>
-            <div class="col-lg-12">
-                <div class="art-slider-navigation">
-                    <div class="art-sn-left">
-                        <div class="swiper-pagination"></div>
-                    </div>
-                    <div class="art-sn-right">
-                        <div class="art-slider-nav-frame">
-                            <div class="art-slider-nav art-works-swiper-prev"><i class="fas fa-chevron-left"></i>
-                            </div>
-                            <div class="art-slider-nav art-works-swiper-next"><i class="fas fa-chevron-right"></i>
-                            </div>
-                        </div>
-                    </div>
+                <div class="art-grid-item logos">
+                    <a data-fancybox="gallery" data-no-swup href="{{ asset('img/projects/ekoh/ekoh-2.png') }}"
+                        class="art-a art-portfolio-item-frame art-vertical">
+                        <img src="{{ asset('img/projects/ekoh/ekoh-2.png') }}" alt="item">
+                        <span class="art-item-hover"><i class="fas fa-expand"></i></span>
+                    </a>
+                </div>
+                <div class="art-grid-item drawings">
+                    <a data-fancybox="gallery" data-no-swup href="{{ asset('img/projects/ekoh/ekoh-4.png') }}"
+                        class="art-a art-portfolio-item-frame art-horizontal">
+                        <img src="{{ asset('img/projects/ekoh/ekoh-4.png') }}" alt="item">
+                        <span class="art-item-hover"><i class="fas fa-expand"></i></span>
+                    </a>
                 </div>
             </div>
         </div>
