@@ -31,30 +31,52 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-8">
+
+            <div class="col-lg-12">
                 <div class="art-a art-card art-fluid-card">
                     <h5 class="mb-15">Description</h5>
-                    <div class="mb-15">FlexiPay is a payment management application for cement worker. Its robustness and
-                        ease of use allow cement companies to optimise their daily operations.</div>
-                    <div class="mb-15">When I joined <span><a href="https://getsmarter-group.com/" class="art-link"
-                                target="_blank" data-no-swup>Getsmarter</a></span>, this was the first project I started
-                        working on. As
-                        the frontend developer, I was responsible for converting the UIs (designed by
-                        <a href="https://maisoft-group.com/" data-no-swup target="_blank" class="art-link">Maisoft
-                            Group</a>) into a
-                        mobile application and I worked closely with the backend developer to integrate the APIs.
+                    <div class="mb-15">Ekoh Online is an African owned online music store that allows music artists from
+                        all over the world to upload their singles and albums to share or sell.</div>
+                    <div class="mb-15">Ekoh Online is not only a web-based project, it also has a mobile version called
+                        Ekoh Mobile. When I joined the Ekoh team (at Arrah Solution) as a Software Developer Intern in June
+                        2021, I learnt React and React-Native, which came in handy in my daily task of working on the Ekoh
+                        project.Three months later, I continue as a Junior Software Developer, debugging the existing code
+                        to improve the application's performance and user experience.
                     </div>
                 </div>
-
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-6">
                 <div class="art-a art-card">
+                    <h5 class="mb-15">Features</h5>
+                    <ul class="features">
+                        <li>Easy navigation</li>
+                        <li>Simple local payment methods</li>
+                        <li>Cross-platform compatibility</li>
+                        <li>Live Streaming</li>
+                        <li>Music Categorization</li>
+                        <li>Offline music player</li>
+                        <li>Subscriptions</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="art-a art-card art-fluid-card">
                     <h5 class="mb-15">Tech Stack</h5>
                     <div class="skills">
+                        <span class="skill-item">React</span>
+                        <span class="skill-item">Apollo Federation</span>
+                        <span class="skill-item">Apollo Server</span>
+                        <span class="skill-item">AWS</span>
+                        <span class="skill-item">Docker</span>
+                        <span class="skill-item">Kubernetes</span>
+                        <span class="skill-item">Apache Kafka</span>
                         <span class="skill-item">React-Native</span>
+                        <span class="skill-item">Firebase Push Notification</span>
+                        <span class="skill-item">Sentry</span>
                         <span class="skill-item">Laravel</span>
-                        <span class="skill-item">MySQL</span>
-                        <span class="skill-item">Stripe</span>
+                        <span class="skill-item">PostgreSQL</span>
+                        <span class="skill-item">Mongodb</span>
                         <span class="skill-item">Fastlane</span>
                         <span class="skill-item">Github Actions</span>
                     </div>
@@ -105,11 +127,11 @@
                 <div class="art-a art-banner" style="background-image: url({{ asset('img/bg.png') }})">
                     <div class="art-banner-overlay">
                         <div class="art-banner-title text-center">
-                            <h1 class="mb-15">Ready to download FlexiPay?</h1>
-                            <div class="art-lg-text art-code mb-25">Available on playstore</div>
-                            <a href="https://play.google.com/store/apps/details?id=com.flexipay" target="_blank"
-                                data-no-swup class="art-btn art-btn-md"><span class="custom-icon-container"> <i
-                                        class="fab fa-google-play custom-icon"></i>Download</span></a>
+                            <h1 class="mb-15">Ready to Ekoh?</h1>
+                            <div class="art-lg-text art-code mb-25">View Web App</div>
+                            <a href="https://www.ekoh.online/" target="_blank" data-no-swup class="art-btn art-btn-md"><span
+                                    class="custom-icon-container"> <i
+                                        class="fab fa-google-play custom-icon"></i>View</span></a>
                         </div>
                     </div>
                 </div>
