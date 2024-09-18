@@ -132,14 +132,13 @@
                             <h1 class="mb-15">Ready to download FlexiPay?</h1>
                             <div class="art-lg-text art-code mb-25">Available on playstore</div>
                             <a href="https://play.google.com/store/apps/details?id=com.flexipay" target="_blank"
-                                data-no-swup class="art-btn art-btn-md"><span class="custom-icon-container"> <i
-                                        class="fab fa-google-play custom-icon"></i>Download</span></a>
+                                data-no-swup class="art-btn art-btn-md"><span
+                                    class="custom-icon-container">Download</span></a>
                         </div>
                     </div>
                 </div>
                 <div class="art-a art-pagination">
-                    <a href="/projects/camxi"
-                        class="art-link art-color-link art-w-chevron art-left-link"><span>Previous
+                    <a href="/projects/camxi" class="art-link art-color-link art-w-chevron art-left-link"><span>Previous
                             project</span></a>
                     <div class="art-pagination-center art-m-hidden">
                         <a class="art-link" href="#" style="pointer-events: none;">Mobile App CI / CD</a>

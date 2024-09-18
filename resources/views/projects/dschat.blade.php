@@ -134,7 +134,7 @@
                         <div class="art-banner-title text-center">
                             <h1 class="mb-15">Ready to hire me?</h1>
                             <a href="/contact" target="_blank" data-no-swup class="art-btn art-btn-md"><span
-                                    class="custom-icon-container"> <i class="fab fa-google-play custom-icon"></i>Contact
+                                    class="custom-icon-container">Contact
                                     Me</span></a>
                         </div>
                     </div>
@@ -146,7 +146,8 @@
                     <div class="art-pagination-center art-m-hidden">
                         <a class="art-link" href="#" style="pointer-events: none;">DsChat</a>
                     </div>
-                    <a href="/projects/web-server-ci-cd-using-aws-cloudformation-and-github-actions" class="art-link art-color-link art-w-chevron"><span>Next
+                    <a href="/projects/web-server-ci-cd-using-aws-cloudformation-and-github-actions"
+                        class="art-link art-color-link art-w-chevron"><span>Next
                             project</span></a>
                 </div>
             </div>

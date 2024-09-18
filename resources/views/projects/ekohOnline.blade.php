@@ -130,8 +130,7 @@
                             <h1 class="mb-15">Ready to Ekoh?</h1>
                             <div class="art-lg-text art-code mb-25">View Web App</div>
                             <a href="https://www.ekoh.online/" target="_blank" data-no-swup class="art-btn art-btn-md"><span
-                                    class="custom-icon-container"> <i
-                                        class="fab fa-google-play custom-icon"></i>View</span></a>
+                                    class="custom-icon-container">View</span></a>
                         </div>
                     </div>
                 </div>
