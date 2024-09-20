@@ -1,8 +1,10 @@
 ## Requirements
 
 - Get the .env file for the project
+- PHP version of 8.1 or higher.
+- An Apache server
 - Install Docker and run docker
-- Install the correct php and composer version for the project
+- Composer as a package manager to manage dependencies
 
 ## GuideLine
 
@@ -13,8 +15,6 @@
 
 ## Commands
 
-- `To know the version of composer to use in the project use` php artisan --version 
-- `To test linting:` composer pint-test
-- `To test and fix automaticaly linting errors:` composer pint
+- Inspect code for style errors: `composer pint`
+- Inspect and fix code style errors: `composer pint-fix`
 
-- `NB: You need to use 'sudo' infront of every docker command if you are using Ubuntu or UNIX Destributions`
