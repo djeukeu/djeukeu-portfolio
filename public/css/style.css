@@ -3497,3 +3497,13 @@ html.is-animating .fade-left {
 .features {
     padding: 0 0 0 16px;
 }
+
+.verify{
+    color: #3a529b;
+    font-size: medium;
+}
+
+.verify-skill{
+    display: flex;
+    justify-content: space-between;
+}
