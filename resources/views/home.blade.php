@@ -25,6 +25,10 @@
     @include('sections.resume')
     <!-- resume -->
 
+    <!-- contact -->
+    @include('sections.contact')
+    <!-- contact -->
+
     <!-- blog -->
     {{-- @include('sections.blog') --}}
     <!-- blog -->

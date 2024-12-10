@@ -28,5 +28,4 @@ Route::prefix('projects')->group(function () {
     Route::view('/microservice-orchestration-with-kubernetes', 'projects.microservice_kubernetes');
 });
 
-Route::get('/contact', [ContactController::class, 'index'])->name('contact.index');
 Route::post('/contact', [ContactController::class, 'send_message'])->name('contact.send');
