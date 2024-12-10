@@ -1,7 +1,7 @@
     <div class="col-lg-12">
         <div class="art-section-title">
             <div class="art-title-frame">
-                <h4>Projects</h4>
+                <h4>My Projects</h4>
             </div>
             <div class="art-right-frame">
                 <div class="art-filter">

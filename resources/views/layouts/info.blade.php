@@ -19,7 +19,9 @@
                 </div>
             </div>
             <h5 class="art-name mb-10"><a href="/">{{ env('OWNER') }}</a></h5>
-            <div class="art-sm-text">Software Developer <br>DevOps Engineer</div>
+            <div class="art-sm-text">Software Engineer
+                {{-- <br>DevOps Engineer --}}
+            </div>
         </div>
 
         <div id="scrollbar2" class="art-scroll-frame">
@@ -28,6 +30,9 @@
                 <ul>
                     <li>
                         <h6>Residence:</h6><span>United Kingdom</span>
+                    </li>
+                    <li>
+                        <h6>Residence:</h6><span>Leeds</span>
                     </li>
                     <li>
                         <h6>Age:</h6><span><?php $dob = '2000-01-12';

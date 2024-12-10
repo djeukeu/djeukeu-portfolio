@@ -12,7 +12,7 @@
                                 data-rotate='[ "Build amazing websites.", "Build iOS and Android apps.", "Design beautiful UIs.", "Automate projects." ]'></span>&lt;/<i>code</i>&gt;
                         </div>
                         <div class="art-buttons-frame">
-                            <a href="/contact" class="art-btn art-btn-md"><span>Contact Me</span></a>
+                            <a href="/projects" class="art-btn art-btn-md"><span>Explore projects</span></a>
                             {{-- <a href="/about" class="art-link art-white-link art-w-chevron">About Me</a> --}}
                         </div>
                     </div>
