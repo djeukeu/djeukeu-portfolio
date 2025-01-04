@@ -2,17 +2,17 @@
 
     <div class="row">
 
-        <!-- Education -->
+        <!-- Certifications -->
         <div class="col-lg-6">
             <div class="art-section-title">
                 <div class="art-title-frame">
-                    <h4>Education & Certifications</h4>
+                    <h4>Training & Certifications</h4>
                 </div>
             </div>
 
             <div class="art-timeline art-gallery" id="history">
 
-                <!-- Single Education -->
+                <!-- Single Certifications -->
                 <div class="art-timeline-item">
                     <div class="art-timeline-mark-light"></div>
                     <div class="art-timeline-mark"></div>
@@ -34,9 +34,9 @@
                             class="art-link art-color-link art-w-chevron">Verify</a>
                     </div>
                 </div>
-                <!-- Single Education -->
+                <!-- Single Certifications -->
 
-                <!-- Single Education -->
+                <!-- Single Certifications -->
                 <div class="art-timeline-item">
                     <div class="art-timeline-mark-light"></div>
                     <div class="art-timeline-mark"></div>
@@ -58,9 +58,9 @@
                             class="art-link art-color-link art-w-chevron">Verify</a>
                     </div>
                 </div>
-                <!-- Single Education -->
+                <!-- Single Certifications -->
 
-                <!-- Single Education -->
+                <!-- Single Certifications -->
                 <div class="art-timeline-item">
                     <div class="art-timeline-mark-light"></div>
                     <div class="art-timeline-mark"></div>
@@ -81,9 +81,9 @@
                             class="art-link art-color-link art-w-chevron">Verify</a>
                     </div>
                 </div>
-                <!-- Single Education -->
+                <!-- Single Certifications -->
 
-                <!-- Single Education -->
+                <!-- Single Certifications -->
                 <div class="art-timeline-item">
                     <div class="art-timeline-mark-light"></div>
                     <div class="art-timeline-mark"></div>
@@ -105,9 +105,9 @@
                             class="art-link art-color-link art-w-chevron">Verify</a>
                     </div>
                 </div>
-                <!-- Single Education -->
+                <!-- Single Certifications -->
 
-                <!-- Single Education -->
+                <!-- Single Certifications -->
                 <div class="art-timeline-item">
                     <div class="art-timeline-mark-light"></div>
                     <div class="art-timeline-mark"></div>
@@ -128,9 +128,9 @@
                             class="art-link art-color-link art-w-chevron">Verify</a>
                     </div>
                 </div>
-                <!-- Single Education -->
+                <!-- Single Certifications -->
 
-                <!-- Single Education -->
+                <!-- Single Certifications -->
                 <div class="art-timeline-item">
                     <div class="art-timeline-mark-light"></div>
                     <div class="art-timeline-mark"></div>
@@ -151,9 +151,9 @@
                             class="art-link art-color-link art-w-chevron">Verify</a>
                     </div>
                 </div>
-                <!-- Single Education -->
+                <!-- Single Certifications -->
 
-                <!-- Single Education -->
+                <!-- Single Certifications -->
                 <div class="art-timeline-item">
                     <div class="art-timeline-mark-light"></div>
                     <div class="art-timeline-mark"></div>
@@ -172,33 +172,13 @@
                                 LA CÔTE</a> with a Bachelor's degree in Software Engineering.</div>
                     </div>
                 </div>
-                <!-- Single Education -->
+                <!-- Single Certifications -->
 
-                <!-- Single Education -->
-                <div class="art-timeline-item">
-                    <div class="art-timeline-mark-light"></div>
-                    <div class="art-timeline-mark"></div>
-                    <div class="art-a art-timeline-content">
-                        <div class="art-card-header">
-                            <div class="art-left-side">
-                                <h5>Higher National Diploma</h5>
-                                <div class="art-el-suptitle mb-15">Computer Engineering</div>
-                            </div>
-                            <div class="art-right-side">
-                                <span class="art-date">Oct 2017 - Jul 2019</span>
-                            </div>
-                        </div>
-                        <p>HND in Software Engineering and Computing from<a href="https://myiuc.com/en/home-en/"
-                                target="_blank" class="art-link art-color-link" data-no-swup>INSTITUT UNIVERSITAIRE DE
-                                LA CÔTE</a></p>
-                    </div>
-                </div>
-                <!-- Single Education -->
 
             </div>
 
         </div>
-        <!-- Education -->
+        <!-- Certifications -->
 
         <!-- Experience -->
         <div class="col-lg-6">
