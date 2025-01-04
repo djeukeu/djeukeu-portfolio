@@ -1,7 +1,15 @@
 <div class="container-fluid">
     <div class="row p-30-0">
-        <div class="col-lg-12">
 
+        <div class="col-lg-12">
+            <div class="art-section-title">
+                <div class="art-title-frame">
+                    <h4>About Me</h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-12">
             <div class="art-a art-card">
                 <p class="art-text art-white">Hi 👋 I'm Christian Djeukeu,</p>
                 <p class="art-text art-white">I am meticulous, organised and a Certified AWS Developer with years of
