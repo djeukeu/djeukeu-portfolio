@@ -14,7 +14,7 @@
         <div class="col-lg-4 col-md-6">
             <div class="art-a art-service-icon-box">
                 <div class="art-service-ib-content verify-skill">
-                    <h5>Software Coding</h5>
+                    <h5>Mobile Development</h5>
                     <i class="verify fas fa-check-circle"></i>
                 </div>
             </div>
@@ -25,7 +25,17 @@
         <div class="col-lg-4 col-md-6">
             <div class="art-a art-service-icon-box">
                 <div class="art-service-ib-content verify-skill">
-                    <h5>Software Deployment</h5>
+                    <h5>Front-end Development</h5>
+                    <i class="verify fas fa-check-circle"></i>
+                </div>
+            </div>
+        </div>
+        <!-- Single Skills -->
+        <!-- Single Skills -->
+        <div class="col-lg-4 col-md-6">
+            <div class="art-a art-service-icon-box">
+                <div class="art-service-ib-content verify-skill">
+                    <h5>Back-end Development</h5>
                     <i class="verify fas fa-check-circle"></i>
                 </div>
             </div>
@@ -47,6 +57,17 @@
         <div class="col-lg-4 col-md-6">
             <div class="art-a art-service-icon-box">
                 <div class="art-service-ib-content verify-skill">
+                    <h5>Cloud Computing</h5>
+                    <i class="verify fas fa-check-circle"></i>
+                </div>
+            </div>
+        </div>
+        <!-- Single Skills -->
+
+        <!-- Single Skills -->
+        <div class="col-lg-4 col-md-6">
+            <div class="art-a art-service-icon-box">
+                <div class="art-service-ib-content verify-skill">
                     <h5>Amazon Web Services (AWS)</h5>
                     <i class="verify fas fa-check-circle"></i>
                 </div>
@@ -58,18 +79,7 @@
         <div class="col-lg-4 col-md-6">
             <div class="art-a art-service-icon-box">
                 <div class="art-service-ib-content verify-skill">
-                    <h5>Cloud Computing </h5>
-                    <i class="verify fas fa-check-circle"></i>
-                </div>
-            </div>
-        </div>
-        <!-- Single Skills -->
-
-        <!-- Single Skills -->
-        <div class="col-lg-4 col-md-6">
-            <div class="art-a art-service-icon-box">
-                <div class="art-service-ib-content verify-skill">
-                    <h5>HashiCorp Terraform</h5>
+                    <h5>Software Automation</h5>
                     <i class="verify fas fa-check-circle"></i>
                 </div>
             </div>
@@ -98,16 +108,7 @@
         </div>
         <!-- Single Skills -->
 
-        <!-- Single Skills -->
-        <div class="col-lg-4 col-md-6">
-            <div class="art-a art-service-icon-box">
-                <div class="art-service-ib-content verify-skill">
-                    <h5>Multi-Cloud</h5>
-                    <i class="verify fas fa-check-circle"></i>
-                </div>
-            </div>
-        </div>
-        <!-- Single Skills -->
+
     </div>
 
 </div>
