@@ -90,76 +90,6 @@
                     <div class="art-a art-timeline-content">
                         <div class="art-card-header">
                             <div class="art-left-side">
-                                <h5>Node.js</h5>
-                                <div class="art-el-suptitle mb-15">Udemy</div>
-                            </div>
-                            <div class="art-right-side">
-                                <span class="art-date">Issued Dec 2023</span>
-                            </div>
-                        </div>
-                        <p>This certificate indicates that I have completed the entire Node.js - The Complete Guide
-                            (MVC,
-                            REST APIs, GraphQL, Deno) course.</p>
-                        <a data-no-swup target="_blank"
-                            href="https://www.udemy.com/certificate/UC-0d4f345f-bf71-45be-9acb-32cfe154fa66/"
-                            class="art-link art-color-link art-w-chevron">Verify</a>
-                    </div>
-                </div>
-                <!-- Single Certifications -->
-
-                <!-- Single Certifications -->
-                <div class="art-timeline-item">
-                    <div class="art-timeline-mark-light"></div>
-                    <div class="art-timeline-mark"></div>
-                    <div class="art-a art-timeline-content">
-                        <div class="art-card-header">
-                            <div class="art-left-side">
-                                <h5>React</h5>
-                                <div class="art-el-suptitle mb-15">Udemy</div>
-                            </div>
-                            <div class="art-right-side">
-                                <span class="art-date">Issued Dec 2023</span>
-                            </div>
-                        </div>
-                        <p>This certificate indicates that I have completed the entire React - The Complete Guide 2023
-                            (incl. React Router & Redux) course.</p>
-                        <a data-no-swup target="_blank"
-                            href="https://www.udemy.com/certificate/UC-16afeee7-aca7-42b8-804a-22119526e047/"
-                            class="art-link art-color-link art-w-chevron">Verify</a>
-                    </div>
-                </div>
-                <!-- Single Certifications -->
-
-                <!-- Single Certifications -->
-                <div class="art-timeline-item">
-                    <div class="art-timeline-mark-light"></div>
-                    <div class="art-timeline-mark"></div>
-                    <div class="art-a art-timeline-content">
-                        <div class="art-card-header">
-                            <div class="art-left-side">
-                                <h5>React Native</h5>
-                                <div class="art-el-suptitle mb-15">Udemy</div>
-                            </div>
-                            <div class="art-right-side">
-                                <span class="art-date">Issued Dec 2023</span>
-                            </div>
-                        </div>
-                        <p>This certificate indicates that I have completed the entire React Native - The Practical
-                            Guide [2023] course.</p>
-                        <a data-no-swup target="_blank"
-                            href="https://www.udemy.com/certificate/UC-fb0abddc-35fb-4573-aa2b-d06e072bac76/"
-                            class="art-link art-color-link art-w-chevron">Verify</a>
-                    </div>
-                </div>
-                <!-- Single Certifications -->
-
-                <!-- Single Certifications -->
-                <div class="art-timeline-item">
-                    <div class="art-timeline-mark-light"></div>
-                    <div class="art-timeline-mark"></div>
-                    <div class="art-a art-timeline-content">
-                        <div class="art-card-header">
-                            <div class="art-left-side">
                                 <h5>Bachelor of Technology</h5>
                                 <div class="art-el-suptitle mb-15">Computer Engineering</div>
                             </div>
@@ -173,7 +103,6 @@
                     </div>
                 </div>
                 <!-- Single Certifications -->
-
 
             </div>
 
@@ -209,17 +138,6 @@
                             <li>Prototype new application using Figma</li>
                             <li>Turned UI designs into working applications</li>
                         </p>
-                        <div class="skills">
-                            <span class="skill-item">AWS</span>
-                            <span class="skill-item">Wordpress</span>
-                            <span class="skill-item">React</span>
-                            <span class="skill-item">React-Native</span>
-                            <span class="skill-item">Apache Kafka</span>
-                            <span class="skill-item">Github Actions</span>
-                            <span class="skill-item">Terraform</span>
-                            <span class="skill-item">Docker</span>
-                            <span class="skill-item">laravel</span>
-                        </div>
                     </div>
                 </div>
                 <!-- Single Experience -->
@@ -246,16 +164,6 @@
                                 testing</li>
                             <li>Recommended solutions for a streamlined, user-friendly interface to the design team</li>
                         </p>
-                        <div class="skills">
-                            <span class="skill-item">Jira</span>
-                            <span class="skill-item">React</span>
-                            <span class="skill-item">React-Native</span>
-                            <span class="skill-item">AWS</span>
-                            <span class="skill-item">Github Actions</span>
-                            <span class="skill-item">Typescript</span>
-                            <span class="skill-item">Node.js</span>
-                            <span class="skill-item">Apache Kafka</span>
-                        </div>
                     </div>
                 </div>
                 <!-- Single Experience -->
@@ -281,16 +189,6 @@
                             <li>Worked as a part time web developer instructor</li>
                             <li>Conducted online training and prepared coding exercises for students</li>
                         </p>
-                        <div class="skills">
-                            <span class="skill-item">React</span>
-                            <span class="skill-item">React-Native</span>
-                            <span class="skill-item">JAVA</span>
-                            <span class="skill-item">Python</span>
-                            <span class="skill-item">Typescript</span>
-                            <span class="skill-item">Spring Boot</span>
-                            <span class="skill-item">Flutter</span>
-                            <span class="skill-item">Stripe</span>
-                        </div>
                     </div>
                 </div>
                 <!-- Single Experience -->
@@ -315,15 +213,6 @@
                             <li>Continuous integration/deployment pipeline integration, pull requests and code reviews
                             </li>
                         </p>
-                        <div class="skills">
-                            <span class="skill-item">React-Native</span>
-                            <span class="skill-item">Fastlane</span>
-                            <span class="skill-item">Node.js</span>
-                            <span class="skill-item">Typescript</span>
-                            <span class="skill-item">Apollo Federation</span>
-                            <span class="skill-item">AWS</span>
-                            <span class="skill-item">TimescaleDB</span>
-                        </div>
                     </div>
                 </div>
                 <!-- Single Experience -->
@@ -348,16 +237,6 @@
                             </li>
                             <li>Debug existing code to improve application performance and user experience</li>
                         </p>
-                        <div class="skills">
-                            <span class="skill-item">React</span>
-                            <span class="skill-item">React-Native</span>
-                            <span class="skill-item">Node.js</span>
-                            <span class="skill-item">Lighthouse</span>
-                            <span class="skill-item">Apollo Server</span>
-                            <span class="skill-item">AWS</span>
-                            <span class="skill-item">Jira</span>
-                            <span class="skill-item">Docker</span>
-                        </div>
                     </div>
                 </div>
                 <!-- Single Experience -->
