@@ -19,8 +19,8 @@
                 </div>
             </div>
             <h5 class="art-name mb-10"><a href="/">{{ env('OWNER') }}</a></h5>
-            <div class="art-sm-text">Software Engineer
-                {{-- <br>DevOps Engineer --}}
+            <div class="art-sm-text">Software Developer
+                <br>DevOps Engineer
             </div>
         </div>
 
