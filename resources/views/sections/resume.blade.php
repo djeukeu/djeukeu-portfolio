@@ -19,6 +19,29 @@
                     <div class="art-a art-timeline-content">
                         <div class="art-card-header">
                             <div class="art-left-side">
+                                <h5>Microsoft Certified: Azure Fundamentals</h5>
+                                <div class="art-el-suptitle mb-15">Microsoft</div>
+                            </div>
+                            <div class="art-right-side">
+                                <span class="art-date">Issued January 2025</span>
+                            </div>
+                        </div>
+                        <p>This certificate demonstrates a foundational level of understanding of cloud services and how
+                            these services are delivered with Microsoft Azure.</p>
+                        <a data-no-swup target="_blank"
+                            href="https://learn.microsoft.com/en-us/users/tchouanwoudjeukeuchristian-5580/credentials/68ea27a9512ae07f"
+                            class="art-link art-color-link art-w-chevron">Verify</a>
+                    </div>
+                </div>
+                <!-- Single Certifications -->
+
+                <!-- Single Certifications -->
+                <div class="art-timeline-item">
+                    <div class="art-timeline-mark-light"></div>
+                    <div class="art-timeline-mark"></div>
+                    <div class="art-a art-timeline-content">
+                        <div class="art-card-header">
+                            <div class="art-left-side">
                                 <h5>AWS Certified Developer - Associate</h5>
                                 <div class="art-el-suptitle mb-15">Amazon Web Services (AWS)</div>
                             </div>
