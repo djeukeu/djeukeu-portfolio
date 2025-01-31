@@ -23,7 +23,7 @@
                                 <div class="art-el-suptitle mb-15">Microsoft</div>
                             </div>
                             <div class="art-right-side">
-                                <span class="art-date">Issued January 2025</span>
+                                <span class="art-date">Issued Jan 2025</span>
                             </div>
                         </div>
                         <p>This certificate demonstrates a foundational level of understanding of cloud services and how
@@ -120,7 +120,7 @@
                                 <span class="art-date">Oct 2019 - Jun 2020</span>
                             </div>
                         </div>
-                        <div>Graduated from <a href="https://myiuc.com/en/home-en/" target="_blank"
+                        <div>Graduated from <a href="https://myiuc.com/" target="_blank"
                                 class="art-link art-color-link" data-no-swup>INSTITUT UNIVERSITAIRE DE
                                 LA CÔTE</a> with a Bachelor's degree in Software Engineering.</div>
                     </div>
