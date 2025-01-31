@@ -3474,6 +3474,11 @@ html.is-animating .fade-left {
     flex-wrap: wrap;
 }
 
+.skill-icon{
+    width: 48px;
+    height: 48px;
+}
+
 .skill-link.skill-color-link {
     color: #3a529b;
 }
@@ -3503,7 +3508,3 @@ html.is-animating .fade-left {
     font-size: medium;
 }
 
-.verify-skill{
-    display: flex;
-    justify-content: space-between;
-}
