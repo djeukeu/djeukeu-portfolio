@@ -35,9 +35,9 @@
 
         <!--single project item -->
         <div class="art-grid-item uiProjects">
-            <a data-fancybox="gallery" data-no-swup href="{{ asset('img/projects/camxi/camxi-5.png') }}"
+            <a data-fancybox="gallery" data-no-swup href="{{ asset('img/projects/camxi/camxi-4.png') }}"
                 class="art-a art-portfolio-item-frame art-vertical">
-                <img src="{{ asset('img/projects/camxi/camxi-5.png') }}" alt="item">
+                <img src="{{ asset('img/projects/camxi/camxi-4.png') }}" alt="item">
                 <span class="art-item-hover"><i class="fas fa-expand"></i></span>
             </a>
             <div class="art-item-description">
