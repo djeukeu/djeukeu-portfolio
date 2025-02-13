@@ -12,12 +12,11 @@
         <div class="col-lg-12">
             <div class="art-a art-card">
                 <p class="art-text art-white">Hi 👋 I'm Christian Djeukeu,</p>
-                <p class="art-text art-white">I am meticulous, organised and a Certified AWS Developer with years of
-                    experience in defining requirements, designing, implementing and deploying applications. Using the
-                    tools and knowledge I have gained over the years as a developer, I oversee client projects from the
-                    identification of project needs through to completion. As a developer, I have a wide range of skills
-                    in mobile development, front-end development, back-end development, database management, UI/UX
-                    design and cloud computing.</p>
+                <p class="art-text art-white">A hard-working, communicative and results-oriented software developer with
+                    extensive experience in full-stack development, cloud computing and DevOps. Skilled in designing,
+                    developing and deploying scalable web and mobile applications using modern frameworks such as React,
+                    React-Native, Node.js and Spring Boot. Skilled in AWS, Terraform, Docker and CI/CD pipelines to
+                    ensure efficient and automated deployment processes.</p>
             </div>
         </div>
 
