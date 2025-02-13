@@ -23,7 +23,7 @@
                                 <div class="art-el-suptitle mb-15">Microsoft</div>
                             </div>
                             <div class="art-right-side">
-                                <span class="art-date">Issued Jan 2025</span>
+                                <span class="art-date">Jan 2025</span>
                             </div>
                         </div>
                         <p>This certificate demonstrates a foundational level of understanding of cloud services and how
@@ -46,7 +46,7 @@
                                 <div class="art-el-suptitle mb-15">Amazon Web Services (AWS)</div>
                             </div>
                             <div class="art-right-side">
-                                <span class="art-date">Issued June 2024</span>
+                                <span class="art-date">June 2024</span>
                             </div>
                         </div>
                         <p>This certificate demonstrates my comprehensive understanding of application
@@ -71,7 +71,7 @@
                                 <div class="art-el-suptitle mb-15">HashiCorp</div>
                             </div>
                             <div class="art-right-side">
-                                <span class="art-date">Issued May 2024</span>
+                                <span class="art-date">May 2024</span>
                             </div>
                         </div>
                         <p>This certificate demonstrates my understanding of the use of Terraform to provision cloud
@@ -94,7 +94,7 @@
                                 <div class="art-el-suptitle mb-15">Amazon Web Services (AWS)</div>
                             </div>
                             <div class="art-right-side">
-                                <span class="art-date">Issued Dec 2023</span>
+                                <span class="art-date">Dec 2023</span>
                             </div>
                         </div>
                         <p>This certificate demonstrates my understanding of IT services, cloud fluency and foundational
@@ -106,26 +106,62 @@
                 </div>
                 <!-- Single Certifications -->
 
-                <!-- Single Certifications -->
+                <!-- Single Education -->
                 <div class="art-timeline-item">
                     <div class="art-timeline-mark-light"></div>
                     <div class="art-timeline-mark"></div>
                     <div class="art-a art-timeline-content">
                         <div class="art-card-header">
                             <div class="art-left-side">
-                                <h5>Bachelor of Technology</h5>
-                                <div class="art-el-suptitle mb-15">Computer Engineering</div>
+                                <h5>Web & Software</h5>
+                                <h5>Development Programme</h5>
+                                <div class="art-el-suptitle mb-15">ITonlinelearning</div>
                             </div>
                             <div class="art-right-side">
-                                <span class="art-date">Oct 2019 - Jun 2020</span>
+                                <span class="art-date">2024 - 2025</span>
                             </div>
                         </div>
-                        <div>Graduated from <a href="https://myiuc.com/" target="_blank"
-                                class="art-link art-color-link" data-no-swup>INSTITUT UNIVERSITAIRE DE
-                                LA CÔTE</a> with a Bachelor's degree in Software Engineering.</div>
                     </div>
                 </div>
-                <!-- Single Certifications -->
+                <!-- Single Education -->
+
+                <!-- Single Education -->
+                <div class="art-timeline-item">
+                    <div class="art-timeline-mark-light"></div>
+                    <div class="art-timeline-mark"></div>
+                    <div class="art-a art-timeline-content">
+                        <div class="art-card-header">
+                            <div class="art-left-side">
+                                <h5>Bachelor of Technology (BTech)</h5>
+                                <h5>in Computer Engineering</h5>
+                                <div class="art-el-suptitle mb-15">Institut Universitaire De La Côte (IUC)</div>
+                            </div>
+                            <div class="art-right-side">
+                                <span class="art-date">2019 - 2020</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Education -->
+
+                <!-- Single Education -->
+                <div class="art-timeline-item">
+                    <div class="art-timeline-mark-light"></div>
+                    <div class="art-timeline-mark"></div>
+                    <div class="art-a art-timeline-content">
+                        <div class="art-card-header">
+                            <div class="art-left-side">
+                                <h5>Higher National Diploma</h5>
+                                <h5>in Computer Engineering</h5>
+                                <div class="art-el-suptitle mb-15">Institut Universitaire De La Côte (IUC)</div>
+                            </div>
+                            <div class="art-right-side">
+                                <span class="art-date">2017 - 2019</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Education -->
 
             </div>
 
@@ -149,17 +185,18 @@
                     <div class="art-a art-timeline-content">
                         <div class="art-card-header">
                             <div class="art-left-side">
-                                <h5>Freelance</h5>
-                                <div class="art-el-suptitle mb-15">Software Developer</div>
+                                <h5>Software Developer</h5>
+                                <div class="art-el-suptitle mb-15">Freelance</div>
                             </div>
                             <div class="art-right-side">
                                 <span class="art-date">Dec 2023 - Present</span>
                             </div>
                         </div>
                         <p>
-                            <li>Worked closely with client to deliver projects on time and to quality.</li>
-                            <li>Prototype new application using Figma</li>
-                            <li>Turned UI designs into working applications</li>
+                            <li>Collaborate closely with clients to gather requirements, define project scopes, and
+                                deliver high-quality software solutions within deadlines.</li>
+                            <li>Design and prototype user interfaces using Figma and Adobe XD, ensuring visually
+                                appealing and user-friendly applications.</li>
                         </p>
                     </div>
                 </div>
@@ -172,20 +209,18 @@
                     <div class="art-a art-timeline-content">
                         <div class="art-card-header">
                             <div class="art-left-side">
-                                <h5>Orbite Holding</h5>
-                                <div class="art-el-suptitle mb-15">Software Developer</div>
+                                <h5>Software Developer</h5>
+                                <div class="art-el-suptitle mb-15">Orbite Holding</div>
                             </div>
                             <div class="art-right-side">
                                 <span class="art-date">Aug 2022 - Nov 2023</span>
                             </div>
                         </div>
                         <p>
-                            <li>Ensured that all stages of the software development lifecycle were properly documented
-                                and reported</li>
-                            <li>Continuous integration / deployment pipeline integration, pull requests, code reviews
-                                and unit / integration
-                                testing</li>
-                            <li>Recommended solutions for a streamlined, user-friendly interface to the design team</li>
+                            <li>Led and contributed to the full software development lifecycle, including
+                                requirement analysis, design, development, testing, deployment, and maintenance.</li>
+                            <li>Designed and implemented CI/CD pipelines to automate build and deployment
+                                processes, enhancing efficiency and reducing production downtime.</li>
                         </p>
                     </div>
                 </div>
@@ -198,19 +233,18 @@
                     <div class="art-a art-timeline-content">
                         <div class="art-card-header">
                             <div class="art-left-side">
-                                <h5>Getsmarter</h5>
-                                <div class="art-el-suptitle mb-15">Software Developer & Course Instructor</div>
+                                <h5>Software Dev & Course Instructor</h5>
+                                <div class="art-el-suptitle mb-15">Getsmarter</div>
                             </div>
                             <div class="art-right-side">
                                 <span class="art-date">Dec 2021 - Sep 2023</span>
                             </div>
                         </div>
                         <p>
-                            <li>Worked with back-end developers and UX designers to design, build, test and improve web
-                                applications.</li>
-                            <li>Converted UI designs into web or mobile applications</li>
-                            <li>Worked as a part time web developer instructor</li>
-                            <li>Conducted online training and prepared coding exercises for students</li>
+                            <li>Designed, developed, and optimised full-stack applications, working closely with
+                                backend developers and UX designers to enhance functionality and usability.</li>
+                            <li>Conducted performance optimisation and debugging for web applications, ensuring
+                                smooth user experiences and high efficiency.</li>
                         </p>
                     </div>
                 </div>
@@ -223,18 +257,18 @@
                     <div class="art-a art-timeline-content">
                         <div class="art-card-header">
                             <div class="art-left-side">
-                                <h5>Arrah Solution</h5>
-                                <div class="art-el-suptitle mb-15">Junior Software Developer</div>
+                                <h5>Junior Software Developer</h5>
+                                <div class="art-el-suptitle mb-15">Arrah Solution</div>
                             </div>
                             <div class="art-right-side">
                                 <span class="art-date">Sep 2021 - Nov 2022</span>
                             </div>
                         </div>
                         <p>
-                            <li>Modify the existing application and implement new features using modern techniques and
-                                tools</li>
-                            <li>Continuous integration/deployment pipeline integration, pull requests and code reviews
-                            </li>
+                            <li>Maintained and enhanced existing applications, implementing new features and
+                                resolving bugs using modern development tools and frameworks.</li>
+                            <li>Developed and optimised database queries with TimescaleDB, improving data
+                                retrieval efficiency and system performance.</li>
                         </p>
                     </div>
                 </div>
@@ -247,18 +281,18 @@
                     <div class="art-a art-timeline-content">
                         <div class="art-card-header">
                             <div class="art-left-side">
-                                <h5>Arrah Solution</h5>
-                                <div class="art-el-suptitle mb-15">Software Developer Intern</div>
+                                <h5>Software Developer Intern</h5>
+                                <div class="art-el-suptitle mb-15">Arrah Solution</div>
                             </div>
                             <div class="art-right-side">
                                 <span class="art-date">Jun 2021 - Aug 2021</span>
                             </div>
                         </div>
                         <p>
-                            <li>Learn to code and debug apps using React and React Native</li>
-                            <li>Worked remotely with developers, designers and product managers to achieve our goals
-                            </li>
-                            <li>Debug existing code to improve application performance and user experience</li>
+                            <li>Gained hands-on experience in React and React-Native development, learning best
+                                practices for building scalable and maintainable applications.</li>
+                            <li>Assisted in debugging and optimising applications, ensuring improved performance
+                                and responsiveness.</li>
                         </p>
                     </div>
                 </div>
