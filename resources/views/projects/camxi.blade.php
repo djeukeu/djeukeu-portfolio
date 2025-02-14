@@ -6,7 +6,7 @@
             <div class="col-lg-12">
                 <div class="art-section-title">
                     <div class="art-title-frame">
-                        <h4>CAMXI</h4>
+                        <h4>CAMXI (CAMEROON TAXI)</h4>
                     </div>
                     <div class="art-right-frame">
                         <div class="art-project-category">UI Design</div>
