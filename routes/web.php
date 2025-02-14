@@ -21,7 +21,7 @@ Route::prefix('projects')->group(function () {
     Route::view('/cook-and-share', 'projects.cook&Share');
     Route::view('/ekoh-online', 'projects.ekohOnline');
     Route::view('/camxi', 'projects.camxi');
-    Route::view('/dschat', 'projects.dschat');
+    Route::view('/patricias', 'projects.patricias');
     Route::view('/mobile-app-ci-cd-using-fastlane-and-github-actions', 'projects.mobile_ci_cd');
     Route::view('/web-server-ci-cd-using-aws-cloudformation-and-github-actions', 'projects.server_ci_cd');
     Route::view('/microservice-cloud-insfrastructure-deployment-with-terraform-and-circleci', 'projects.microservice_ci_cd');

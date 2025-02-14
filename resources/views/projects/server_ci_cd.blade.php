@@ -138,7 +138,7 @@
                     </div>
                 </div>
                 <div class="art-a art-pagination">
-                    <a href="/projects/dschat"
+                    <a href="/projects/patricias"
                         class="art-link art-color-link art-w-chevron art-left-link"><span>Previous
                             project</span></a>
                     <div class="art-pagination-center art-m-hidden">
