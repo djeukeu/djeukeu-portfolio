@@ -50,23 +50,23 @@
                         including:
                     </div>
                     <ul class="features">
-                        <li><span style="font-weight: bold">Difficulty Finding a Ride:</span>Taxis were not always readily
+                        <li><span style="font-weight: bold">Difficulty Finding a Ride: </span>Taxis were not always readily
                             available, especially in suburban or less populated areas.</li>
-                        <li><span style="font-weight: bold">Long Wait Times:</span>During peak hours or bad weather, hailing
+                        <li><span style="font-weight: bold">Long Wait Times: </span>During peak hours or bad weather, hailing
                             a cab could take a long time, and there was no way to know when a taxi would arrive.</li>
-                        <li><span style="font-weight: bold">Uncertain Pricing:</span>Taxi fares were often unpredictable,
+                        <li><span style="font-weight: bold">Uncertain Pricing: </span>Taxi fares were often unpredictable,
                             with additional charges for factors like time of day, traffic, and distance. Passengers had no
                             upfront knowledge of the total cost.</li>
-                        <li><span style="font-weight: bold">Payment Issues:</span>Many taxis only accepted cash, which was
+                        <li><span style="font-weight: bold">Payment Issues: </span>Many taxis only accepted cash, which was
                             inconvenient for passengers who didn't have the exact fare or preferred to use credit/debit
                             cards or other local payment methods.</li>
-                        <li><span style="font-weight: bold">Limited Availability at Night:</span>Finding a taxi late at
+                        <li><span style="font-weight: bold">Limited Availability at Night: </span>Finding a taxi late at
                             night, especially after leaving a party or an event, was often difficult and unsafe in some
                             areas.</li>
-                        <li><span style="font-weight: bold">Poor Service & Condition of Vehicles:</span>Some taxis were
+                        <li><span style="font-weight: bold">Poor Service & Condition of Vehicles: </span>Some taxis were
                             poorly maintained, and customer service varied widely. There was no easy way to provide feedback
                             or ensure quality service.</li>
-                        <li><span style="font-weight: bold">Safety Concerns:</span>Without driver background checks or ride
+                        <li><span style="font-weight: bold">Safety Concerns: </span>Without driver background checks or ride
                             tracking, passengers had little assurance about their safety</li>
                     </ul>
                 </div>
