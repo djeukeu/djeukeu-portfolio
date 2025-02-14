@@ -21,7 +21,7 @@
         <div class="art-grid-item mobileProjects">
             <a data-fancybox="gallery" data-no-swup
                 href="{{ asset('img/projects/cook-and-share/cook-and-share-4.png') }}"
-                class="art-a art-portfolio-item-frame art-horizontal">
+                class="art-a art-portfolio-item-frame art-square">
                 <img src="{{ asset('img/projects/cook-and-share/cook-and-share-4.png') }}" alt="item">
                 <span class="art-item-hover"><i class="fas fa-expand"></i></span>
             </a>
@@ -36,7 +36,7 @@
         <!--single project item -->
         <div class="art-grid-item uiProjects">
             <a data-fancybox="gallery" data-no-swup href="{{ asset('img/projects/camxi/camxi-4.png') }}"
-                class="art-a art-portfolio-item-frame art-vertical">
+                class="art-a art-portfolio-item-frame art-square">
                 <img src="{{ asset('img/projects/camxi/camxi-4.png') }}" alt="item">
                 <span class="art-item-hover"><i class="fas fa-expand"></i></span>
             </a>
@@ -69,13 +69,14 @@
         <!--single project item -->
         <div class="art-grid-item webProjects">
             <a data-fancybox="gallery" data-no-swup href="{{ asset('img/projects/ekoh/ekoh-3.png') }}"
-                class="art-a art-portfolio-item-frame art-vertical">
+                class="art-a art-portfolio-item-frame art-square">
                 <img src="{{ asset('img/projects/ekoh/ekoh-3.png') }}" alt="item">
                 <span class="art-item-hover"><i class="fas fa-expand"></i></span>
             </a>
             <div class="art-item-description">
                 <h5 class="mb-15">Ekoh Online</h5>
-                <div class="mb-15">Ekoh, meaning music in an African dialect, is an African owned online music store.</div>
+                <div class="mb-15">Ekoh, meaning music in an African dialect, is an African owned online music store.
+                </div>
                 <a href="/projects/ekoh-online" class="art-link art-color-link art-w-chevron">Read more</a>
             </div>
         </div>
@@ -100,17 +101,17 @@
 
 
         <!--single project item -->
-        <div class="art-grid-item uiProjects">
-            <a data-fancybox="gallery" data-no-swup href="{{ asset('img/projects/dschat/dschat-5.png') }}"
-                class="art-a art-portfolio-item-frame art-vertical">
-                <img src="{{ asset('img/projects/dschat/dschat-5.png') }}" alt="item">
+        <div class="art-grid-item mobileProjects">
+            <a data-fancybox="gallery" data-no-swup href="{{ asset('img/projects/patricias/patricias-2.png') }}"
+                class="art-a art-portfolio-item-frame art-square">
+                <img src="{{ asset('img/projects/patricias/patricias-2.png') }}" alt="item">
                 <span class="art-item-hover"><i class="fas fa-expand"></i></span>
             </a>
             <div class="art-item-description">
-                <h5 class="mb-15">DsChat</h5>
-                <div class="mb-15">DsChat is a social networking application that takes advantage of technology ...
+                <h5 class="mb-15">Patricia's</h5>
+                <div class="mb-15">Patricia's Skin, Scents Secrets is an mCommerce app designed to ...
                 </div>
-                <a href="/projects/dschat" class="art-link art-color-link art-w-chevron">Read more</a>
+                <a href="/projects/patricias" class="art-link art-color-link art-w-chevron">Read more</a>
             </div>
         </div>
         <!--single project item -->
@@ -134,7 +135,7 @@
         <!--single project item -->
         <div class="art-grid-item devOpsProjects">
             <a data-fancybox="gallery" data-no-swup href="img/works/original-size/8.jpg"
-                class="art-a art-portfolio-item-frame art-horizontal">
+                class="art-a art-portfolio-item-frame art-square">
                 <img src="img/works/thumbnail/8.jpg" alt="item">
                 <span class="art-item-hover"><i class="fas fa-expand"></i></span>
             </a>
