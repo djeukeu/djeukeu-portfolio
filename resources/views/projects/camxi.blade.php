@@ -174,7 +174,7 @@
                     <div class="art-pagination-center art-m-hidden">
                         <a class="art-link" href="#" style="pointer-events: none;">CAMXI</a>
                     </div>
-                    <a href="/projects/mobile-app-ci-cd-using-fastlane-and-github-actions"
+                    <a href="/projects/react-native-ci-cd"
                         class="art-link art-color-link art-w-chevron"><span>Next
                             project</span></a>
                 </div>
