@@ -135,7 +135,7 @@
                     </div>
                 </div>
                 <div class="art-a art-pagination">
-                    <a href="/projects/mobile-app-ci-cd-using-fastlane-and-github-actions"
+                    <a href="/projects/react-native-ci-cd"
                         class="art-link art-color-link art-w-chevron art-left-link"><span>Previous
                             project</span></a>
                     <div class="art-pagination-center art-m-hidden">
