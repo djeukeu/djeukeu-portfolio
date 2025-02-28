@@ -10,28 +10,13 @@
                     <a href="#" data-filter=".webProjects" class="art-link">Web</a>
                     <a href="#" data-filter=".uiProjects" class="art-link">UI Design</a>
                     <a href="#" data-filter=".devOpsProjects" class="art-link">DevOps</a>
+                    <a href="#" data-filter=".aiProjects" class="art-link">AI</a>
                 </div>
             </div>
         </div>
     </div>
 
     <div class="art-grid art-grid-3-col art-gallery">
-
-        <!-- single project item -->
-        <div class="art-grid-item mobileProjects">
-            <a data-fancybox="gallery" data-no-swup
-                href="{{ asset('img/projects/cook-and-share/cook-and-share-4.png') }}"
-                class="art-a art-portfolio-item-frame art-square">
-                <img src="{{ asset('img/projects/cook-and-share/cook-and-share-4.png') }}" alt="item">
-                <span class="art-item-hover"><i class="fas fa-expand"></i></span>
-            </a>
-            <div class="art-item-description">
-                <h5 class="mb-15">Cook&Share</h5>
-                <div class="mb-15">Cook & Share app lets you share the different menus of the day with others.</div>
-                <a href="/projects/cook-and-share" class="art-link art-color-link art-w-chevron">Read more</a>
-            </div>
-        </div>
-        <!--single project item -->
 
         <!--single project item -->
         <div class="art-grid-item uiProjects">
@@ -66,7 +51,7 @@
         <!--single project item -->
 
         <!--single project item -->
-        <div class="art-grid-item webProjects">
+        {{-- <div class="art-grid-item webProjects">
             <a data-fancybox="gallery" data-no-swup href="{{ asset('img/projects/ekoh/ekoh-3.png') }}"
                 class="art-a art-portfolio-item-frame art-square">
                 <img src="{{ asset('img/projects/ekoh/ekoh-3.png') }}" alt="item">
@@ -78,25 +63,10 @@
                 </div>
                 <a href="/projects/ekoh-online" class="art-link art-color-link art-w-chevron">Read more</a>
             </div>
-        </div>
+        </div> --}}
         <!--single project item -->
 
 
-        <!--single project item -->
-        <div class="art-grid-item devOpsProjects">
-            <a data-fancybox="gallery" data-no-swup href="img/works/original-size/5.jpg"
-                class="art-a art-portfolio-item-frame art-square">
-                <img src="img/works/thumbnail/5.jpg" alt="item">
-                <span class="art-item-hover"><i class="fas fa-expand"></i></span>
-            </a>
-            <div class="art-item-description">
-                <h5 class="mb-15">Web Server CI / CD using AWS CloudFormation and Github Actions</h5>
-                <div class="mb-15">Sit amet, consectetur adipisicing elit. Quas, architecto.</div>
-                <a href="projects/web-server-ci-cd-using-aws-cloudformation-and-github-actions"
-                    class="art-link art-color-link art-w-chevron">Read more</a>
-            </div>
-        </div>
-        <!--single project item -->
 
 
         <!--single project item -->
@@ -115,36 +85,5 @@
         </div>
         <!--single project item -->
 
-        <!--single project item -->
-        <div class="art-grid-item devOpsProjects">
-            <a data-fancybox="gallery" data-no-swup href="img/works/original-size/7.jpg"
-                class="art-a art-portfolio-item-frame art-square">
-                <img src="img/works/thumbnail/7.jpg" alt="item">
-                <span class="art-item-hover"><i class="fas fa-expand"></i></span>
-            </a>
-            <div class="art-item-description">
-                <h5 class="mb-15">Microservice cloud infrastructure deployment with Terraform and CircleCI</h5>
-                <div class="mb-15">Sit amet, consectetur adipisicing elit. Quas, architecto.</div>
-                <a href="/projects/microservice-cloud-insfrastructure-deployment-with-terraform-and-circleci"
-                    class="art-link art-color-link art-w-chevron">Read more</a>
-            </div>
-        </div>
-        <!--single project item -->
-
-        <!--single project item -->
-        <div class="art-grid-item devOpsProjects">
-            <a data-fancybox="gallery" data-no-swup href="img/works/original-size/8.jpg"
-                class="art-a art-portfolio-item-frame art-square">
-                <img src="img/works/thumbnail/8.jpg" alt="item">
-                <span class="art-item-hover"><i class="fas fa-expand"></i></span>
-            </a>
-            <div class="art-item-description">
-                <h5 class="mb-15">Microservice Orchestration with Kubernetes</h5>
-                <div class="mb-15">Sit amet, consectetur adipisicing elit. Quas, architecto.</div>
-                <a href="/projects/microservice-orchestration-with-kubernetes"
-                    class="art-link art-color-link art-w-chevron">Read more</a>
-            </div>
-        </div>
-        <!--single project item -->
 
     </div>

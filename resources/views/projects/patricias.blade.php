@@ -237,7 +237,7 @@
                     </div>
                 </div>
                 <div class="art-a art-pagination">
-                    <a href="/projects/ekoh-online"
+                    <a href="/projects/mobile-ci-cd"
                         class="art-link art-color-link art-w-chevron art-left-link"><span>Previous
                             project</span></a>
                     <div class="art-pagination-center art-m-hidden">

@@ -16,7 +16,8 @@
 
             <div class="col-lg-12">
                 <div class="art-a art-project-cover">
-                    <a data-fancybox="gallery" data-no-swup href="{{ asset('img/projects/react-native-ci-cd/react-native-ci-cd-1.png') }}"
+                    <a data-fancybox="gallery" data-no-swup
+                        href="{{ asset('img/projects/react-native-ci-cd/react-native-ci-cd-1.png') }}"
                         class="art-portfolio-item-frame art-horizontal">
                         <img src="{{ asset('img/projects/react-native-ci-cd/react-native-ci-cd-1.png') }}" alt="item">
                         <span class="art-item-hover"><i class="fas fa-expand"></i></span>
@@ -79,9 +80,11 @@
                 <div class="art-a art-banner" style="background-image: url({{ asset('img/bg.png') }})">
                     <div class="art-banner-overlay">
                         <div class="art-banner-title text-center">
-                            <h1 class="mb-15">Ready to hire me?</h1>
-                            <a href="/contact" class="art-btn art-btn-md"><span class="custom-icon-container">
-                                    Contact Me</span></a>
+                            <h1 class="mb-15">Want to see how my CI/CD workflows look?</h1>
+                            <div class="art-lg-text art-code mb-25">Available on Github</div>
+                            <a href="https://github.com/djeukeu/patricias-mobile/tree/develop/.github/workflows"
+                                data-no-swup target="_blank" class="art-btn art-btn-md"><span class="custom-icon-container">
+                                    View</span></a>
                         </div>
                     </div>
                 </div>
@@ -89,9 +92,9 @@
                     <a href="/projects/camxi" class="art-link art-color-link art-w-chevron art-left-link"><span>Previous
                             project</span></a>
                     <div class="art-pagination-center art-m-hidden">
-                        <a class="art-link" href="#" style="pointer-events: none;">React Native App CI / CD</a>
+                        <a class="art-link" href="#" style="pointer-events: none;">Mobile CI / CD</a>
                     </div>
-                    <a href="/projects/ekoh-online" class="art-link art-color-link art-w-chevron"><span>Next
+                    <a href="/projects/patricias" class="art-link art-color-link art-w-chevron"><span>Next
                             project</span></a>
                 </div>
             </div>
