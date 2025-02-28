@@ -44,7 +44,7 @@
             </a>
             <div class="art-item-description">
                 <h5 class="mb-15">Mobile App CI / CD pipeline using Fastlane and Github Actions</h5>
-                <div class="mb-15">This project demonstrates the deployment of a Mobile app using ...</div>
+                <div class="mb-15">This project demonstrates the deployment of a Mobile app using fastlane and ...</div>
                 <a href="/projects/mobile-ci-cd" class="art-link art-color-link art-w-chevron">Read more</a>
             </div>
         </div>
