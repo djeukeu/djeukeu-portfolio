@@ -222,15 +222,15 @@
                             <h1 class="mb-15">Ready to download Patricia's Skin, Scents Secrets</h1>
                             <div class="art-lg-text art-code mb-25">Android and iOS available</div>
                             <div class="row justify-content-center">
-                                <div class="col-lg-4 col-md-12 mb-2">
-                                    <a href="#" target="_blank"
-                                        data-no-swup class="art-btn art-btn-md"><span class="custom-icon-container"> <i
-                                                class="fab fa-google-play custom-icon"></i>Play Store</span></a>
+                                <div class="col-lg-3 col-md-12 mb-2">
+                                    <a href="https://appdistribution.firebase.dev/i/0e3ee7434d0b335d" target="_blank"
+                                        data-no-swup class="art-btn art-btn-md"><span> <i
+                                                class="fab fa-android custom-icon"></i>Android</span></a>
                                 </div>
-                                <div class="col-lg-4 col-md-12 ">
-                                    <a href="#" target="_blank"
-                                        data-no-swup class="art-btn art-btn-md"><span class="custom-icon-container"> <i
-                                                class="fab fa-app-store-ios custom-icon"></i>App Store</span></a>
+                                <div class="col-lg-3 col-md-12 mb-2">
+                                    <a href="https://testflight.apple.com/join/295ZurS6" target="_blank"
+                                        data-no-swup class="art-btn art-btn-md"><span> <i
+                                                class="fab fa-apple custom-icon"></i>iOS</span></a>
                                 </div>
                             </div>
                         </div>
@@ -241,10 +241,10 @@
                         class="art-link art-color-link art-w-chevron art-left-link"><span>Previous
                             project</span></a>
                     <div class="art-pagination-center art-m-hidden">
-                        <a class="art-link" href="#" style="pointer-events: none;">DsChat</a>
+                        <a class="art-link" href="#" style="pointer-events: none;">Patricias</a>
                     </div>
-                    <a href="/projects/web-server-ci-cd-using-aws-cloudformation-and-github-actions"
-                        class="art-link art-color-link art-w-chevron"><span>Next
+                    <a href="#"
+                        class="art-link art-color-link art-w-chevron art-link-disabled"><span>Next
                             project</span></a>
                 </div>
             </div>

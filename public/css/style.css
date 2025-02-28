@@ -3474,7 +3474,7 @@ html.is-animating .fade-left {
     flex-wrap: wrap;
 }
 
-.skill-icon{
+.skill-icon {
     width: 48px;
     height: 48px;
 }
@@ -3488,12 +3488,6 @@ html.is-animating .fade-left {
     text-shadow: 0 0 3px rgba(112, 138, 213, 0.2);
 }
 
-.custom-icon-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
 .custom-icon {
     font-size: large;
     margin-right: 6px;
@@ -3503,8 +3497,7 @@ html.is-animating .fade-left {
     padding: 0 0 0 16px;
 }
 
-.verify{
+.verify {
     color: #3a529b;
     font-size: medium;
 }
-
