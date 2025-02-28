@@ -52,15 +52,15 @@
 
         <!--single project item -->
         <div class="art-grid-item devOpsProjects">
-            <a data-fancybox="gallery" data-no-swup href="{{ asset('img/projects/react-native-ci-cd/react-native-ci-cd-1.png') }}"
+            <a data-fancybox="gallery" data-no-swup href="{{ asset('img/projects/mobile-ci-cd/react-native-ci-cd-1.png') }}"
                 class="art-a art-portfolio-item-frame art-square">
-                <img src="{{ asset('img/projects/react-native-ci-cd/react-native-ci-cd-1.png') }}" alt="item">
+                <img src="{{ asset('img/projects/mobile-ci-cd/react-native-ci-cd-1.png') }}" alt="item">
                 <span class="art-item-hover"><i class="fas fa-expand"></i></span>
             </a>
             <div class="art-item-description">
-                <h5 class="mb-15">React-Native App CI / CD pipeline using Fastlane and Github Actions</h5>
-                <div class="mb-15">This project demonstrates the deployment of a React Native app using ...</div>
-                <a href="/projects/react-native-ci-cd" class="art-link art-color-link art-w-chevron">Read more</a>
+                <h5 class="mb-15">Mobile App CI / CD pipeline using Fastlane and Github Actions</h5>
+                <div class="mb-15">This project demonstrates the deployment of a Mobile app using ...</div>
+                <a href="/projects/mobile-ci-cd" class="art-link art-color-link art-w-chevron">Read more</a>
             </div>
         </div>
         <!--single project item -->

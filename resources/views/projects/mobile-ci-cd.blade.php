@@ -6,7 +6,7 @@
             <div class="col-lg-12">
                 <div class="art-section-title">
                     <div class="art-title-frame">
-                        <h4>React-Native App CI / CD pipeline using Fastlane and Github Actions</h4>
+                        <h4>Mobile App CI / CD pipeline using Fastlane and Github Actions</h4>
                     </div>
                     <div class="art-right-frame">
                         <div class="art-project-category">DevOps</div>

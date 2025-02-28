@@ -22,7 +22,7 @@ Route::prefix('projects')->group(function () {
     Route::view('/ekoh-online', 'projects.ekohOnline');
     Route::view('/camxi', 'projects.camxi');
     Route::view('/patricias', 'projects.patricias');
-    Route::view('/react-native-ci-cd', 'projects.react_native_ci_cd');
+    Route::view('/mobile-ci-cd', 'projects.mobile-ci-cd');
     Route::view('/web-server-ci-cd-using-aws-cloudformation-and-github-actions', 'projects.server_ci_cd');
     Route::view('/microservice-cloud-insfrastructure-deployment-with-terraform-and-circleci', 'projects.microservice_ci_cd');
     Route::view('/microservice-orchestration-with-kubernetes', 'projects.microservice_kubernetes');
