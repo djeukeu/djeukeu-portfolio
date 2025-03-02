@@ -37,9 +37,9 @@
 
         <!--single project item -->
         <div class="art-grid-item devOpsProjects">
-            <a data-fancybox="gallery" data-no-swup href="{{ asset('img/projects/mobile-ci-cd/react-native-ci-cd-1.png') }}"
+            <a data-fancybox="gallery" data-no-swup href="{{ asset('img/projects/mobile-ci-cd/mobile-ci-cd-1.png') }}"
                 class="art-a art-portfolio-item-frame art-square">
-                <img src="{{ asset('img/projects/mobile-ci-cd/react-native-ci-cd-1.png') }}" alt="item">
+                <img src="{{ asset('img/projects/mobile-ci-cd/mobile-ci-cd-1.png') }}" alt="item">
                 <span class="art-item-hover"><i class="fas fa-expand"></i></span>
             </a>
             <div class="art-item-description">

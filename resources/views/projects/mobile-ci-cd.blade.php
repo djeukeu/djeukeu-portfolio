@@ -17,9 +17,9 @@
             <div class="col-lg-12">
                 <div class="art-a art-project-cover">
                     <a data-fancybox="gallery" data-no-swup
-                        href="{{ asset('img/projects/react-native-ci-cd/react-native-ci-cd-1.png') }}"
+                        href="{{ asset('img/projects/mobile-ci-cd/mobile-ci-cd-1.png') }}"
                         class="art-portfolio-item-frame art-horizontal">
-                        <img src="{{ asset('img/projects/react-native-ci-cd/react-native-ci-cd-1.png') }}" alt="item">
+                        <img src="{{ asset('img/projects/mobile-ci-cd/mobile-ci-cd-1.png') }}" alt="item">
                         <span class="art-item-hover"><i class="fas fa-expand"></i></span>
                     </a>
                 </div>
@@ -38,16 +38,25 @@
                     <div class="mb-15">This project demonstrates the deployment of a React Native app using Fastlane and
                         Github Actions. Fastlane is used to automate the build and code signing, and Github Actions is the
                         CI / CD platform used to automate the building, testing and deployment of the pipelines.</div>
+                    <div class="mb-15">Mobile App CI/CD (Continuous Integration and Continuous Delivery) is the practice of
+                        automating the building, testing and deployment of mobile applications. In Continuous
+                        Integration,code is gradually pushed into a feature branch where it is reviewed,tested and confirmed
+                        that there are no bugs or quality concerns.This makes it easier to identify and fix bugs before it
+                        is deployed.After the CI checks are all passed,Continuous Delivery takes over by further testing the
+                        code before it is deployed to production.In the Continuous Delivery process,the Android and iOS app
+                        is built,versioned,code signed and deployed to the app store awaiting approval.</div>
                 </div>
             </div>
             <div class="col-lg-6">
                 <div class="art-a art-card art-fluid-card">
                     <h5 class="mb-15">Challenges</h5>
-                    <div class="mb-15">Software development teams achieve faster iteration, better quality assurance and
-                        easier deployment with CI/CD, but mobile CI/CD has its own unique challenges, some of which are
+                    <div class="mb-15">Achieving faster iteration, better quality assurance and easier deployment is done
+                        thanks to CD/CD, but mobile CI/CD has its own unique challenges, some of which are:
                     </div>
                     <ul class="features">
+                        <li>Setting up the CI/CD pipeline</li>
                         <li>Platform specific setups</li>
+                        <li>Dependency Management</li>
                         <li>Code signing</li>
                         <li>Handling environment variables securely</li>
                         <li>Running automated tests</li>
@@ -62,10 +71,18 @@
                         the following:
                     </div>
                     <ul class="features">
-                        <li>Selecting the branching strategy</li>
-                        <li>Selecting the version strategy</li>
-                        <li>Write fastlane configuration specific to each platform</li>
-                        <li>Code signing the Android and iOS app </li>
+                        <li><span style="font-weight: bold">Selecting the CI/CD platform: </span>There are several CI/CD
+                            platforms available, for the purposes of this project Github Actions and Fastlane will be used.
+                        </li>
+                        <li><span style="font-weight: bold">Selecting the branching strategy: </span>This project has two
+                            separate environments for its application, the staging environment and the production
+                            environment, and the best branching strategy that fits our scenario is the git flow.</li>
+                        <li><span style="font-weight: bold">Selecting the version strategy: </span>Because this is a mobile
+                            application, the semantic versioning strategy is used, where each patch is incremented as bugs
+                            are fixed, minor features are merged, and major app releases are made when old versions become
+                            obsolete.</li>
+                        <li><span style="font-weight: bold">SafeCode signing the Android and iOS app: </span>Each application
+                            should be signed according to its platform-specific requirements prior to deployment.</li>
                     </ul>
                 </div>
             </div>
