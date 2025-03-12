@@ -168,13 +168,13 @@
                     </div>
                 </div>
                 <div class="art-a art-pagination">
-                    <a href="/projects/cook-and-share"
-                        class="art-link art-color-link art-w-chevron art-left-link"><span>Previous
+                    <a href="#"
+                        class="art-link art-color-link art-w-chevron art-left-link art-link-disabled""><span>Previous
                             project</span></a>
                     <div class="art-pagination-center art-m-hidden">
                         <a class="art-link" href="#" style="pointer-events: none;">CAMXI</a>
                     </div>
-                    <a href="/projects/react-native-ci-cd"
+                    <a href="/projects/mobile-ci-cd"
                         class="art-link art-color-link art-w-chevron"><span>Next
                             project</span></a>
                 </div>
