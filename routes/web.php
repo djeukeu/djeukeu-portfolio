@@ -21,6 +21,7 @@ Route::prefix('projects')->group(function () {
     Route::view('/camxi', 'projects.camxi');
     Route::view('/patricias', 'projects.patricias');
     Route::view('/mobile-ci-cd', 'projects.mobile-ci-cd');
+    Route::view('/web-ci-cd', 'projects.web-ci-cd');
 });
 
 Route::get('/contact', [ContactController::class, 'index'])->name('contact.index');
