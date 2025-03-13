@@ -40,10 +40,10 @@
                         CI / CD platform used to automate the building, testing and deployment of the pipelines.</div>
                     <div class="mb-15">Mobile App CI/CD (Continuous Integration and Continuous Delivery) is the practice of
                         automating the building, testing and deployment of mobile applications. In Continuous
-                        Integration,code is gradually pushed into a feature branch where it is reviewed,tested and confirmed
+                        Integration, code is gradually pushed into a feature branch where it is reviewed, tested and confirmed
                         that there are no bugs or quality concerns.This makes it easier to identify and fix bugs before it
                         is deployed.After the CI checks are all passed,Continuous Delivery takes over by further testing the
-                        code before it is deployed to production.In the Continuous Delivery process,the Android and iOS app
+                        code before it is deployed to production.In the Continuous Delivery process, the Android and iOS app
                         is built,versioned,code signed and deployed to the app store awaiting approval.</div>
                 </div>
             </div>
