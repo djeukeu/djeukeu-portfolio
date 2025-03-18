@@ -18,16 +18,26 @@
                 <div class="swiper-container art-works-slider" style="overflow: visible">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <a data-fancybox="gallery" data-no-swup href="{{ asset('img/projects/web-ci-cd/web-ci-cd-1.png') }}"
+                            <a data-fancybox="gallery" data-no-swup
+                                href="{{ asset('img/projects/web-ci-cd/web-ci-cd-1.png') }}"
                                 class="art-a art-portfolio-item-frame art-horizontal">
                                 <img src="{{ asset('img/projects/web-ci-cd/web-ci-cd-1.png') }}" alt="item">
                                 <span class="art-item-hover"><i class="fas fa-expand"></i></span>
                             </a>
                         </div>
                         <div class="swiper-slide">
-                            <a data-fancybox="gallery" data-no-swup href="{{ asset('img/projects/web-ci-cd/web-ci-cd-2.png') }}"
+                            <a data-fancybox="gallery" data-no-swup
+                                href="{{ asset('img/projects/web-ci-cd/web-ci-cd-2.png') }}"
                                 class="art-a art-portfolio-item-frame art-horizontal">
                                 <img src="{{ asset('img/projects/web-ci-cd/web-ci-cd-2.png') }}" alt="item">
+                                <span class="art-item-hover"><i class="fas fa-expand"></i></span>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a data-fancybox="gallery" data-no-swup
+                                href="{{ asset('img/projects/web-ci-cd/web-ci-cd-3.png') }}"
+                                class="art-a art-portfolio-item-frame art-horizontal">
+                                <img src="{{ asset('img/projects/web-ci-cd/web-ci-cd-3.png') }}" alt="item">
                                 <span class="art-item-hover"><i class="fas fa-expand"></i></span>
                             </a>
                         </div>
@@ -57,58 +67,85 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-12">
+            <div class="col-lg-8">
                 <div class="art-a art-card art-fluid-card">
                     <h5 class="mb-15">Description</h5>
-                    <div class="mb-15">This project demonstrates the deployment of a React Native app using Fastlane and
-                        Github Actions. Fastlane is used to automate the build and code signing, and Github Actions is the
-                        CI / CD platform used to automate the building, testing and deployment of the pipelines.</div>
-                    <div class="mb-15">Mobile App CI/CD (Continuous Integration and Continuous Delivery) is the practice of
-                        automating the building, testing and deployment of mobile applications. In Continuous
-                        Integration,code is gradually pushed into a feature branch where it is reviewed,tested and confirmed
-                        that there are no bugs or quality concerns.This makes it easier to identify and fix bugs before it
-                        is deployed.After the CI checks are all passed,Continuous Delivery takes over by further testing the
-                        code before it is deployed to production.In the Continuous Delivery process,the Android and iOS app
-                        is built,versioned,code signed and deployed to the app store awaiting approval.</div>
+                    <div class="mb-15">This project demonstrates the CI/CD pipeline of a web application from the
+                        provisioning of its resources to the deployment of the application. For this project, a random react
+                        application template has been downloaded.</div>
+                    <div class="mb-15">Nowadays, before deploying a web application to production, it needs to be tested,
+                        so the project will demonstrate the pipeline in both a staging (testing) and production
+                        environment.In the staging environment, the application is deployed to Amazon Elastic Compute Cloud
+                        (EC2) and the necessary services are provisioned using AWS CloudFormation.When testing is complete
+                        and features are validated, the application is then containerised and pushed to Amazon Elastic
+                        Container Registry (ECR), where the container is pulled by Amazon Elastic Container Service (ECS)
+                        for production.</div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="art-a art-card art-fluid-card">
+                    <h5 class="mb-15">TOOLS USED</h5>
+                    <ul class="features">
+                        <li>Node.js</li>
+                        <li>Reactjs</li>
+                        <li>Github Actions</li>
+                        <li>Docker</li>
+                        <li>Amazon EC2</li>
+                        <li>Amazon ECR</li>
+                        <li>Amazon ECS</li>
+                        <li>Amazon IAM</li>
+                        <li>AWS CloudFormation</li>
+                    </ul>
                 </div>
             </div>
             <div class="col-lg-6">
                 <div class="art-a art-card art-fluid-card">
                     <h5 class="mb-15">Challenges</h5>
-                    <div class="mb-15">Achieving faster iteration, better quality assurance and easier deployment is done
-                        thanks to CD/CD, but mobile CI/CD has its own unique challenges, some of which are:
+                    <div class="mb-15">Before performing the CI/CD of an application, we need to understand its
+                        nomenclature and challenges. Some common challenges include:
                     </div>
                     <ul class="features">
-                        <li>Setting up the CI/CD pipeline</li>
-                        <li>Platform specific setups</li>
-                        <li>Dependency Management</li>
-                        <li>Code signing</li>
-                        <li>Handling environment variables securely</li>
-                        <li>Running automated tests</li>
-                        <li>Deployment to app stores</li>
+                        <li><span style="font-weight: bold">Environment Configuration:</span>Manage the difference between
+                            development, staging and production environments</li>
+                        <li><span style="font-weight: bold">Dependency Management:</span>Ensure all dependencies are
+                            correctly versioned and manage potential conflicts between environments</li>
+                        <li><span style="font-weight: bold">Security:</span>Securing sensitive data such as API keys,
+                            passwords and certificates in the pipelines</li>
+                        <li><span style="font-weight: bold">Deployment Strategy:</span>Choose between strategies such as
+                            blue-green deployments and canary releases to ensure zero downtime during deployment</li>
+                        <li><span style="font-weight: bold">Rollback Mechanism:</span>Design efficient rollback strategies
+                            in the event that a deployment experiences errors or failures.</li>
+                        <li><span style="font-weight: bold">Tool Integration:</span>Selecting and integrating the right
+                            tools for version control, build automation, test frameworks and deployment platforms, and
+                            managing compatibility issues between tools.</li>
                     </ul>
                 </div>
             </div>
             <div class="col-lg-6">
                 <div class="art-a art-card art-fluid-card">
                     <h5 class="mb-15">Steps Taken</h5>
-                    <div class="mb-15">To successfully set up a CI/CD pipeline for a React Native project, you should do
-                        the following:
+                    <div class="mb-15">Deployment of the web application takes place in two separate environments, each
+                        with different steps:
                     </div>
                     <ul class="features">
-                        <li><span style="font-weight: bold">Selecting the CI/CD platform: </span>There are several CI/CD
-                            platforms available, for the purposes of this project Github Actions and Fastlane will be used.
+                        <li><span style="font-weight: bold">Staging (test) environment:</span>The staging environment
+                            uses few AWS services to minimise costs:
+                            <ul class="features">
+                                <li>The code will be pushed to github</li>
+                                <li>Github Actions configure the provided AWS credentials</li>
+                                <li>The cloud stack is deployed using the Cloudformation template.</li>
+                                <li>The project dependencies are built</li>
+                                <li>The project is build for deployment</li>
+                                <li>Github Actions SSH to AWS EC2 created as part of the cloud stack</li>
+                                <li>The built file are push to EC2</li>
+                                <li>EC2 is configured and the application is made available to the public.</li>
+                            </ul>
                         </li>
-                        <li><span style="font-weight: bold">Selecting the branching strategy: </span>This project has two
-                            separate environments for its application, the staging environment and the production
-                            environment, and the best branching strategy that fits our scenario is the git flow.</li>
-                        <li><span style="font-weight: bold">Selecting the version strategy: </span>Because this is a mobile
-                            application, the semantic versioning strategy is used, where each patch is incremented as bugs
-                            are fixed, minor features are merged, and major app releases are made when old versions become
-                            obsolete.</li>
-                        <li><span style="font-weight: bold">SafeCode signing the Android and iOS app: </span>Each
-                            application
-                            should be signed according to its platform-specific requirements prior to deployment.</li>
+                        <li><span style="font-weight: bold">Production Environment:</span>Due to the nature of the
+                            environment, the production stack is deployed in two separate templates: the first template
+                            configures the network infrastructure and the repository required to store the Docker image, and
+                            the second template provides the available services to deploy the application into production.
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -123,9 +160,9 @@
                 <div class="art-a art-banner" style="background-image: url({{ asset('img/bg.png') }})">
                     <div class="art-banner-overlay">
                         <div class="art-banner-title text-center">
-                            <h1 class="mb-15">Want to see how my CI/CD workflows look?</h1>
+                            <h1 class="mb-15">Have a look at the whole project</h1>
                             <div class="art-lg-text art-code mb-25">Available on Github</div>
-                            <a href="https://github.com/djeukeu/patricias-mobile/tree/develop/.github/workflows"
+                            <a href="https://github.com/djeukeu/aws-web-app.git"
                                 data-no-swup target="_blank" class="art-btn art-btn-md"><span class="custom-icon-container">
                                     View</span></a>
                         </div>
