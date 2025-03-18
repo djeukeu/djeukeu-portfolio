@@ -243,8 +243,8 @@
                     <div class="art-pagination-center art-m-hidden">
                         <a class="art-link" href="#" style="pointer-events: none;">Patricias</a>
                     </div>
-                    <a href="#"
-                        class="art-link art-color-link art-w-chevron art-link-disabled"><span>Next
+                    <a href="/projects/web-ci-cd"
+                        class="art-link art-color-link art-w-chevron"><span>Next
                             project</span></a>
                 </div>
             </div>

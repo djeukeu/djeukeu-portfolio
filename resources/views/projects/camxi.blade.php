@@ -43,35 +43,36 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-8">
+            <div class="col-lg-6">
                 <div class="art-a art-card art-fluid-card">
                     <h5 class="mb-15">Challenges</h5>
                     <div class="mb-15">In developed countries like Cameroon people faced several transportation issues,
                         including:
                     </div>
                     <ul class="features">
-                        <li><span style="font-weight: bold">Difficulty Finding a Ride: </span>Taxis were not always readily
+                        <li><span style="font-weight: bold">Difficulty Finding a Ride: </span>Taxis are not always readily
                             available, especially in suburban or less populated areas.</li>
-                        <li><span style="font-weight: bold">Long Wait Times: </span>During peak hours or bad weather, hailing
-                            a cab could take a long time, and there was no way to know when a taxi would arrive.</li>
-                        <li><span style="font-weight: bold">Uncertain Pricing: </span>Taxi fares were often unpredictable,
-                            with additional charges for factors like time of day, traffic, and distance. Passengers had no
+                        <li><span style="font-weight: bold">Long Wait Times: </span>During peak hours or bad weather,
+                            hailing
+                            a cab could take a long time, and there is no way to know when a taxi would arrive.</li>
+                        <li><span style="font-weight: bold">Uncertain Pricing: </span>Taxi fares are often unpredictable,
+                            with additional charges for factors like time of day, traffic, and distance. Passengers have no
                             upfront knowledge of the total cost.</li>
-                        <li><span style="font-weight: bold">Payment Issues: </span>Many taxis only accepted cash, which was
+                        <li><span style="font-weight: bold">Payment Issues: </span>Many taxis only accept cash, which is
                             inconvenient for passengers who didn't have the exact fare or preferred to use credit/debit
                             cards or other local payment methods.</li>
                         <li><span style="font-weight: bold">Limited Availability at Night: </span>Finding a taxi late at
-                            night, especially after leaving a party or an event, was often difficult and unsafe in some
+                            night, especially after leaving a party or an event, is often difficult and unsafe in some
                             areas.</li>
-                        <li><span style="font-weight: bold">Poor Service & Condition of Vehicles: </span>Some taxis were
-                            poorly maintained, and customer service varied widely. There was no easy way to provide feedback
+                        <li><span style="font-weight: bold">Poor Service & Condition of Vehicles: </span>Some taxis are
+                            poorly maintained, and customer service varied widely. There is no easy way to provide feedback
                             or ensure quality service.</li>
                         <li><span style="font-weight: bold">Safety Concerns: </span>Without driver background checks or ride
-                            tracking, passengers had little assurance about their safety</li>
+                            tracking, passengers have little assurance about their safety</li>
                     </ul>
                 </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-6">
                 <div class="art-a art-card art-fluid-card">
                     <h5 class="mb-15">Steps Taken</h5>
                     <div class="mb-15">The outline problems were solved methodically according to the following steps
@@ -83,6 +84,9 @@
                         <li>Create Mockups</li>
                     </ul>
                     <h5 class="mb-15">Features</h5>
+                    <div class="mb-15">It is expected that the resulting application will have the following
+                        characteristics
+                    </div>
                     <ul class="features">
                         <li>Taxi booking</li>
                         <li>Live GPS Tracking</li>
@@ -174,8 +178,7 @@
                     <div class="art-pagination-center art-m-hidden">
                         <a class="art-link" href="#" style="pointer-events: none;">CAMXI</a>
                     </div>
-                    <a href="/projects/mobile-ci-cd"
-                        class="art-link art-color-link art-w-chevron"><span>Next
+                    <a href="/projects/mobile-ci-cd" class="art-link art-color-link art-w-chevron"><span>Next
                             project</span></a>
                 </div>
             </div>
