@@ -162,8 +162,8 @@
                         <div class="art-banner-title text-center">
                             <h1 class="mb-15">Have a look at the whole project</h1>
                             <div class="art-lg-text art-code mb-25">Available on Github</div>
-                            <a href="https://github.com/djeukeu/aws-web-app.git"
-                                data-no-swup target="_blank" class="art-btn art-btn-md"><span class="custom-icon-container">
+                            <a href="https://github.com/djeukeu/aws-web-app.git" data-no-swup target="_blank"
+                                class="art-btn art-btn-md"><span class="custom-icon-container">
                                     View</span></a>
                         </div>
                     </div>
@@ -174,7 +174,7 @@
                     <div class="art-pagination-center art-m-hidden">
                         <a class="art-link" href="#" style="pointer-events: none;">Web CI / CD</a>
                     </div>
-                    <a href="#" class="art-link art-color-link art-w-chevron art-link-disabled"><span>Next
+                    <a href="/projects/pokefan" class="art-link art-color-link art-w-chevron"><span>Next
                             project</span></a>
                 </div>
             </div>

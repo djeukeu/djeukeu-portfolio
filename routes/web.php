@@ -22,6 +22,7 @@ Route::prefix('projects')->group(function () {
     Route::view('/patricias', 'projects.patricias');
     Route::view('/mobile-ci-cd', 'projects.mobile-ci-cd');
     Route::view('/web-ci-cd', 'projects.web-ci-cd');
+    Route::view('/pokefan', 'projects.pokefan');
 });
 
 Route::get('/contact', [ContactController::class, 'index'])->name('contact.index');

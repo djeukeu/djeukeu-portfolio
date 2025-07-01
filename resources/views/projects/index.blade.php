@@ -44,7 +44,8 @@
             </a>
             <div class="art-item-description">
                 <h5 class="mb-15">Mobile App CI / CD pipeline using Fastlane and Github Actions</h5>
-                <div class="mb-15">This project demonstrates the deployment of a Mobile app using fastlane and ...</div>
+                <div class="mb-15">This project demonstrates the deployment of a Mobile app using fastlane and ...
+                </div>
                 <a href="/projects/mobile-ci-cd" class="art-link art-color-link art-w-chevron">Read more</a>
             </div>
         </div>
@@ -85,8 +86,8 @@
         </div>
         <!--single project item -->
 
-         <!--single project item -->
-         <div class="art-grid-item devOpsProjects">
+        <!--single project item -->
+        <div class="art-grid-item devOpsProjects">
             <a data-fancybox="gallery" data-no-swup href="{{ asset('img/projects/web-ci-cd/web-ci-cd-1.png') }}"
                 class="art-a art-portfolio-item-frame art-square">
                 <img src="{{ asset('img/projects/web-ci-cd/web-ci-cd-1.png') }}" alt="item">
@@ -96,6 +97,21 @@
                 <h5 class="mb-15">Web Application CI/CD using AWS and Github Actions</h5>
                 <div class="mb-15">This project demonstrates the CI/CD pipeline of a web application ...</div>
                 <a href="/projects/web-ci-cd" class="art-link art-color-link art-w-chevron">Read more</a>
+            </div>
+        </div>
+        <!--single project item -->
+
+        <!--single project item -->
+        <div class="art-grid-item mobileProjects">
+            <a data-fancybox="gallery" data-no-swup href="{{ asset('img/projects/pokefan/pokefan-1.png') }}"
+                class="art-a art-portfolio-item-frame art-square">
+                <img src="{{ asset('img/projects/pokefan/pokefan-1.png') }}" alt="item">
+                <span class="art-item-hover"><i class="fas fa-expand"></i></span>
+            </a>
+            <div class="art-item-description">
+                <h5 class="mb-15">PokéFan</h5>
+                <div class="mb-15">...</div>
+                <a href="/projects/pokefan" class="art-link art-color-link art-w-chevron">Read more</a>
             </div>
         </div>
         <!--single project item -->
