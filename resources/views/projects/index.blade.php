@@ -87,14 +87,14 @@
 
          <!--single project item -->
          <div class="art-grid-item devOpsProjects">
-            <a data-fancybox="gallery" data-no-swup href="{{ asset('img/projects/web-ci-cd/web-ci-cd-1.png') }}"
+            <a data-fancybox="gallery" data-no-swup href="{{ asset('img/projects/web-ci-cd/web-ci-cd-2.png') }}"
                 class="art-a art-portfolio-item-frame art-square">
-                <img src="{{ asset('img/projects/web-ci-cd/web-ci-cd-1.png') }}" alt="item">
+                <img src="{{ asset('img/projects/web-ci-cd/web-ci-cd-2.png') }}" alt="item">
                 <span class="art-item-hover"><i class="fas fa-expand"></i></span>
             </a>
             <div class="art-item-description">
-                <h5 class="mb-15">Web Application CI/CD using AWS and Github Actions</h5>
-                <div class="mb-15">This project demonstrates the CI/CD pipeline of a web application ...</div>
+                <h5 class="mb-15">Scalable Web CI/CD pipeline with AWS services and Github Actions</h5>
+                <div class="mb-15">Deployment of a scalable and resilient web application.</div>
                 <a href="/projects/web-ci-cd" class="art-link art-color-link art-w-chevron">Read more</a>
             </div>
         </div>

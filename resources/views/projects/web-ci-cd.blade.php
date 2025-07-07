@@ -6,7 +6,7 @@
             <div class="col-lg-12">
                 <div class="art-section-title">
                     <div class="art-title-frame">
-                        <h4>Web Application CI/CD using AWS and Github Actions</h4>
+                        <h4>Scalable Web CI/CD pipeline with AWS services and Github Actions</h4>
                     </div>
                     <div class="art-right-frame">
                         <div class="art-project-category">DevOps</div>
@@ -30,14 +30,6 @@
                                 href="{{ asset('img/projects/web-ci-cd/web-ci-cd-2.png') }}"
                                 class="art-a art-portfolio-item-frame art-horizontal">
                                 <img src="{{ asset('img/projects/web-ci-cd/web-ci-cd-2.png') }}" alt="item">
-                                <span class="art-item-hover"><i class="fas fa-expand"></i></span>
-                            </a>
-                        </div>
-                        <div class="swiper-slide">
-                            <a data-fancybox="gallery" data-no-swup
-                                href="{{ asset('img/projects/web-ci-cd/web-ci-cd-3.png') }}"
-                                class="art-a art-portfolio-item-frame art-horizontal">
-                                <img src="{{ asset('img/projects/web-ci-cd/web-ci-cd-3.png') }}" alt="item">
                                 <span class="art-item-hover"><i class="fas fa-expand"></i></span>
                             </a>
                         </div>
@@ -67,24 +59,53 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-8">
+            <div class="col-lg-12">
                 <div class="art-a art-card art-fluid-card">
                     <h5 class="mb-15">Description</h5>
-                    <div class="mb-15">This project demonstrates the CI/CD pipeline of a web application from the
-                        provisioning of its resources to the deployment of the application. For this project, a random react
-                        application template has been downloaded.</div>
-                    <div class="mb-15">Nowadays, before deploying a web application to production, it needs to be tested,
-                        so the project will demonstrate the pipeline in both a staging (testing) and production
-                        environment.In the staging environment, the application is deployed to Amazon Elastic Compute Cloud
-                        (EC2) and the necessary services are provisioned using AWS CloudFormation.When testing is complete
-                        and features are validated, the application is then containerised and pushed to Amazon Elastic
-                        Container Registry (ECR), where the container is pulled by Amazon Elastic Container Service (ECS)
-                        for production.</div>
+                    <div class="mb-15">This project enables us to deploy a highly available, scalable and secure web
+                        application on AWS. For this project, the deployment is divided into two environments: staging and
+                        production.</div>
+                    <div class="mb-15">
+                        <span style="font-weight: bold">Staging Environment: </span>Before being deployed in production, the
+                        web app is deployed in an EC2 instance launched in a public subnet. This instance is accessible via
+                        SSH (port 22) and HTTP (port 80) for testing purposes.
+                        <br />
+                        <br />
+                        <span style="font-weight: bold">Production Environment: </span>To make deployment in production
+                        easier, AWS CloudFormation is used to provision the infrastructure and launch the application. The
+                        process is divided into two nested stacks.The first stack "prod-stack-1" is responsible for
+                        provisioning:
+                        <ul>
+                            <li>A VPC with 3 public subnets across 3 Availability Zones</li>
+                            <li>An Internet Gateway with routing for outbound internet access</li>
+                            <li>An ECS Cluster (Fargate-based) for container orchestration</li>
+                            <li>An ECR Repository for storing Docker images</li>
+                        </ul>Next Github Actions is handles for build, tagging and deployment of the application's container
+                        image to AWS ECR. Then "prod-stack-2" is responsible for building a containerised web application
+                        infrastructure using ECS Fargate, which is hosted on three public subnets and protected by an
+                        Application Load Balancer with autoscalable services. ECR and IAM roles are used for pulling the
+                        container image and logging.
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-8">
+                <div class="art-a art-card art-fluid-card">
+                    <h5 class="mb-15">Achievements</h5>
+
+                    <ul class="features">
+                        <li>Designed a complete cloud-native architecture using AWS best practices</li>
+                        <li>Provisioned a production-grade environment with high availability across multiple AZs</li>
+                        <li>Built modular CloudFormation stacks enabling repeatable and scalable deployments</li>
+                        <li>Implemented secure communication using security groups and IAM role-based permissions</li>
+                        <li>Containerized and deployed services using ECS Fargate and ECR</li>
+                        <li>Automated service discovery and routing via ALB and health-checked Target Groups</li>
+                        <li>Enabled rapid deployment of updates through pre-configured ECR image references</li>
+                    </ul>
                 </div>
             </div>
             <div class="col-lg-4">
                 <div class="art-a art-card art-fluid-card">
-                    <h5 class="mb-15">TOOLS USED</h5>
+                    <h5 class="mb-15">Tools Used</h5>
                     <ul class="features">
                         <li>Node.js</li>
                         <li>Reactjs</li>
@@ -98,58 +119,6 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-lg-6">
-                <div class="art-a art-card art-fluid-card">
-                    <h5 class="mb-15">Challenges</h5>
-                    <div class="mb-15">Before performing the CI/CD of an application, we need to understand its
-                        nomenclature and challenges. Some common challenges include:
-                    </div>
-                    <ul class="features">
-                        <li><span style="font-weight: bold">Environment Configuration:</span>Manage the difference between
-                            development, staging and production environments</li>
-                        <li><span style="font-weight: bold">Dependency Management:</span>Ensure all dependencies are
-                            correctly versioned and manage potential conflicts between environments</li>
-                        <li><span style="font-weight: bold">Security:</span>Securing sensitive data such as API keys,
-                            passwords and certificates in the pipelines</li>
-                        <li><span style="font-weight: bold">Deployment Strategy:</span>Choose between strategies such as
-                            blue-green deployments and canary releases to ensure zero downtime during deployment</li>
-                        <li><span style="font-weight: bold">Rollback Mechanism:</span>Design efficient rollback strategies
-                            in the event that a deployment experiences errors or failures.</li>
-                        <li><span style="font-weight: bold">Tool Integration:</span>Selecting and integrating the right
-                            tools for version control, build automation, test frameworks and deployment platforms, and
-                            managing compatibility issues between tools.</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="art-a art-card art-fluid-card">
-                    <h5 class="mb-15">Steps Taken</h5>
-                    <div class="mb-15">Deployment of the web application takes place in two separate environments, each
-                        with different steps:
-                    </div>
-                    <ul class="features">
-                        <li><span style="font-weight: bold">Staging (test) environment:</span>The staging environment
-                            uses few AWS services to minimise costs:
-                            <ul class="features">
-                                <li>The code will be pushed to github</li>
-                                <li>Github Actions configure the provided AWS credentials</li>
-                                <li>The cloud stack is deployed using the Cloudformation template.</li>
-                                <li>The project dependencies are built</li>
-                                <li>The project is build for deployment</li>
-                                <li>Github Actions SSH to AWS EC2 created as part of the cloud stack</li>
-                                <li>The built file are push to EC2</li>
-                                <li>EC2 is configured and the application is made available to the public.</li>
-                            </ul>
-                        </li>
-                        <li><span style="font-weight: bold">Production Environment:</span>Due to the nature of the
-                            environment, the production stack is deployed in two separate templates: the first template
-                            configures the network infrastructure and the repository required to store the Docker image, and
-                            the second template provides the available services to deploy the application into production.
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
         </div>
     </div>
 
@@ -160,11 +129,10 @@
                 <div class="art-a art-banner" style="background-image: url({{ asset('img/bg.png') }})">
                     <div class="art-banner-overlay">
                         <div class="art-banner-title text-center">
-                            <h1 class="mb-15">Have a look at the whole project</h1>
-                            <div class="art-lg-text art-code mb-25">Available on Github</div>
-                            <a href="https://github.com/djeukeu/aws-web-app.git"
-                                data-no-swup target="_blank" class="art-btn art-btn-md"><span class="custom-icon-container">
-                                    View</span></a>
+                            <h3 class="mb-15">"Infrastructure as Code" Powers the Pipeline</h3>
+                            <a href="https://github.com/djeukeu/aws-web-app.git" data-no-swup target="_blank"
+                                class="art-btn art-btn-md"><span class="custom-icon-container">
+                                    <i class="fab fa-github custom-icon"></i>Available on Github</span></a>
                         </div>
                     </div>
                 </div>
